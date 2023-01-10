@@ -1,32 +1,35 @@
-import requests
-from config import api_key
+from support import *
+from support_simplex import *
+import random
+
+class simplex:
+    def __init__(self, man, vegan):
+        print("simplex is beeing initialized".upper())
+        self.man = man
+        self.vegan = vegan
+        self.foods = call_stored_foods(vegan=vegan)
+        self.nutrition = get_food_list_values(self.foods)
+        self.optimized_food = calculation(self.nutrition, man)
 
 
-def get_response(food_name):
-    url = f"https://api.nal.usda.gov/fdc/v1/search?api_key={api_key}&query={food_name}"
-    response = requests.get(url)
-    # Get the food ID from the API response
-    food_data = response.json()
-    food_id = food_data['foods'][0]['fdcId']
-    # Make an API request to get the nutrient data for the food
-    url = f"https://api.nal.usda.gov/fdc/v1/{food_id}?api_key={api_key}"
-    response = requests.get(url)
-    nutrient_data = response.json()
-    return nutrient_data
+    def calculate(self):
+        return self.optimized_food
+
+    def recalculate(self):
+        print("simplex model initialized".upper())
+        self.foods = random.shuffle(self.foods)
+        self.optimized_food = self.optimized_food = \
+            calculation(self.nutrition, self.man)
+        return self.optimized_food
+
+create_foods_list_available()
+exit()
+simplex = simplex(man=True, vegan=True)
+optimal_diet = simplex.calculate()
+print_values(optimal_diet)
+optimal_diet = simplex.recalculate()
+print_values(optimal_diet)
 
 
-def print_nutrient_data(nutrient_data, food_name):
-    for key, value in nutrient_data.items():
-        if key == "labelNutrients":
-            dict = value
-            print(food_name.upper)
-            for key, val in dict.items():
 
-                print(key, val)
-
-
-food_name = "pizza"
-
-nutrient_data = get_response(food_name)
-print_nutrient_data(nutrient_data, food_name)
 
