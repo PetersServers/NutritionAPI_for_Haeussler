@@ -25,7 +25,7 @@ class simplex:
         return self.optimized_food
 
 
-simplex = simplex(man=True, vegan=False, random=True, num=10)
+simplex = simplex(man=True, vegan=False, random=True, num=20)
 optimal_diet = simplex.calculate()
 print_case(optimal_diet)
 

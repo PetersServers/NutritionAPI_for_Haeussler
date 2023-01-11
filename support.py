@@ -2,6 +2,8 @@ import requests
 from config import api_key
 from config import *
 
+#api request
+
 
 def get_all_foods():
     pass
@@ -41,9 +43,8 @@ def get_food_values(nutrient_data, food_name):
 
 #######################################################################################################################
 
-def format_dict(original_dict):
+def ensure_values(original_dict):
     for food in original_dict:
-        print(f"preprocessing data for {food}".upper())
         for key in desired_keys:
             if key not in original_dict[food]:
                 original_dict[food].update({key: 0})
@@ -53,18 +54,22 @@ def format_dict(original_dict):
 def get_food_list_values(food_list):
     original_dict = {}
     for food_name in food_list:
+        print(f"{food_name.upper()} data is fetched and compressed: ", end=" ")
         url = f"https://api.nal.usda.gov/fdc/v1/search?api_key={api_key}&query={food_name}"
         response = requests.get(url)
+        print("**", end = "")
         # Get the food ID from the API response
         food_data = response.json()
         food_id = food_data['foods'][0]['fdcId']
         # Make an API request to get the nutrient data for the food
         url = f"https://api.nal.usda.gov/fdc/v1/{food_id}?api_key={api_key}"
         response = requests.get(url)
+        print("**")
         original_dict[food_name] = response.json()["labelNutrients"]
+        #fromat it with
         new_dict = {food: {nutrient: original_dict[food].get(nutrient, {}).get("value", None) for nutrient in
                            original_dict[food]} for food in original_dict}
-    return format_dict(new_dict)
+    return ensure_values(new_dict)
 
 
 

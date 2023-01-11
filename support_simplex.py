@@ -12,12 +12,13 @@ def call_stored_foods(vegan, num_items, random=False):
     if random:
         warnings.warn("script is running in random mode")
         radom_list = load_random_list(num_items)
-        print(f"the random list comprises: \n{radom_list}")
+        #print(f"the random list comprises: \n{radom_list}")
         return radom_list
     else:
         return choosen_foods
 
 def calculation(foods, man):
+    print("**SIMPLEX IS CALCULATING OPTIMUM**")
     # Create a LP Maximize problem
     lp_prob = pulp.LpProblem('Nutrition Problem', pulp.LpMaximize)
     # Create variables for the amount of each food to eat
@@ -59,11 +60,11 @@ def calculation(foods, man):
     to_consume = {}
     for f in foods:
         #print(f'{f} = {food_vars[f].value()}')
-        to_consume[f"{f}"] = f"{food_vars[f].value()}'"
+        to_consume[f"{f}"] = f"{food_vars[f].value()}"
 
     return to_consume
 
 def print_case(optimal_diet):
     for key, val in optimal_diet.items():
-        if int(val) > 0:
-            print(f"it would be healthy to consume {int(val)} of {key} in your case")
+        if type(val) != None:
+            print(f"it would be healthy to consume {val} of {key} in your case")
