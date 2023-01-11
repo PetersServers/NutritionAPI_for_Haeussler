@@ -57,14 +57,32 @@ def calculation(foods, man):
     status = lp_prob.solve()
 
     print(f'Status: {pulp.LpStatus[status]}')
-    to_consume = {}
-    for f in foods:
-        #print(f'{f} = {food_vars[f].value()}')
-        to_consume[f"{f}"] = f"{food_vars[f].value()}"
 
-    return to_consume
+    #Analysis of optimum
+
+    nutrients = {"protein": 0, "fat": 0, "cholesterol": 0, "sodium": 0, "fiber": 0, "sugars": 0, "calcium": 0,
+                 "iron": 0, "calories": 0}
+    for f in foods:
+        if food_vars[f].value() != None:
+
+            print(f'{f} = {food_vars[f].value()}')
+            # Create a dictionary to store the total amounts of each nutrient
+
+            nutrients["protein"] += foods[f]["protein"] * food_vars[f].varValue
+            nutrients["fat"] += foods[f]["fat"] * food_vars[f].varValue
+            nutrients["cholesterol"] += foods[f]["cholesterol"] * food_vars[f].varValue
+            nutrients["sodium"] += foods[f]["sodium"] * food_vars[f].varValue
+            nutrients["fiber"] += foods[f]["fiber"] * food_vars[f].varValue
+            nutrients["sugars"] += foods[f]["sugars"] * food_vars[f].varValue
+            nutrients["calcium"] += foods[f]["calcium"] * food_vars[f].varValue
+            nutrients["iron"] += foods[f]["iron"] * food_vars[f].varValue
+            nutrients["calories"] += foods[f]["calories"] * food_vars[f].varValue
+
+            # Print the total amounts of each nutrient
+        for key, val in nutrients.items():
+
+            print(f"the optimum comprises {val}g of {key}")
 
 def print_case(optimal_diet):
     for key, val in optimal_diet.items():
-        if type(val) != None:
             print(f"it would be healthy to consume {val} of {key} in your case")
