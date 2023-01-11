@@ -6,28 +6,22 @@ import warnings
 import pandas as pd
 from lxml import html
 
-def call_stored_foods(vegan):
-    warnings.warn("configure available foods in food lists")
+def call_stored_foods(vegan, num_items, random=False):
     if vegan:
         return foods_vegan
+    if random:
+        warnings.warn("script is running in random mode")
+        radom_list = load_random_list(num_items)
+        print(f"the random list comprises: \n{radom_list}")
+        return radom_list
     else:
-        return foods
-
-def webscrape_foods():
-
-    pass
-    #still have to webscrape
-
-    # Make a GET request to the website
-    url = "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171178/nutrients"
-    page = requests.get(url)
-    tree = html.fromstring(page.content)
+        return choosen_foods
 
 def calculation(foods, man):
     # Create a LP Maximize problem
     lp_prob = pulp.LpProblem('Nutrition Problem', pulp.LpMaximize)
     # Create variables for the amount of each food to eat
-    food_vars = {f: pulp.LpVariable(f"{f}_amount", lowBound=0, cat='Continuous') for f in foods}
+    food_vars = {f: pulp.LpVariable(f.replace(" ", "_") + "_amount", lowBound=0, cat='Continuous') for f in foods}
     # Set objective function: Maximize protein
     lp_prob += sum(foods[f].get("protein", 0) * food_vars[f] for f in foods)
     # Constraints for healthy intake for a grown man:
@@ -60,17 +54,16 @@ def calculation(foods, man):
         lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) <= 3500 if man else 2000
     # Solve the optimization problem
     status = lp_prob.solve()
-    # Print the results
-    #print(f'Status: {pulp.LpStatus[status]}')
+
+    print(f'Status: {pulp.LpStatus[status]}')
     to_consume = {}
     for f in foods:
         #print(f'{f} = {food_vars[f].value()}')
         to_consume[f"{f}"] = f"{food_vars[f].value()}'"
 
-
-
     return to_consume
 
-def print_values(optimal_diet):
+def print_case(optimal_diet):
     for key, val in optimal_diet.items():
-        print(key, val)
+        if int(val) > 0:
+            print(f"it would be healthy to consume {int(val)} of {key} in your case")
