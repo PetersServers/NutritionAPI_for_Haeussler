@@ -9,10 +9,9 @@ class simplex:
         self.vegan = vegan
         self.foods = call_stored_foods(vegan=vegan, random=random,
                                        num_items=num)
-        self.nutrition = get_food_list_values(self.foods)
+        self.nutrition = call_api_data(self.foods)
         print(self.nutrition)
         self.optimized_food = calculation(self.nutrition, man)
-
 
     def calculate(self):
         return self.optimized_food
@@ -25,9 +24,14 @@ class simplex:
         return self.optimized_food
 
 
-simplex = simplex(man=True, vegan=False, random=True, num=4)
-simplex.calculate()
+#simplex = simplex(man=True, vegan=False, random=True, num=200)
+#simplex.calculate()
 
+with open('ingr.txt', 'r') as f:
+    grocery_list = f.readlines()
+grocery_list = [item.strip() for item in grocery_list]
+
+call_api_data(grocery_list)
 
 
 

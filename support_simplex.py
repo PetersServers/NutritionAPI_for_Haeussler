@@ -5,6 +5,7 @@ from food_lists import *
 import warnings
 import pandas as pd
 from lxml import html
+import time
 
 def call_stored_foods(vegan, num_items, random=False):
     if vegan:
@@ -29,15 +30,21 @@ def calculation(foods, man):
     # - at least 56 grams of protein
     if any(foods[f].get("protein") for f in foods):
         lp_prob += sum(foods[f]["protein"] * food_vars[f] for f in foods) >= 56 if man else 30
+    if any(foods[f].get("protein") for f in foods):
+        lp_prob += sum(foods[f]["protein"] * food_vars[f] for f in foods) <= 150 if man else 130
     # - at most 30% of calories from fat
     if any(foods[f].get("fat") and foods[f].get("calories") for f in foods):
         lp_prob += sum(foods[f]["fat"] * food_vars[f] for f in foods) <= 0.3 * sum(foods[f]["calories"] * food_vars[f] for f in foods)
+    if any(foods[f].get("fat") for f in foods):
+        lp_prob += sum(foods[f]["fat"] * food_vars[f] for f in foods) >=0
     # - at most 300 mg of cholesterol
     if any(foods[f].get("cholesterol") for f in foods):
         lp_prob += sum(foods[f]["cholesterol"] * food_vars[f] for f in foods) <= 300 if man else 200
+    if any(foods[f].get("cholesterol") for f in foods):
+        lp_prob += sum(foods[f]["cholesterol"] * food_vars[f] for f in foods) >= 0
     # - at most 2,300 mg of sodium
     if any(foods[f].get("sodium") for f in foods):
-        lp_prob += sum(foods[f]["sodium"] * food_vars[f] for f in foods) <= 2300 if man else 2000
+        lp_prob += sum(foods[f]["sodium"] * food_vars[f] for f in foods) <= 23 if man else 20
     # - at least 20 grams of fiber
     if any(foods[f].get("fiber") for f in foods):
         lp_prob += sum(foods[f]["fiber"] * food_vars[f] for f in foods) >= 20 if man else 15
@@ -46,7 +53,7 @@ def calculation(foods, man):
         lp_prob += sum(foods[f]["sugars"] * food_vars[f] for f in foods) <= 25 if man else 10
     # - at least 1000 mg of calcium
     if any(foods[f].get("calcium") for f in foods):
-        lp_prob += sum(foods[f]["calcium"] * food_vars[f] for f in foods) >= 1000 if man else 700
+        lp_prob += sum(foods[f]["calcium"] * food_vars[f] for f in foods) >= 10 if man else 7
     if any(foods[f].get("iron") for f in foods):
         lp_prob += sum(foods[f]["iron"] * food_vars[f] for f in foods) >= 8 if man else 6
     if any(foods[f].get("calories") for f in foods):
@@ -60,9 +67,12 @@ def calculation(foods, man):
 
     #Analysis of optimum
 
+    time.sleep(2)
+
     nutrients = {"protein": 0, "fat": 0, "cholesterol": 0, "sodium": 0, "fiber": 0, "sugars": 0, "calcium": 0,
                  "iron": 0, "calories": 0}
     for f in foods:
+
         if food_vars[f].value() != None:
 
             print(f'{f} = {food_vars[f].value()}')
@@ -78,11 +88,13 @@ def calculation(foods, man):
             nutrients["iron"] += foods[f]["iron"] * food_vars[f].varValue
             nutrients["calories"] += foods[f]["calories"] * food_vars[f].varValue
 
+
+
+    print("-"*82)
+
             # Print the total amounts of each nutrient
-        for key, val in nutrients.items():
+    for key, val in nutrients.items():
 
-            print(f"the optimum comprises {val}g of {key}")
+        print(f"the optimum comprises {val}g of {key}")
 
-def print_case(optimal_diet):
-    for key, val in optimal_diet.items():
-            print(f"it would be healthy to consume {val} of {key} in your case")
+    print("-" * 82)

@@ -43,6 +43,8 @@ def get_food_values(nutrient_data, food_name):
 
 #######################################################################################################################
 
+import json
+
 def ensure_values(original_dict):
     for food in original_dict:
         for key in desired_keys:
@@ -50,23 +52,31 @@ def ensure_values(original_dict):
                 original_dict[food].update({key: 0})
     return original_dict
 
-
-def get_food_list_values(food_list):
-    original_dict = {}
+def call_api_data(food_list):
+    try:
+        with open("nutrition_data.json", "r") as f:
+            original_dict = json.load(f)
+            print("data not found locally".upper())
+    except FileNotFoundError:
+        original_dict = {}
     for food_name in food_list:
-        print(f"{food_name.upper()} data is fetched and compressed: ", end=" ")
-        url = f"https://api.nal.usda.gov/fdc/v1/search?api_key={api_key}&query={food_name}"
-        response = requests.get(url)
-        print("**", end = "")
-        # Get the food ID from the API response
-        food_data = response.json()
-        food_id = food_data['foods'][0]['fdcId']
-        # Make an API request to get the nutrient data for the food
-        url = f"https://api.nal.usda.gov/fdc/v1/{food_id}?api_key={api_key}"
-        response = requests.get(url)
-        print("**")
-        original_dict[food_name] = response.json()["labelNutrients"]
-        #fromat it with
+        print(f"Searching for local data for: {food_name}".upper())
+        if food_name not in original_dict:
+            print(f"{food_name.upper()} data is fetched and compressed: ", end=" ")
+            url = f"https://api.nal.usda.gov/fdc/v1/search?api_key={api_key}&query={food_name}"
+            response = requests.get(url)
+            print("**", end = "")
+            # Get the food ID from the API response
+            food_data = response.json()
+            food_id = food_data['foods'][0]['fdcId']
+            # Make an API request to get the nutrient data for the food
+            url = f"https://api.nal.usda.gov/fdc/v1/{food_id}?api_key={api_key}"
+            response = requests.get(url)
+            print("**")
+            original_dict[food_name] = response.json()["labelNutrients"]
+    # Save the response to the local json file
+    with open("nutrition_data_formatted.json", "w") as f:
+        json.dump(original_dict, f, indent=4) #indent the json file to make it more readable
         new_dict = {food: {nutrient: original_dict[food].get(nutrient, {}).get("value", None) for nutrient in
                            original_dict[food]} for food in original_dict}
     return ensure_values(new_dict)

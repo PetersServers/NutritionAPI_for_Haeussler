@@ -17,7 +17,7 @@ def create_foods_list_available():
     for i in list_foods:
         i = str(i).lower()
         try:
-            get_food_list_values([i])
+            call_api_data([i])
             list_av_foods.append(i)
             print(f"{i} available")
         except:
