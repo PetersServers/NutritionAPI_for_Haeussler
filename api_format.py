@@ -14,7 +14,7 @@ def ensure_values(original_dict):
 
 def call_api_data(food_list):
     try:
-        with open("nutrition_data.json", "r") as f:
+        with open("nutrition_data_formatted.json", "r") as f:
             original_dict = json.load(f)
             print("data not found locally".upper())
     except FileNotFoundError:
@@ -37,9 +37,12 @@ def call_api_data(food_list):
     # Save the response to the local json file
     with open("nutrition_data_formatted.json", "w") as f:
         json.dump(original_dict, f, indent=4) #indent the json file to make it more readable
-        new_dict = {food: {nutrient: original_dict[food].get(nutrient, {}).get("value", None) for nutrient in
-                           original_dict[food]} for food in original_dict}
+
+    original_dict = {food: original_dict[food] for food in original_dict if food in food_list}
+    new_dict = {food: {nutrient: original_dict[food].get(nutrient, {}).get("value", None) for nutrient in original_dict[food]} for food in original_dict}
+
     return ensure_values(new_dict)
+
 
 #######################################################################################################################
 #old code just for testing

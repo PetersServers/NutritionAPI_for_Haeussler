@@ -13,13 +13,15 @@ foods_vegan = ["apple", "pizza", "peas", "broccoli", "kale", "spinach" ]
 def call_stored_foods(vegan, num_items, random=False):
     if vegan:
         return foods_vegan
-    if random:
-        warnings.warn("script is running in random mode")
-        radom_list = load_random_list(num_items)
-        #print(f"the random list comprises: \n{radom_list}")
-        return radom_list
+    elif type(num_items) == str and random:
+        random = False
+    elif num_items == "all":
+        return load_all()
+    elif random:
+        return load_random_list(num_items)
     else:
         return choosen_foods
+
 
 
 def create_foods_list_available():
@@ -50,8 +52,14 @@ def load_random_list(num_items):
     random_list = random.sample(grocery_list, num_items)
     return random_list
 
+def load_all():
+    with open('ingr.txt', 'r') as f:
+        grocery_list = f.readlines()
+    grocery_list = [item.strip() for item in grocery_list]
+    return grocery_list
 
-def save_all_data_locally():
+
+def store_txt_json_locally():
     with open('ingr.txt', 'r') as f:
         grocery_list = f.readlines()
     grocery_list = [item.strip() for item in grocery_list]

@@ -25,8 +25,8 @@ class simplex:
         return self.optimized_food
 
 
-#simplex = simplex(man=True, vegan=False, random=True, num=200)
-#simplex.calculate()
+simplex = simplex(man=True, vegan=False, random=False, num=120)
+simplex.calculate()
 
 
 

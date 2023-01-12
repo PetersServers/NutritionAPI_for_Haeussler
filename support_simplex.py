@@ -47,17 +47,20 @@ def calculation(foods, man):
     # Solve the optimization problem
     status = lp_prob.solve()
 
-    print(f'Status: {pulp.LpStatus[status]}')
+    #print(f'Status: {pulp.LpStatus[status]}')
 
     #Analysis of optimum
 
-    time.sleep(2)
+    time.sleep(1)
+
+    print("-" * 82)
+    print("optimal food suggestions".upper())
 
     nutrients = {"protein": 0, "fat": 0, "cholesterol": 0, "sodium": 0, "fiber": 0, "sugars": 0, "calcium": 0,
                  "iron": 0, "calories": 0}
     for f in foods:
 
-        if food_vars[f].value() != None:
+        if food_vars[f].value() != None and float(food_vars[f].value()) > 0:
 
             print(f'{f} = {food_vars[f].value()}')
             # Create a dictionary to store the total amounts of each nutrient
