@@ -1,22 +1,6 @@
 import pulp
-from bs4 import BeautifulSoup
-import requests
-from food_lists import *
-import warnings
-import pandas as pd
-from lxml import html
 import time
 
-def call_stored_foods(vegan, num_items, random=False):
-    if vegan:
-        return foods_vegan
-    if random:
-        warnings.warn("script is running in random mode")
-        radom_list = load_random_list(num_items)
-        #print(f"the random list comprises: \n{radom_list}")
-        return radom_list
-    else:
-        return choosen_foods
 
 def calculation(foods, man):
     print("**SIMPLEX IS CALCULATING OPTIMUM**")

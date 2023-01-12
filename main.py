@@ -1,6 +1,7 @@
-from support import *
+from api_format import *
 from support_simplex import *
 import random
+from food_lists import *
 
 class simplex:
     def __init__(self, man, vegan, random, num):
@@ -27,11 +28,6 @@ class simplex:
 #simplex = simplex(man=True, vegan=False, random=True, num=200)
 #simplex.calculate()
 
-with open('ingr.txt', 'r') as f:
-    grocery_list = f.readlines()
-grocery_list = [item.strip() for item in grocery_list]
-
-call_api_data(grocery_list)
 
 
 
