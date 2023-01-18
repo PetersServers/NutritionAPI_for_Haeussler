@@ -16,7 +16,7 @@ def call_api_data(food_list):
     try:
         with open("nutrition_data_formatted.json", "r") as f:
             original_dict = json.load(f)
-            print("data not found locally".upper())
+            print("some data not found locally".upper())
     except FileNotFoundError:
         original_dict = {}
     for food_name in food_list:

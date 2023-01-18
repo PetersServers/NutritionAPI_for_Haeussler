@@ -31,15 +31,15 @@ def calculation(foods, man):
         lp_prob += sum(foods[f]["sodium"] * food_vars[f] for f in foods) <= 23 if man else 20
     # - at least 20 grams of fiber
     if any(foods[f].get("fiber") for f in foods):
-        lp_prob += sum(foods[f]["fiber"] * food_vars[f] for f in foods) >= 20 if man else 15
+        lp_prob += sum(foods[f]["fiber"] * food_vars[f] for f in foods) >= 30 if man else 25
     # - at most 25 grams of sugar
     if any(foods[f].get("sugars") for f in foods):
         lp_prob += sum(foods[f]["sugars"] * food_vars[f] for f in foods) <= 25 if man else 10
     # - at least 1000 mg of calcium
     if any(foods[f].get("calcium") for f in foods):
-        lp_prob += sum(foods[f]["calcium"] * food_vars[f] for f in foods) >= 10 if man else 7
+        lp_prob += sum(foods[f]["calcium"] * food_vars[f] for f in foods) >= 0.0010 if man else 0.0007
     if any(foods[f].get("iron") for f in foods):
-        lp_prob += sum(foods[f]["iron"] * food_vars[f] for f in foods) >= 8 if man else 6
+        lp_prob += sum(foods[f]["iron"] * food_vars[f] for f in foods) >= 0.008 if man else 0.006
     if any(foods[f].get("calories") for f in foods):
         lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) >= 2800 if man else 1800
     if any(foods[f].get("calories") for f in foods):

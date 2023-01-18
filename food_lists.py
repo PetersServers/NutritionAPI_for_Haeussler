@@ -3,12 +3,32 @@ from api_format import *
 import random
 from api_format import *
 import warnings
+from faker import Faker
 
 #support functions for the input of the simplex model.
 #mainly works via lists
 
 choosen_foods = ["apple", "chicken", "salmon", "rice", "noodel", "couscous", "peas", "kebab", "broccoli", "kale"]
 foods_vegan = ["apple", "pizza", "peas", "broccoli", "kale", "spinach" ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def call_stored_foods(vegan, num_items, random=False):
     if vegan:
@@ -24,12 +44,7 @@ def call_stored_foods(vegan, num_items, random=False):
 
 
 
-def create_foods_list_available():
-    #this is a function that tries calles based on a csv file and
-    # stores the calls if successfull
-    list_foods = pd.read_csv("/Users/peterpichler/Downloads/ingredients.csv")
-    list_foods = [i for i in list_foods["Category"]]
-    list_foods = set(list_foods)
+def _create_foods_list_available(list_foods):
     list_av_foods = []
     for i in list_foods:
         i = str(i).lower()
@@ -44,6 +59,20 @@ def create_foods_list_available():
     with open('ingr.txt', 'w') as file:
         for name in list_av_foods:
             file.write(name + '\n')
+
+def generate_food_list(num):
+    # Initialize the Faker object
+    faker = Faker()
+    # Create an empty list to store the food items
+    food_items = []
+
+    # Use a for loop to generate 1000 food items
+    for _ in range(num):
+        food_items.append(faker.food().ingredient())
+    food_items = set(food_items)
+    _create_foods_list_available(food_items)
+
+
 
 def load_random_list(num_items):
     with open('ingr.txt', 'r') as f:
