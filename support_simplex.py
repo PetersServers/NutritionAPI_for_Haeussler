@@ -1,8 +1,9 @@
 import pulp
 import time
+from food_lists import get_prices
 
 
-def calculation(foods, man):
+def calculation(foods, prices, man):
     print("**SIMPLEX IS CALCULATING OPTIMUM**")
     # Create a LP Maximize problem
     lp_prob = pulp.LpProblem('Nutrition Problem', pulp.LpMaximize)
@@ -58,11 +59,22 @@ def calculation(foods, man):
 
     nutrients = {"protein": 0, "fat": 0, "cholesterol": 0, "sodium": 0, "fiber": 0, "sugars": 0, "calcium": 0,
                  "iron": 0, "calories": 0}
+
+
+
+    caldict = {}
+
     for f in foods:
 
         if food_vars[f].value() != None and float(food_vars[f].value()) > 0:
 
             print(f'{f} = {food_vars[f].value()}')
+
+            caldict[f"{f}"] = food_vars[f].value()
+
+
+
+
             # Create a dictionary to store the total amounts of each nutrient
 
             nutrients["protein"] += foods[f]["protein"] * food_vars[f].varValue
@@ -76,12 +88,28 @@ def calculation(foods, man):
             nutrients["calories"] += foods[f]["calories"] * food_vars[f].varValue
 
 
-
-    print("-"*82)
-
-            # Print the total amounts of each nutrient
     for key, val in nutrients.items():
 
         print(f"the optimum comprises {val}g of {key}")
+
+
+    #cost analyis
+
+    print("-"*82)
+    print("Cost analysis".upper())
+
+
+    result = {}
+    total = 0
+    for key in caldict:
+        if key in prices:
+            value = caldict[key] * prices[key]
+            result[key] = value
+            total += value
+            print(f'{key}: {value}')
+    print(f'Total cost: {total}'.upper())
+
+
+
 
     print("-" * 82)

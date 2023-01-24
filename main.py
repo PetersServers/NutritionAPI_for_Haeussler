@@ -11,8 +11,9 @@ class simplex:
         self.foods = call_stored_foods(vegan=vegan, random=random,
                                        num_items=num)
         self.nutrition = call_api_data(self.foods)
-        print(self.nutrition)
-        self.optimized_food = calculation(self.nutrition, man)
+        self.prices = get_prices(self.foods)
+        self.optimized_food = calculation(self.nutrition, self.prices, man)
+
 
     def calculate(self):
         return self.optimized_food
@@ -24,8 +25,8 @@ class simplex:
             calculation(self.nutrition, self.man)
         return self.optimized_food
 
-
-simplex = simplex(man=True, vegan=False, random=True, num=100)
+#set to vegan for testing
+simplex = simplex(man=True, vegan=True, random=True, num=100)
 simplex.calculate()
 
 

@@ -9,26 +9,9 @@ from faker import Faker
 #mainly works via lists
 
 choosen_foods = ["apple", "chicken", "salmon", "rice", "noodel", "couscous", "peas", "kebab", "broccoli", "kale"]
-foods_vegan = ["apple", "pizza", "peas", "broccoli", "kale", "spinach" ]
+foods_vegan = ["apricots", "tortellini", "pizza"]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#["apple", "pizza", "peas", "broccoli", "kale", "spinach"]
 
 def call_stored_foods(vegan, num_items, random=False):
     if vegan:
@@ -42,6 +25,16 @@ def call_stored_foods(vegan, num_items, random=False):
     else:
         return choosen_foods
 
+
+def get_prices(foods):
+    prices = {}
+    with open("ingr_price.txt", 'r') as file:
+        for line in file:
+            food, price = line.strip().split(',')
+            price = float(price)
+            if food in foods:
+                prices[food] = price
+    return prices
 
 
 def _create_foods_list_available(list_foods):
@@ -86,7 +79,6 @@ def load_all():
         grocery_list = f.readlines()
     grocery_list = [item.strip() for item in grocery_list]
     return grocery_list
-
 
 def store_txt_json_locally():
     with open('ingr.txt', 'r') as f:
