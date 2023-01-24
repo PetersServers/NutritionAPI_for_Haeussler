@@ -64,18 +64,20 @@ def calculation(foods, prices, man):
 
     caldict = {}
 
+
+
     for f in foods:
+
+
 
         if food_vars[f].value() != None and float(food_vars[f].value()) > 0:
 
+            #consumation amount of each food
+
             print(f'{f} = {food_vars[f].value()}')
 
-            caldict[f"{f}"] = food_vars[f].value()
+            caldict[f"{f}"] = food_vars[f].value() #for price calcuations on the optimum
 
-
-
-
-            # Create a dictionary to store the total amounts of each nutrient
 
             nutrients["protein"] += foods[f]["protein"] * food_vars[f].varValue
             nutrients["fat"] += foods[f]["fat"] * food_vars[f].varValue
@@ -88,12 +90,14 @@ def calculation(foods, prices, man):
             nutrients["calories"] += foods[f]["calories"] * food_vars[f].varValue
 
 
+    #how much nutrients is in the optimum
+
     for key, val in nutrients.items():
 
         print(f"the optimum comprises {val}g of {key}")
 
 
-    #cost analyis
+    #Cost analysis part
 
     print("-"*82)
     print("Cost analysis".upper())
