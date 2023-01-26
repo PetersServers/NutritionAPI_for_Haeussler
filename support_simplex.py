@@ -64,20 +64,17 @@ def calculation(foods, prices, man):
 
     caldict = {}
 
-
-
     for f in foods:
-
-
 
         if food_vars[f].value() != None and float(food_vars[f].value()) > 0:
 
-            #consumation amount of each food
 
+            #print the optimum amount and store it in a dict for later calcuations
+            caldict[f"{f}"] = food_vars[f].value()
             print(f'{f} = {food_vars[f].value()}')
 
-            caldict[f"{f}"] = food_vars[f].value() #for price calcuations on the optimum
 
+            # Create a dictionary to store the total amounts of each nutrient
 
             nutrients["protein"] += foods[f]["protein"] * food_vars[f].varValue
             nutrients["fat"] += foods[f]["fat"] * food_vars[f].varValue
@@ -89,15 +86,13 @@ def calculation(foods, prices, man):
             nutrients["iron"] += foods[f]["iron"] * food_vars[f].varValue
             nutrients["calories"] += foods[f]["calories"] * food_vars[f].varValue
 
-
-    #how much nutrients is in the optimum
-
+    print(82 * "-")
+    print("Nutrition Analysis".upper())
     for key, val in nutrients.items():
 
         print(f"the optimum comprises {val}g of {key}")
 
-
-    #Cost analysis part
+    #cost analyis
 
     print("-"*82)
     print("Cost analysis".upper())
@@ -117,3 +112,9 @@ def calculation(foods, prices, man):
 
 
     print("-" * 82)
+
+    return nutrients, result
+
+
+def calculate_calculate_diff(menu1_nutrients, menu1_cost, menu2_nutrients, menu2_cost):
+    pass

@@ -12,8 +12,11 @@ class simplex:
                                        num_items=num)
         self.nutrition = call_api_data(self.foods)
         self.prices = get_prices(self.foods)
-        self.optimized_food = calculation(self.nutrition, self.prices, man)
-
+        self.optimized_food, self.cost = calculation(self.nutrition, self.prices, man)
+        #test if price and
+        for food in self.foods:
+            if food not in self.prices:
+                raise ValueError(f"price of food {food} not stored locally")
 
     def calculate(self):
         return self.optimized_food
@@ -24,6 +27,11 @@ class simplex:
         self.optimized_food = self.optimized_food = \
             calculation(self.nutrition, self.man)
         return self.optimized_food
+
+    def __sub__(self, other):
+        self.difference = calculate_calculate_diff\
+            (self.optimized_food, self.cost,other.optimized_food, other.cost)
+        return self.difference
 
 #set to vegan for testing
 simplex = simplex(man=True, vegan=True, random=True, num=100)
