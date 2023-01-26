@@ -13,7 +13,7 @@ class simplex:
         self.nutrition = call_api_data(self.foods)
         self.prices = get_prices(self.foods)
         self.optimized_food, self.cost = calculation(self.nutrition, self.prices, man)
-        #test if price and
+        #test if price of food is available locally
         for food in self.foods:
             if food not in self.prices:
                 raise ValueError(f"price of food {food} not stored locally")
