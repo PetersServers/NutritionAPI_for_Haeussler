@@ -117,4 +117,6 @@ def calculation(foods, prices, man):
 
 
 def calculate_calculate_diff(menu1_nutrients, menu1_cost, menu2_nutrients, menu2_cost):
+    #function that calculates difference in nutrients and price of two different optimums
+    #still have to hardcode
     pass
