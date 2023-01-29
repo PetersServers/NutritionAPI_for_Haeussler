@@ -5,9 +5,12 @@ from api_format import *
 import warnings
 from configurable_lists import *
 from faker import Faker
-
+import vegan
 #support functions for the input of the simplex model.
 #mainly works via lists
+
+#all vegan foods from ingr.txt
+foods_vegan = vegan
 
 def call_stored_foods(vegan, num_items, random=False):
     #function that returns lists based on specifications
