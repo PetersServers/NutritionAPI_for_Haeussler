@@ -1,404 +1,4 @@
 {
-    "fruit cocktail": {
-        "fat": {
-            "value": 0.099
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 20.0
-        },
-        "fiber": {
-            "value": 1.99
-        },
-        "sugars": {
-            "value": 18.0
-        },
-        "protein": {
-            "value": 0.696
-        },
-        "calcium": {
-            "value": 15.6
-        },
-        "iron": {
-            "value": 0.099
-        },
-        "potassium": {
-            "value": 141
-        },
-        "addedSugar": {
-            "value": 2.98
-        },
-        "calories": {
-            "value": 88.0
-        }
-    },
-    "muffin": {
-        "fat": {
-            "value": 3.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 160
-        },
-        "carbohydrates": {
-            "value": 33.0
-        },
-        "fiber": {
-            "value": 1.0
-        },
-        "sugars": {
-            "value": 19.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.72
-        },
-        "calories": {
-            "value": 220
-        }
-    },
-    "grapefruit juice": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 85.3
-        },
-        "carbohydrates": {
-            "value": 24.0
-        },
-        "fiber": {
-            "value": 5.92
-        },
-        "sugars": {
-            "value": 18.0
-        },
-        "protein": {
-            "value": 3.01
-        },
-        "calcium": {
-            "value": 80.6
-        },
-        "iron": {
-            "value": 0.711
-        },
-        "calories": {
-            "value": 99.5
-        }
-    },
-    "olives": {
-        "fat": {
-            "value": 1.0
-        },
-        "sodium": {
-            "value": 140
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 9.99
-        }
-    },
-    "knackwurst": {
-        "fat": {
-            "value": 21.0
-        },
-        "saturatedFat": {
-            "value": 7.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 52.0
-        },
-        "sodium": {
-            "value": 466
-        },
-        "carbohydrates": {
-            "value": 0.994
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 11.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.362
-        },
-        "calories": {
-            "value": 292
-        }
-    },
-    "butter": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 2.0
-        },
-        "fiber": {
-            "value": 1.02
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 20.4
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 10.2
-        }
-    },
-    "egg": {
-        "fat": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 45.0
-        },
-        "carbohydrates": {
-            "value": 27.0
-        },
-        "sugars": {
-            "value": 19.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "addedSugar": {
-            "value": 19.0
-        },
-        "calories": {
-            "value": 110
-        }
-    },
-    "dumpling": {
-        "fat": {
-            "value": 6.01
-        },
-        "saturatedFat": {
-            "value": 0.994
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 29.8
-        },
-        "sodium": {
-            "value": 450
-        },
-        "carbohydrates": {
-            "value": 24.0
-        },
-        "fiber": {
-            "value": 3.98
-        },
-        "sugars": {
-            "value": 6.01
-        },
-        "protein": {
-            "value": 8.0
-        },
-        "calcium": {
-            "value": 19.9
-        },
-        "iron": {
-            "value": 4.0
-        },
-        "potassium": {
-            "value": 141
-        },
-        "addedSugar": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 182
-        }
-    },
-    "peanut spread": {
-        "fat": {
-            "value": 12.0
-        },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 140
-        },
-        "carbohydrates": {
-            "value": 13.0
-        },
-        "fiber": {
-            "value": 2.0
-        },
-        "sugars": {
-            "value": 3.0
-        },
-        "protein": {
-            "value": 9.0
-        },
-        "calcium": {
-            "value": 20.0
-        },
-        "iron": {
-            "value": 0.721
-        },
-        "calories": {
-            "value": 190
-        }
-    },
-    "toaster pastries": {
-        "fat": {
-            "value": 9.0
-        },
-        "saturatedFat": {
-            "value": 4.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 260
-        },
-        "carbohydrates": {
-            "value": 74.0
-        },
-        "fiber": {
-            "value": 1.04
-        },
-        "sugars": {
-            "value": 40.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 30.2
-        },
-        "iron": {
-            "value": 5.0
-        },
-        "potassium": {
-            "value": 316
-        },
-        "addedSugar": {
-            "value": 38.0
-        },
-        "calories": {
-            "value": 390
-        }
-    },
-    "apricots": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 25.0
-        },
-        "fiber": {
-            "value": 3.0
-        },
-        "sugars": {
-            "value": 21.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 20.0
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 100
-        }
-    },
     "rice": {
         "fat": {
             "value": 3.5
@@ -435,7 +35,8 @@
         },
         "calories": {
             "value": 200
-        }
+        },
+        "servingSize": 144.0
     },
     "mangos": {
         "fat": {
@@ -476,89 +77,8 @@
         },
         "calories": {
             "value": 80.0
-        }
-    },
-    "macaroni and cheese": {
-        "fat": {
-            "value": 5.99
         },
-        "saturatedFat": {
-            "value": 1.99
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 10.2
-        },
-        "sodium": {
-            "value": 1150.0
-        },
-        "carbohydrates": {
-            "value": 46.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 5.0
-        },
-        "protein": {
-            "value": 9.0
-        },
-        "calcium": {
-            "value": 105
-        },
-        "iron": {
-            "value": 1.99
-        },
-        "potassium": {
-            "value": 242
-        },
-        "calories": {
-            "value": 280
-        }
-    },
-    "tortellini": {
-        "fat": {
-            "value": 7.0
-        },
-        "saturatedFat": {
-            "value": 3.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 55.2
-        },
-        "sodium": {
-            "value": 350
-        },
-        "carbohydrates": {
-            "value": 50.0
-        },
-        "fiber": {
-            "value": 1.96
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 14.0
-        },
-        "calcium": {
-            "value": 110
-        },
-        "iron": {
-            "value": 2.0
-        },
-        "potassium": {
-            "value": 230
-        },
-        "calories": {
-            "value": 310
-        }
+        "servingSize": 138.0
     },
     "rutabagas": {
         "fat": {
@@ -599,7 +119,8 @@
         },
         "calories": {
             "value": 29.8
-        }
+        },
+        "servingSize": 85.0
     },
     "leeks": {
         "fat": {
@@ -640,83 +161,8 @@
         },
         "calories": {
             "value": 29.8
-        }
-    },
-    "focaccia": {
-        "fat": {
-            "value": 2.5
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 320
-        },
-        "carbohydrates": {
-            "value": 28.0
-        },
-        "fiber": {
-            "value": 1.01
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "calories": {
-            "value": 140
-        }
-    },
-    "pizza": {
-        "fat": {
-            "value": 13.0
-        },
-        "saturatedFat": {
-            "value": 4.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 4.41
-        },
-        "sodium": {
-            "value": 589
-        },
-        "carbohydrates": {
-            "value": 47.0
-        },
-        "fiber": {
-            "value": 2.06
-        },
-        "sugars": {
-            "value": 3.0
-        },
-        "protein": {
-            "value": 10.0
-        },
-        "calcium": {
-            "value": 150
-        },
-        "iron": {
-            "value": 2.7
-        },
-        "calories": {
-            "value": 350
-        }
+        "servingSize": 85.0
     },
     "cassava": {
         "fat": {
@@ -754,89 +200,8 @@
         },
         "potassium": {
             "value": 0.0
-        }
-    },
-    "soup": {
-        "fat": {
-            "value": 18.0
         },
-        "saturatedFat": {
-            "value": 7.99
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 43.7
-        },
-        "sodium": {
-            "value": 989
-        },
-        "carbohydrates": {
-            "value": 16.0
-        },
-        "fiber": {
-            "value": 4.06
-        },
-        "sugars": {
-            "value": 8.99
-        },
-        "protein": {
-            "value": 3.99
-        },
-        "calcium": {
-            "value": 99.8
-        },
-        "iron": {
-            "value": 2.71
-        },
-        "calories": {
-            "value": 250
-        }
-    },
-    "pie crust": {
-        "fat": {
-            "value": 6.0
-        },
-        "saturatedFat": {
-            "value": 2.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 5.13
-        },
-        "sodium": {
-            "value": 150
-        },
-        "carbohydrates": {
-            "value": 14.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.999
-        },
-        "protein": {
-            "value": 0.999
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.5
-        },
-        "potassium": {
-            "value": 0.0
-        },
-        "addedSugar": {
-            "value": 0.999
-        },
-        "calories": {
-            "value": 120
-        }
+        "servingSize": 180.0
     },
     "margarine": {
         "fat": {
@@ -874,7 +239,8 @@
         },
         "calories": {
             "value": 100
-        }
+        },
+        "servingSize": 14.0
     },
     "apple juice": {
         "fat": {
@@ -883,26 +249,26 @@
         "saturatedFat": {
             "value": 0.0
         },
-        "transFat": {
-            "value": 0.0
-        },
         "sodium": {
-            "value": 36.0
+            "value": 28.8
         },
         "carbohydrates": {
-            "value": 28.0
+            "value": 30.0
         },
         "sugars": {
-            "value": 28.0
+            "value": 30.0
         },
         "protein": {
             "value": 0.0
         },
+        "potassium": {
+            "value": 259
+        },
         "calories": {
-            "value": 110
-        }
+            "value": 120
+        },
+        "servingSize": 240.0
     },
-    "crackers": {},
     "garlic": {
         "fat": {
             "value": 0.0
@@ -924,45 +290,8 @@
         },
         "calories": {
             "value": 5.01
-        }
-    },
-    "pasta": {
-        "fat": {
-            "value": 1.5
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 970
-        },
-        "carbohydrates": {
-            "value": 35.0
-        },
-        "fiber": {
-            "value": 2.01
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 20.1
-        },
-        "iron": {
-            "value": 2.7
-        },
-        "calories": {
-            "value": 180
-        }
+        "servingSize": 3.0
     },
     "avocados": {
         "fat": {
@@ -1003,7 +332,8 @@
         },
         "calories": {
             "value": 50.1
-        }
+        },
+        "servingSize": 30.0
     },
     "edamame": {
         "fat": {
@@ -1037,14 +367,15 @@
             "value": 50.2
         },
         "iron": {
-            "value": 2.0
+            "value": 1.8
         },
         "potassium": {
             "value": 410
         },
         "calories": {
             "value": 90.1
-        }
+        },
+        "servingSize": 85.0
     },
     "water": {
         "fat": {
@@ -1064,45 +395,8 @@
         },
         "calories": {
             "value": 101
-        }
-    },
-    "ice cream cone": {
-        "fat": {
-            "value": 13.0
         },
-        "saturatedFat": {
-            "value": 6.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 20.2
-        },
-        "sodium": {
-            "value": 120
-        },
-        "carbohydrates": {
-            "value": 31.0
-        },
-        "fiber": {
-            "value": 0.972
-        },
-        "sugars": {
-            "value": 21.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 80.2
-        },
-        "iron": {
-            "value": 0.356
-        },
-        "calories": {
-            "value": 250
-        }
+        "servingSize": 240.0
     },
     "sweet potatoes": {
         "fat": {
@@ -1118,32 +412,30 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 70.2
+            "value": 73.2
         },
         "carbohydrates": {
-            "value": 26.0
+            "value": 27.0
         },
         "fiber": {
-            "value": 4.03
+            "value": 3.99
         },
         "sugars": {
-            "value": 5.0
+            "value": 6.0
         },
         "protein": {
             "value": 2.0
         },
         "calcium": {
-            "value": 40.3
+            "value": 39.9
         },
         "iron": {
-            "value": 0.715
-        },
-        "potassium": {
-            "value": 439
+            "value": 0.904
         },
         "calories": {
-            "value": 110
-        }
+            "value": 114
+        },
+        "servingSize": 133.0
     },
     "lemons": {
         "fat": {
@@ -1172,7 +464,8 @@
         },
         "calories": {
             "value": 35.0
-        }
+        },
+        "servingSize": 113.0
     },
     "strawberries": {
         "fat": {
@@ -1208,47 +501,13 @@
         "iron": {
             "value": 1.08
         },
+        "potassium": {
+            "value": 210
+        },
         "calories": {
             "value": 50.4
-        }
-    },
-    "doughnuts": {
-        "fat": {
-            "value": 19.0
         },
-        "saturatedFat": {
-            "value": 10.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 200
-        },
-        "carbohydrates": {
-            "value": 21.0
-        },
-        "fiber": {
-            "value": 0.99
-        },
-        "sugars": {
-            "value": 7.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 260
-        }
+        "servingSize": 140.0
     },
     "oat bran": {
         "fat": {
@@ -1289,45 +548,47 @@
         },
         "calories": {
             "value": 160
-        }
+        },
+        "servingSize": 40.0
     },
-    "sausage": {
+    "fruit cocktail": {
         "fat": {
-            "value": 8.0
+            "value": 0.0
         },
         "saturatedFat": {
-            "value": 3.99
+            "value": 0.0
         },
         "transFat": {
             "value": 0.0
         },
         "cholesterol": {
-            "value": 89.6
+            "value": 0.0
         },
         "sodium": {
-            "value": 420
+            "value": 19.5
         },
         "carbohydrates": {
-            "value": 32.0
+            "value": 15.0
         },
         "fiber": {
-            "value": 3.97
+            "value": 3.05
         },
         "sugars": {
-            "value": 3.0
+            "value": 12.0
         },
         "protein": {
-            "value": 10.0
+            "value": 0.0
         },
         "calcium": {
-            "value": 99.8
+            "value": 19.5
         },
         "iron": {
-            "value": 1.43
+            "value": 0.366
         },
         "calories": {
-            "value": 241
-        }
+            "value": 59.8
+        },
+        "servingSize": 122.0
     },
     "tapioca": {
         "fat": {
@@ -1344,127 +605,8 @@
         },
         "calories": {
             "value": 20.0
-        }
-    },
-    "luncheon meat": {
-        "fat": {
-            "value": 16.0
         },
-        "saturatedFat": {
-            "value": 6.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 34.7
-        },
-        "sodium": {
-            "value": 550
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 8.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.722
-        },
-        "calories": {
-            "value": 170
-        }
-    },
-    "bread": {
-        "fat": {
-            "value": 3.0
-        },
-        "saturatedFat": {
-            "value": 1.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 350
-        },
-        "carbohydrates": {
-            "value": 37.0
-        },
-        "fiber": {
-            "value": 2.02
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 2.7
-        },
-        "calories": {
-            "value": 200
-        }
-    },
-    "bagels": {
-        "fat": {
-            "value": 4.0
-        },
-        "saturatedFat": {
-            "value": 0.504
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 390
-        },
-        "carbohydrates": {
-            "value": 50.0
-        },
-        "fiber": {
-            "value": 2.0
-        },
-        "sugars": {
-            "value": 5.0
-        },
-        "protein": {
-            "value": 9.0
-        },
-        "calcium": {
-            "value": 90.2
-        },
-        "iron": {
-            "value": 3.0
-        },
-        "potassium": {
-            "value": 107
-        },
-        "addedSugar": {
-            "value": 5.04
-        },
-        "calories": {
-            "value": 260
-        }
+        "servingSize": 6.0
     },
     "corn": {
         "fat": {
@@ -1508,45 +650,8 @@
         },
         "calories": {
             "value": 70.0
-        }
-    },
-    "waffle": {
-        "fat": {
-            "value": 14.0
         },
-        "saturatedFat": {
-            "value": 9.0
-        },
-        "transFat": {
-            "value": 0.099
-        },
-        "cholesterol": {
-            "value": 13.0
-        },
-        "sodium": {
-            "value": 160
-        },
-        "carbohydrates": {
-            "value": 27.0
-        },
-        "fiber": {
-            "value": 0.315
-        },
-        "sugars": {
-            "value": 16.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 245
-        }
+        "servingSize": 125.0
     },
     "salad dressing": {
         "fat": {
@@ -1590,89 +695,8 @@
         },
         "calories": {
             "value": 50.0
-        }
-    },
-    "creamy dressing": {
-        "fat": {
-            "value": 13.0
         },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 230
-        },
-        "carbohydrates": {
-            "value": 6.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 6.0
-        },
-        "protein": {
-            "value": 0.999
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 140
-        }
-    },
-    "light ice cream": {
-        "fat": {
-            "value": 5.0
-        },
-        "saturatedFat": {
-            "value": 3.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 25.2
-        },
-        "sodium": {
-            "value": 110
-        },
-        "carbohydrates": {
-            "value": 26.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 19.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 132
-        },
-        "iron": {
-            "value": 0.139
-        },
-        "potassium": {
-            "value": 215
-        },
-        "addedSugar": {
-            "value": 12.0
-        },
-        "calories": {
-            "value": 160
-        }
+        "servingSize": 15.0
     },
     "mushrooms": {
         "fat": {
@@ -1710,7 +734,8 @@
         },
         "calories": {
             "value": 29.9
-        }
+        },
+        "servingSize": 130.0
     },
     "tomatillos": {
         "fat": {
@@ -1748,7 +773,8 @@
         },
         "calories": {
             "value": 40.3
-        }
+        },
+        "servingSize": 130.0
     },
     "wheat flour": {
         "fat": {
@@ -1786,7 +812,8 @@
         },
         "calories": {
             "value": 70.0
-        }
+        },
+        "servingSize": 15.0
     },
     "cranberry juice": {
         "fat": {
@@ -1827,153 +854,74 @@
         },
         "calories": {
             "value": 69.6
-        }
+        },
+        "servingSize": 240.0
     },
-    "pie": {
+    "oranges": {
         "fat": {
-            "value": 15.0
+            "value": 0.0
         },
         "saturatedFat": {
-            "value": 8.0
+            "value": 0.0
         },
         "transFat": {
             "value": 0.0
         },
         "cholesterol": {
-            "value": 34.3
-        },
-        "sodium": {
-            "value": 450
-        },
-        "carbohydrates": {
-            "value": 47.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 24.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 19.4
-        },
-        "iron": {
-            "value": 0.998
-        },
-        "potassium": {
-            "value": 34.3
-        },
-        "addedSugar": {
-            "value": 18.0
-        },
-        "calories": {
-            "value": 329
-        }
-    },
-    "oranges": {
-        "fat": {
-            "value": 0.231
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
             "value": 0.0
         },
         "sodium": {
-            "value": 1.54
+            "value": 0.0
         },
         "carbohydrates": {
-            "value": 19.0
+            "value": 21.0
         },
         "fiber": {
-            "value": 2.93
+            "value": 6.93
         },
         "sugars": {
-            "value": 13.0
+            "value": 14.0
         },
         "protein": {
             "value": 1.0
         },
         "calcium": {
-            "value": 69.3
+            "value": 60.1
         },
         "iron": {
-            "value": 0.185
+            "value": 0.354
         },
         "calories": {
-            "value": 75.5
-        }
+            "value": 69.3
+        },
+        "servingSize": 154.0
     },
     "pepperoni": {
         "fat": {
-            "value": 12.0
+            "value": 13.0
         },
         "saturatedFat": {
-            "value": 4.5
+            "value": 6.0
         },
         "cholesterol": {
-            "value": 19.9
+            "value": 35.0
         },
         "sodium": {
-            "value": 570
+            "value": 490
         },
         "carbohydrates": {
             "value": 0.0
         },
         "protein": {
-            "value": 6.0
+            "value": 5.0
         },
         "iron": {
             "value": 0.361
         },
         "calories": {
-            "value": 130
-        }
-    },
-    "shortening": {
-        "fat": {
-            "value": 11.0
+            "value": 140
         },
-        "saturatedFat": {
-            "value": 4.5
-        },
-        "transFat": {
-            "value": 0.5
-        },
-        "cholesterol": {
-            "value": 10.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "potassium": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 100
-        }
+        "servingSize": 28.0
     },
     "dates": {
         "fat": {
@@ -2011,83 +959,8 @@
         },
         "calories": {
             "value": 120
-        }
-    },
-    "cinnamon buns": {
-        "fat": {
-            "value": 3.5
         },
-        "saturatedFat": {
-            "value": 0.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 5.1
-        },
-        "sodium": {
-            "value": 50.0
-        },
-        "carbohydrates": {
-            "value": 16.0
-        },
-        "fiber": {
-            "value": 0.986
-        },
-        "sugars": {
-            "value": 8.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 20.1
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 100
-        }
-    },
-    "kielbasa": {
-        "fat": {
-            "value": 13.0
-        },
-        "saturatedFat": {
-            "value": 4.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 34.7
-        },
-        "sodium": {
-            "value": 590
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 8.0
-        },
-        "calcium": {
-            "value": 20.2
-        },
-        "iron": {
-            "value": 0.722
-        },
-        "calories": {
-            "value": 160
-        }
+        "servingSize": 40.0
     },
     "blackberries": {
         "fat": {
@@ -2106,13 +979,13 @@
             "value": 0.0
         },
         "carbohydrates": {
-            "value": 22.0
+            "value": 13.0
         },
         "fiber": {
             "value": 7.0
         },
         "sugars": {
-            "value": 15.0
+            "value": 6.01
         },
         "protein": {
             "value": 2.0
@@ -2124,87 +997,12 @@
             "value": 0.994
         },
         "potassium": {
-            "value": 200
+            "value": 227
         },
         "calories": {
-            "value": 89.6
-        }
-    },
-    "beef": {
-        "fat": {
-            "value": 5.0
+            "value": 60.2
         },
-        "saturatedFat": {
-            "value": 3.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 45.0
-        },
-        "sodium": {
-            "value": 180
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 17.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 3.6
-        },
-        "calories": {
-            "value": 110
-        }
-    },
-    "mango": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 24.0
-        },
-        "fiber": {
-            "value": 2.94
-        },
-        "sugars": {
-            "value": 21.0
-        },
-        "protein": {
-            "value": 0.994
-        },
-        "calcium": {
-            "value": 19.6
-        },
-        "iron": {
-            "value": 2.7
-        },
-        "calories": {
-            "value": 99.4
-        }
+        "servingSize": 140.0
     },
     "chili": {
         "fat": {
@@ -2242,45 +1040,47 @@
         },
         "calories": {
             "value": 241
-        }
+        },
+        "servingSize": 236.0
     },
-    "cookie": {
+    "peanut spread": {
         "fat": {
-            "value": 8.0
+            "value": 12.0
         },
         "saturatedFat": {
-            "value": 4.0
+            "value": 2.0
         },
         "transFat": {
             "value": 0.0
         },
+        "cholesterol": {
+            "value": 0.0
+        },
         "sodium": {
-            "value": 210
+            "value": 140
         },
         "carbohydrates": {
-            "value": 22.0
+            "value": 13.0
         },
         "fiber": {
-            "value": 1.01
+            "value": 2.0
         },
         "sugars": {
-            "value": 9.0
+            "value": 3.0
         },
         "protein": {
-            "value": 10.0
+            "value": 9.0
         },
         "calcium": {
-            "value": 59.8
+            "value": 20.0
         },
         "iron": {
-            "value": 0.722
-        },
-        "addedSugar": {
-            "value": 1.98
+            "value": 0.721
         },
         "calories": {
-            "value": 170
-        }
+            "value": 190
+        },
+        "servingSize": 35.0
     },
     "peppers": {
         "fat": {
@@ -2318,7 +1118,8 @@
         },
         "calories": {
             "value": 14.8
-        }
+        },
+        "servingSize": 45.0
     },
     "rice flour": {
         "fat": {
@@ -2350,51 +1151,8 @@
         },
         "calories": {
             "value": 90.0
-        }
-    },
-    "chicken pot pie": {
-        "fat": {
-            "value": 14.0
         },
-        "saturatedFat": {
-            "value": 6.99
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 79.4
-        },
-        "sodium": {
-            "value": 781
-        },
-        "carbohydrates": {
-            "value": 39.0
-        },
-        "fiber": {
-            "value": 2.95
-        },
-        "sugars": {
-            "value": 4.0
-        },
-        "protein": {
-            "value": 15.0
-        },
-        "calcium": {
-            "value": 47.7
-        },
-        "iron": {
-            "value": 0.999
-        },
-        "potassium": {
-            "value": 431
-        },
-        "addedSugar": {
-            "value": 2.04
-        },
-        "calories": {
-            "value": 350
-        }
+        "servingSize": 26.0
     },
     "potatoes": {
         "fat": {
@@ -2422,7 +1180,7 @@
             "value": 1.01
         },
         "protein": {
-            "value": 4.0
+            "value": 3.0
         },
         "calcium": {
             "value": 20.7
@@ -2430,9 +1188,13 @@
         "iron": {
             "value": 1.08
         },
+        "potassium": {
+            "value": 620
+        },
         "calories": {
             "value": 110
-        }
+        },
+        "servingSize": 148.0
     },
     "hearts of palm": {
         "fat": {
@@ -2470,86 +1232,8 @@
         },
         "calories": {
             "value": 34.8
-        }
-    },
-    "peanuts": {
-        "fat": {
-            "value": 13.0
         },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 170
-        },
-        "carbohydrates": {
-            "value": 6.0
-        },
-        "fiber": {
-            "value": 1.99
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.72
-        },
-        "potassium": {
-            "value": 180
-        },
-        "calories": {
-            "value": 160
-        }
-    },
-    "puff pastry": {
-        "fat": {
-            "value": 13.0
-        },
-        "saturatedFat": {
-            "value": 6.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 210
-        },
-        "carbohydrates": {
-            "value": 26.0
-        },
-        "fiber": {
-            "value": 1.01
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 240
-        }
+        "servingSize": 120.0
     },
     "oil": {
         "fat": {
@@ -2581,30 +1265,8 @@
         },
         "calories": {
             "value": 130
-        }
-    },
-    "sweetener": {
-        "fat": {
-            "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 0.0
-        }
+        "servingSize": 15.0
     },
     "rice noodles": {
         "fat": {
@@ -2642,7 +1304,8 @@
         },
         "calories": {
             "value": 228
-        }
+        },
+        "servingSize": 57.0
     },
     "asparagus": {
         "fat": {
@@ -2683,7 +1346,8 @@
         },
         "calories": {
             "value": 15.3
-        }
+        },
+        "servingSize": 85.0
     },
     "radicchio": {
         "fat": {
@@ -2724,203 +1388,29 @@
         },
         "calories": {
             "value": 23.0
-        }
-    },
-    "salami": {
-        "fat": {
-            "value": 8.0
         },
-        "saturatedFat": {
-            "value": 3.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 30.0
-        },
-        "sodium": {
-            "value": 450
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 8.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.361
-        },
-        "calories": {
-            "value": 110
-        }
-    },
-    "yogurt": {
-        "fat": {
-            "value": 5.0
-        },
-        "saturatedFat": {
-            "value": 2.99
-        },
-        "cholesterol": {
-            "value": 20.4
-        },
-        "sodium": {
-            "value": 69.7
-        },
-        "carbohydrates": {
-            "value": 27.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 27.0
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 201
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 160
-        }
+        "servingSize": 100.0
     },
     "maraschino cherries": {
         "fat": {
             "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
         "sodium": {
             "value": 0.0
         },
         "carbohydrates": {
-            "value": 2.0
-        },
-        "fiber": {
-            "value": 0.0
+            "value": 3.0
         },
         "sugars": {
             "value": 2.0
         },
         "protein": {
             "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "potassium": {
-            "value": 0.0
-        },
-        "addedSugar": {
-            "value": 1.0
         },
         "calories": {
             "value": 10.0
-        }
-    },
-    "sherbet": {
-        "fat": {
-            "value": 0.998
         },
-        "saturatedFat": {
-            "value": 0.499
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 5.16
-        },
-        "sodium": {
-            "value": 19.8
-        },
-        "carbohydrates": {
-            "value": 26.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 17.0
-        },
-        "protein": {
-            "value": 0.998
-        },
-        "calcium": {
-            "value": 40.4
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 110
-        }
-    },
-    "sour cream": {
-        "fat": {
-            "value": 5.0
-        },
-        "saturatedFat": {
-            "value": 3.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 15.0
-        },
-        "sodium": {
-            "value": 15.0
-        },
-        "carbohydrates": {
-            "value": 0.999
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.999
-        },
-        "protein": {
-            "value": 0.999
-        },
-        "calcium": {
-            "value": 30.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "potassium": {
-            "value": 0.0
-        },
-        "addedSugar": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 60.0
-        }
+        "servingSize": 6.0
     },
     "peas": {
         "fat": {
@@ -2964,62 +1454,32 @@
         },
         "calories": {
             "value": 60.0
-        }
+        },
+        "servingSize": 125.0
     },
     "lemonade": {
         "fat": {
             "value": 0.0
         },
         "sodium": {
-            "value": 9.6
+            "value": 36.0
         },
         "carbohydrates": {
-            "value": 31.0
+            "value": 32.0
         },
         "sugars": {
-            "value": 30.0
+            "value": 32.0
         },
         "protein": {
             "value": 0.0
         },
-        "calories": {
-            "value": 120
-        }
-    },
-    "bacon": {
-        "fat": {
-            "value": 7.0
-        },
-        "saturatedFat": {
-            "value": 2.5
-        },
-        "cholesterol": {
-            "value": 9.94
-        },
-        "sodium": {
-            "value": 110
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
+        "potassium": {
+            "value": 28.8
         },
         "calories": {
-            "value": 70.0
-        }
+            "value": 130
+        },
+        "servingSize": 240.0
     },
     "yam": {
         "fat": {
@@ -3057,7 +1517,8 @@
         },
         "calories": {
             "value": 177
-        }
+        },
+        "servingSize": 150.0
     },
     "arugula": {
         "fat": {
@@ -3095,48 +1556,8 @@
         },
         "calories": {
             "value": 20.4
-        }
-    },
-    "noodles": {
-        "fat": {
-            "value": 0.999
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 190
-        },
-        "carbohydrates": {
-            "value": 42.0
-        },
-        "fiber": {
-            "value": 2.0
-        },
-        "sugars": {
-            "value": 0.999
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.718
-        },
-        "potassium": {
-            "value": 79.9
-        },
-        "calories": {
-            "value": 200
-        }
+        "servingSize": 85.0
     },
     "lemon juice": {
         "fat": {
@@ -3159,83 +1580,8 @@
         },
         "calories": {
             "value": 0.0
-        }
-    },
-    "meatballs": {
-        "fat": {
-            "value": 21.0
         },
-        "saturatedFat": {
-            "value": 8.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 24.6
-        },
-        "sodium": {
-            "value": 610
-        },
-        "carbohydrates": {
-            "value": 5.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 12.0
-        },
-        "calcium": {
-            "value": 40.0
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 260
-        }
-    },
-    "ice cream bar": {
-        "fat": {
-            "value": 13.0
-        },
-        "saturatedFat": {
-            "value": 6.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 14.8
-        },
-        "sodium": {
-            "value": 40.2
-        },
-        "carbohydrates": {
-            "value": 14.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 11.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 60.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 180
-        }
+        "servingSize": 5.0
     },
     "lemon juice from concentrate": {
         "fat": {
@@ -3273,51 +1619,8 @@
         },
         "calories": {
             "value": 0.0
-        }
-    },
-    "cake": {
-        "fat": {
-            "value": 20.0
         },
-        "saturatedFat": {
-            "value": 9.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 20.4
-        },
-        "sodium": {
-            "value": 360
-        },
-        "carbohydrates": {
-            "value": 48.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 37.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 20.4
-        },
-        "iron": {
-            "value": 0.901
-        },
-        "potassium": {
-            "value": 40.0
-        },
-        "addedSugar": {
-            "value": 36.0
-        },
-        "calories": {
-            "value": 380
-        }
+        "servingSize": 5.0
     },
     "cauliflower": {
         "fat": {
@@ -3358,7 +1661,8 @@
         },
         "calories": {
             "value": 20.4
-        }
+        },
+        "servingSize": 85.0
     },
     "brussels sprouts": {
         "fat": {
@@ -3374,7 +1678,7 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 15.3
+            "value": 20.4
         },
         "carbohydrates": {
             "value": 8.0
@@ -3389,14 +1693,15 @@
             "value": 3.0
         },
         "calcium": {
-            "value": 20.4
+            "value": 40.0
         },
         "iron": {
-            "value": 0.722
+            "value": 1.08
         },
         "calories": {
-            "value": 45.0
-        }
+            "value": 34.8
+        },
+        "servingSize": 85.0
     },
     "sweet potato": {
         "fat": {
@@ -3434,15 +1739,8 @@
         },
         "calories": {
             "value": 331
-        }
-    },
-    "frankfurter": {
-        "transFat": {
-            "value": 0.0
         },
-        "fiber": {
-            "value": 0.0
-        }
+        "servingSize": 312.0
     },
     "buckwheat flour": {
         "fat": {
@@ -3480,121 +1778,8 @@
         },
         "calories": {
             "value": 99.9
-        }
-    },
-    "chayote": {
-        "fat": {
-            "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 3.0
-        },
-        "fiber": {
-            "value": 0.99
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 19.8
-        },
-        "iron": {
-            "value": 0.363
-        },
-        "calories": {
-            "value": 15.2
-        }
-    },
-    "cookies": {
-        "fat": {
-            "value": 3.0
-        },
-        "saturatedFat": {
-            "value": 2.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 54.9
-        },
-        "carbohydrates": {
-            "value": 15.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 7.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 19.9
-        },
-        "iron": {
-            "value": 0.72
-        },
-        "calories": {
-            "value": 89.9
-        }
-    },
-    "cheese": {
-        "fat": {
-            "value": 2.0
-        },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 5.0
-        },
-        "sodium": {
-            "value": 100
-        },
-        "carbohydrates": {
-            "value": 2.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 60.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 25.0
-        }
+        "servingSize": 30.0
     },
     "pepper": {
         "fat": {
@@ -3632,7 +1817,8 @@
         },
         "calories": {
             "value": 9.99
-        }
+        },
+        "servingSize": 3.0
     },
     "carrots": {
         "fat": {
@@ -3670,45 +1856,8 @@
         },
         "calories": {
             "value": 29.6
-        }
-    },
-    "chili with beans": {
-        "fat": {
-            "value": 8.99
         },
-        "saturatedFat": {
-            "value": 3.51
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 24.7
-        },
-        "sodium": {
-            "value": 990
-        },
-        "carbohydrates": {
-            "value": 31.0
-        },
-        "fiber": {
-            "value": 6.92
-        },
-        "sugars": {
-            "value": 4.99
-        },
-        "protein": {
-            "value": 17.0
-        },
-        "calcium": {
-            "value": 59.3
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "calories": {
-            "value": 269
-        }
+        "servingSize": 78.0
     },
     "lima beans": {
         "fat": {
@@ -3746,7 +1895,8 @@
         },
         "calories": {
             "value": 90.0
-        }
+        },
+        "servingSize": 125.0
     },
     "pomegranate juice": {
         "fat": {
@@ -3781,7 +1931,8 @@
         },
         "calories": {
             "value": 99.1
-        }
+        },
+        "servingSize": 236.0
     },
     "syrup": {
         "fat": {
@@ -3797,29 +1948,30 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 9.8
+            "value": 15.0
         },
         "carbohydrates": {
-            "value": 17.0
+            "value": 11.0
         },
         "fiber": {
-            "value": 0.98
+            "value": 0.0
         },
         "sugars": {
-            "value": 17.0
+            "value": 10.0
         },
         "protein": {
-            "value": 0.994
+            "value": 0.0
         },
         "calcium": {
-            "value": 19.6
+            "value": 0.0
         },
         "iron": {
-            "value": 0.714
+            "value": 0.359
         },
         "calories": {
-            "value": 70.0
-        }
+            "value": 45.0
+        },
+        "servingSize": 19.0
     },
     "prune juice": {
         "fat": {
@@ -3860,33 +2012,8 @@
         },
         "calories": {
             "value": 180
-        }
-    },
-    "turkey breast": {
-        "fat": {
-            "value": 0.502
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 25.1
-        },
-        "sodium": {
-            "value": 30.2
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 16.0
-        },
-        "iron": {
-            "value": 0.718
-        },
-        "calories": {
-            "value": 70.1
-        }
+        "servingSize": 240.0
     },
     "celery": {
         "fat": {
@@ -3924,45 +2051,8 @@
         },
         "calories": {
             "value": 15.4
-        }
-    },
-    "muffins": {
-        "fat": {
-            "value": 0.5
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 210
-        },
-        "carbohydrates": {
-            "value": 28.0
-        },
-        "fiber": {
-            "value": 9.03
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 150
-        },
-        "iron": {
-            "value": 1.44
-        },
-        "calories": {
-            "value": 110
-        }
+        "servingSize": 110.0
     },
     "limes": {
         "fat": {
@@ -3991,7 +2081,8 @@
         },
         "calories": {
             "value": 20.1
-        }
+        },
+        "servingSize": 67.0
     },
     "soy flour": {
         "fat": {
@@ -4032,83 +2123,8 @@
         },
         "calories": {
             "value": 130
-        }
-    },
-    "waffles": {
-        "fat": {
-            "value": 7.0
         },
-        "saturatedFat": {
-            "value": 1.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 370
-        },
-        "carbohydrates": {
-            "value": 34.0
-        },
-        "fiber": {
-            "value": 2.03
-        },
-        "sugars": {
-            "value": 5.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 60.2
-        },
-        "iron": {
-            "value": 0.721
-        },
-        "calories": {
-            "value": 210
-        }
-    },
-    "snack": {
-        "fat": {
-            "value": 11.0
-        },
-        "saturatedFat": {
-            "value": 9.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 7.2
-        },
-        "sodium": {
-            "value": 74.0
-        },
-        "carbohydrates": {
-            "value": 19.0
-        },
-        "fiber": {
-            "value": 1.0
-        },
-        "sugars": {
-            "value": 16.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 50.0
-        },
-        "iron": {
-            "value": 1.62
-        },
-        "calories": {
-            "value": 188
-        }
+        "servingSize": 30.0
     },
     "couscous": {
         "fat": {
@@ -4149,7 +2165,8 @@
         },
         "calories": {
             "value": 170
-        }
+        },
+        "servingSize": 45.0
     },
     "kiwifruit": {
         "fat": {
@@ -4187,33 +2204,8 @@
         },
         "calories": {
             "value": 90.3
-        }
-    },
-    "candies": {
-        "fat": {
-            "value": 0.0
         },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 25.0
-        },
-        "sugars": {
-            "value": 22.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "addedSugar": {
-            "value": 22.0
-        },
-        "calories": {
-            "value": 100
-        }
+        "servingSize": 148.0
     },
     "figs": {
         "fat": {
@@ -4254,7 +2246,8 @@
         },
         "calories": {
             "value": 110
-        }
+        },
+        "servingSize": 40.0
     },
     "pineapple": {
         "fat": {
@@ -4289,9 +2282,9 @@
         },
         "iron": {
             "value": 0.179
-        }
+        },
+        "servingSize": 28.0
     },
-    "croissants": {},
     "spices": {
         "fat": {
             "value": 0.0
@@ -4325,7 +2318,8 @@
         },
         "calories": {
             "value": 5.0
-        }
+        },
+        "servingSize": 1.5
     },
     "spinach": {
         "fat": {
@@ -4341,10 +2335,10 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 380
+            "value": 64.6
         },
         "carbohydrates": {
-            "value": 4.0
+            "value": 3.0
         },
         "fiber": {
             "value": 2.04
@@ -4356,17 +2350,18 @@
             "value": 2.0
         },
         "calcium": {
-            "value": 39.6
+            "value": 84.2
         },
         "iron": {
-            "value": 1.8
+            "value": 2.0
         },
         "potassium": {
-            "value": 280
+            "value": 475
         },
         "calories": {
-            "value": 25.2
-        }
+            "value": 20.4
+        },
+        "servingSize": 85.0
     },
     "bulgur": {
         "fat": {
@@ -4404,7 +2399,8 @@
         },
         "calories": {
             "value": 300
-        }
+        },
+        "servingSize": 88.0
     },
     "watermelon": {},
     "taco shells": {
@@ -4446,7 +2442,8 @@
         },
         "calories": {
             "value": 150
-        }
+        },
+        "servingSize": 33.0
     },
     "hominy": {
         "fat": {
@@ -4484,7 +2481,8 @@
         },
         "calories": {
             "value": 70.0
-        }
+        },
+        "servingSize": 125.0
     },
     "tomatoes": {},
     "grapefruit": {
@@ -4508,51 +2506,8 @@
         },
         "calories": {
             "value": 99.9
-        }
-    },
-    "milk": {
-        "fat": {
-            "value": 9.0
         },
-        "saturatedFat": {
-            "value": 4.99
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 36.0
-        },
-        "sodium": {
-            "value": 139
-        },
-        "carbohydrates": {
-            "value": 13.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 12.0
-        },
-        "protein": {
-            "value": 7.99
-        },
-        "calcium": {
-            "value": 331
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "potassium": {
-            "value": 430
-        },
-        "addedSugar": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 170
-        }
+        "servingSize": 222.0
     },
     "radishes": {
         "fat": {
@@ -4593,48 +2548,8 @@
         },
         "calories": {
             "value": 15.3
-        }
-    },
-    "egg rolls": {
-        "fat": {
-            "value": 5.0
         },
-        "saturatedFat": {
-            "value": 1.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 9.94
-        },
-        "sodium": {
-            "value": 350
-        },
-        "carbohydrates": {
-            "value": 20.0
-        },
-        "fiber": {
-            "value": 0.994
-        },
-        "sugars": {
-            "value": 3.0
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.362
-        },
-        "potassium": {
-            "value": 140
-        },
-        "calories": {
-            "value": 150
-        }
+        "servingSize": 85.0
     },
     "lime juice": {
         "fat": {
@@ -4660,107 +2575,10 @@
         },
         "potassium": {
             "value": 30.0
-        }
+        },
+        "servingSize": 30.0
     },
-    "basil": {
-        "fat": {
-            "value": 14.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 120
-        }
-    },
-    "cheese spread": {
-        "fat": {
-            "value": 8.0
-        },
-        "saturatedFat": {
-            "value": 3.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 15.0
-        },
-        "sodium": {
-            "value": 160
-        },
-        "carbohydrates": {
-            "value": 5.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 5.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 150
-        },
-        "iron": {
-            "value": 0.36
-        },
-        "calories": {
-            "value": 110
-        }
-    },
-    "macaroni": {
-        "fat": {
-            "value": 1.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 41.0
-        },
-        "fiber": {
-            "value": 2.02
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "calories": {
-            "value": 200
-        }
-    },
+    "basil": {},
     "cocoa": {
         "fat": {
             "value": 2.0
@@ -4791,7 +2609,8 @@
         },
         "calories": {
             "value": 30.0
-        }
+        },
+        "servingSize": 10.0
     },
     "lentils": {
         "fat": {
@@ -4807,81 +2626,38 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 0.0
+            "value": 5.12
         },
         "carbohydrates": {
-            "value": 20.0
+            "value": 19.0
         },
         "fiber": {
-            "value": 11.0
+            "value": 8.99
         },
         "sugars": {
-            "value": 2.0
+            "value": 0.0
         },
         "protein": {
-            "value": 10.0
+            "value": 8.0
         },
         "calcium": {
             "value": 0.0
         },
         "iron": {
-            "value": 3.6
+            "value": 2.7
         },
         "calories": {
-            "value": 80.2
-        }
+            "value": 70.1
+        },
+        "servingSize": 32.0
     },
     "lemon peel": {},
-    "mayonnaise": {
-        "fat": {
-            "value": 11.0
-        },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 5.04
-        },
-        "sodium": {
-            "value": 70.0
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 1.96
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "potassium": {
-            "value": 0.98
-        },
-        "addedSugar": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 100
-        }
-    },
     "onion rings": {
         "fat": {
-            "value": 10.0
+            "value": 7.0
         },
         "saturatedFat": {
-            "value": 1.5
+            "value": 3.5
         },
         "transFat": {
             "value": 0.0
@@ -4890,106 +2666,70 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 540
+            "value": 280
+        },
+        "carbohydrates": {
+            "value": 16.0
+        },
+        "fiber": {
+            "value": 1.01
+        },
+        "sugars": {
+            "value": 1.0
+        },
+        "protein": {
+            "value": 2.0
+        },
+        "calcium": {
+            "value": 19.9
+        },
+        "iron": {
+            "value": 0.361
+        },
+        "calories": {
+            "value": 140
+        },
+        "servingSize": 28.0
+    },
+    "parsley": {},
+    "grapefruit juice": {
+        "fat": {
+            "value": 0.0
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 85.3
         },
         "carbohydrates": {
             "value": 24.0
         },
         "fiber": {
-            "value": 2.04
+            "value": 5.92
         },
         "sugars": {
-            "value": 3.0
+            "value": 18.0
         },
         "protein": {
-            "value": 2.0
+            "value": 3.01
         },
         "calcium": {
-            "value": 40.0
+            "value": 80.6
         },
         "iron": {
-            "value": 1.44
+            "value": 0.711
         },
         "calories": {
-            "value": 200
-        }
-    },
-    "parsley": {},
-    "dessert topping": {
-        "fat": {
-            "value": 1.5
+            "value": 99.5
         },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 20.0
-        }
-    },
-    "ravioli": {
-        "fat": {
-            "value": 10.0
-        },
-        "saturatedFat": {
-            "value": 6.01
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 70.5
-        },
-        "sodium": {
-            "value": 530
-        },
-        "carbohydrates": {
-            "value": 33.0
-        },
-        "fiber": {
-            "value": 1.97
-        },
-        "sugars": {
-            "value": 3.0
-        },
-        "protein": {
-            "value": 17.0
-        },
-        "calcium": {
-            "value": 350
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "calories": {
-            "value": 300
-        }
+        "servingSize": 237.0
     },
     "malt beverage": {
         "fat": {
@@ -5027,7 +2767,35 @@
         },
         "calories": {
             "value": 192
-        }
+        },
+        "servingSize": 355.0
+    },
+    "olives": {
+        "fat": {
+            "value": 2.0
+        },
+        "saturatedFat": {
+            "value": 0.0
+        },
+        "transFat": {
+            "value": 0.0
+        },
+        "cholesterol": {
+            "value": 0.0
+        },
+        "sodium": {
+            "value": 300
+        },
+        "carbohydrates": {
+            "value": 1.0
+        },
+        "protein": {
+            "value": 0.0
+        },
+        "calories": {
+            "value": 20.0
+        },
+        "servingSize": 15.0
     },
     "cornmeal": {
         "fat": {
@@ -5065,7 +2833,8 @@
         },
         "calories": {
             "value": 150
-        }
+        },
+        "servingSize": 42.0
     },
     "beans": {
         "fat": {
@@ -5103,159 +2872,8 @@
         },
         "calories": {
             "value": 170
-        }
-    },
-    "rolls": {
-        "fat": {
-            "value": 7.0
         },
-        "saturatedFat": {
-            "value": 3.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 530
-        },
-        "carbohydrates": {
-            "value": 56.0
-        },
-        "fiber": {
-            "value": 0.99
-        },
-        "sugars": {
-            "value": 24.0
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "calories": {
-            "value": 300
-        }
-    },
-    "gelatin desserts": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 29.7
-        },
-        "carbohydrates": {
-            "value": 5.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 5.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 24.8
-        }
-    },
-    "pork": {
-        "fat": {
-            "value": 3.5
-        },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 64.6
-        },
-        "sodium": {
-            "value": 180
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 18.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 100
-        }
-    },
-    "dressing": {
-        "fat": {
-            "value": 7.0
-        },
-        "saturatedFat": {
-            "value": 0.999
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 5.1
-        },
-        "sodium": {
-            "value": 260
-        },
-        "carbohydrates": {
-            "value": 3.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 0.999
-        },
-        "calcium": {
-            "value": 20.1
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 80.1
-        }
+        "servingSize": 50.0
     },
     "mustard greens": {
         "fat": {
@@ -5296,7 +2914,8 @@
         },
         "calories": {
             "value": 24.6
-        }
+        },
+        "servingSize": 85.0
     },
     "cherries": {
         "fat": {
@@ -5331,7 +2950,8 @@
         },
         "calories": {
             "value": 5.0
-        }
+        },
+        "servingSize": 5.0
     },
     "turnip greens": {
         "fat": {
@@ -5372,7 +2992,8 @@
         },
         "calories": {
             "value": 24.6
-        }
+        },
+        "servingSize": 85.0
     },
     "tofu": {
         "transFat": {
@@ -5380,7 +3001,8 @@
         },
         "sugars": {
             "value": 0.0
-        }
+        },
+        "servingSize": 113.0
     },
     "cranberries": {
         "fat": {
@@ -5418,45 +3040,8 @@
         },
         "calories": {
             "value": 140
-        }
-    },
-    "tortillas": {
-        "fat": {
-            "value": 5.0
         },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 310
-        },
-        "carbohydrates": {
-            "value": 27.0
-        },
-        "fiber": {
-            "value": 3.02
-        },
-        "sugars": {
-            "value": 0.998
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 20.0
-        },
-        "iron": {
-            "value": 0.718
-        },
-        "calories": {
-            "value": 170
-        }
+        "servingSize": 40.0
     },
     "grape leaves": {
         "fat": {
@@ -5497,179 +3082,47 @@
         },
         "calories": {
             "value": 3.0
-        }
-    },
-    "beverage": {
-        "fat": {
-            "value": 0.0
         },
-        "sodium": {
-            "value": 60.4
-        },
-        "carbohydrates": {
-            "value": 46.0
-        },
-        "sugars": {
-            "value": 46.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 170
-        }
+        "servingSize": 4.0
     },
     "blueberries": {
         "fat": {
-            "value": 1.01
+            "value": 0.994
         },
         "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
             "value": 0.0
         },
         "cholesterol": {
             "value": 0.0
         },
         "sodium": {
-            "value": 1.55
+            "value": 0.0
         },
         "carbohydrates": {
-            "value": 19.0
+            "value": 17.0
         },
         "fiber": {
-            "value": 4.03
+            "value": 4.06
         },
         "sugars": {
-            "value": 13.0
+            "value": 12.0
         },
         "protein": {
-            "value": 1.01
-        },
-        "calcium": {
-            "value": 9.3
-        },
-        "iron": {
-            "value": 0.356
-        },
-        "calories": {
-            "value": 79.0
-        }
-    },
-    "dip": {
-        "fat": {
-            "value": 9.0
-        },
-        "saturatedFat": {
-            "value": 0.999
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 105
-        },
-        "carbohydrates": {
-            "value": 3.0
-        },
-        "fiber": {
-            "value": 0.99
-        },
-        "sugars": {
-            "value": 0.999
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 39.9
-        },
-        "iron": {
-            "value": 0.72
-        },
-        "calories": {
-            "value": 99.9
-        }
-    },
-    "chicken breast": {
-        "fat": {
-            "value": 2.5
-        },
-        "saturatedFat": {
-            "value": 0.501
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 15.1
-        },
-        "sodium": {
-            "value": 260
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 4.0
+            "value": 0.994
         },
         "calcium": {
             "value": 0.0
         },
         "iron": {
-            "value": 0.361
-        },
-        "calories": {
-            "value": 40.0
-        }
-    },
-    "taquitos": {
-        "fat": {
-            "value": 9.0
-        },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "transFat": {
             "value": 0.0
         },
-        "cholesterol": {
-            "value": 10.3
-        },
-        "sodium": {
-            "value": 310
-        },
-        "carbohydrates": {
-            "value": 30.0
-        },
-        "fiber": {
-            "value": 3.01
-        },
-        "sugars": {
-            "value": 0.996
-        },
-        "protein": {
-            "value": 8.0
-        },
-        "calcium": {
-            "value": 40.4
-        },
-        "iron": {
-            "value": 1.08
+        "potassium": {
+            "value": 79.8
         },
         "calories": {
-            "value": 230
-        }
+            "value": 70.0
+        },
+        "servingSize": 140.0
     },
     "beets": {
         "fat": {
@@ -5707,45 +3160,8 @@
         },
         "calories": {
             "value": 39.6
-        }
-    },
-    "turkey ham": {
-        "fat": {
-            "value": 3.5
         },
-        "saturatedFat": {
-            "value": 1.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 34.7
-        },
-        "sodium": {
-            "value": 550
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 10.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.722
-        },
-        "calories": {
-            "value": 80.1
-        }
+        "servingSize": 120.0
     },
     "grapes": {
         "fat": {
@@ -5786,7 +3202,8 @@
         },
         "calories": {
             "value": 45.0
-        }
+        },
+        "servingSize": 57.0
     },
     "egg substitute": {
         "fat": {
@@ -5830,7 +3247,8 @@
         },
         "calories": {
             "value": 24.8
-        }
+        },
+        "servingSize": 46.0
     },
     "chives": {},
     "salt": {
@@ -5838,7 +3256,7 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 590
+            "value": 390
         },
         "carbohydrates": {
             "value": 0.0
@@ -5848,54 +3266,14 @@
         },
         "calories": {
             "value": 0.0
-        }
-    },
-    "split pea with ham soup": {
-        "fat": {
-            "value": 4.51
         },
-        "saturatedFat": {
-            "value": 1.49
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 14.7
-        },
-        "sodium": {
-            "value": 669
-        },
-        "carbohydrates": {
-            "value": 16.0
-        },
-        "fiber": {
-            "value": 3.92
-        },
-        "sugars": {
-            "value": 2.99
-        },
-        "protein": {
-            "value": 8.01
-        },
-        "calcium": {
-            "value": 39.2
-        },
-        "iron": {
-            "value": 1.45
-        },
-        "calories": {
-            "value": 140
-        }
+        "servingSize": 1.0
     },
     "apples": {
         "fat": {
             "value": 0.0
         },
         "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
             "value": 0.0
         },
         "cholesterol": {
@@ -5927,45 +3305,8 @@
         },
         "calories": {
             "value": 80.1
-        }
-    },
-    "scrapple": {
-        "fat": {
-            "value": 5.0
         },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 30.2
-        },
-        "sodium": {
-            "value": 250
-        },
-        "carbohydrates": {
-            "value": 6.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.44
-        },
-        "calories": {
-            "value": 90.2
-        }
+        "servingSize": 154.0
     },
     "artichokes": {
         "fat": {
@@ -6000,7 +3341,8 @@
         },
         "calories": {
             "value": 60.0
-        }
+        },
+        "servingSize": 120.0
     },
     "raspberries": {
         "fat": {
@@ -6038,45 +3380,8 @@
         },
         "calories": {
             "value": 70.0
-        }
-    },
-    "chicken": {
-        "fat": {
-            "value": 1.0
         },
-        "saturatedFat": {
-            "value": 0.498
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 25.2
-        },
-        "sodium": {
-            "value": 100
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 12.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 59.9
-        }
+        "servingSize": 140.0
     },
     "kale": {
         "fat": {
@@ -6117,151 +3422,15 @@
         },
         "calories": {
             "value": 59.9
-        }
-    },
-    "pretzels": {
-        "fat": {
-            "value": 0.501
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 480
-        },
-        "carbohydrates": {
-            "value": 23.0
-        },
-        "fiber": {
-            "value": 1.99
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 3.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.0
-        },
-        "potassium": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 110
-        }
-    },
-    "breakfast bar": {
-        "fat": {
-            "value": 6.0
-        },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 1.08
-        },
-        "carbohydrates": {
-            "value": 11.0
-        },
-        "fiber": {
-            "value": 0.999
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 20.0
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 75.1
-        }
-    },
-    "escarole": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 20.4
-        },
-        "carbohydrates": {
-            "value": 3.0
-        },
-        "fiber": {
-            "value": 2.98
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 1.0
-        },
-        "calcium": {
-            "value": 40.0
-        },
-        "potassium": {
-            "value": 270
-        },
-        "calories": {
-            "value": 15.3
-        }
+        "servingSize": 113.0
     },
     "cranberry juice cocktail": {
         "fat": {
             "value": 0.0
         },
-        "sodium": {
-            "value": 0.0
-        },
-        "carbohydrates": {
-            "value": 38.0
-        },
-        "sugars": {
-            "value": 37.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 150
-        }
-    },
-    "granola bar": {
-        "fat": {
-            "value": 7.0
-        },
         "saturatedFat": {
-            "value": 2.0
+            "value": 0.0
         },
         "transFat": {
             "value": 0.0
@@ -6270,32 +3439,36 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 44.9
+            "value": 0.0
         },
         "carbohydrates": {
-            "value": 22.0
+            "value": 85.3
         },
         "fiber": {
-            "value": 2.01
+            "value": 0.0
         },
         "sugars": {
-            "value": 12.0
+            "value": 80.6
         },
         "protein": {
-            "value": 3.0
+            "value": 0.0
         },
         "calcium": {
-            "value": 20.1
+            "value": 59.2
         },
         "iron": {
-            "value": 0.721
+            "value": 0.0
         },
         "potassium": {
-            "value": 120
+            "value": 118
+        },
+        "addedSugar": {
+            "value": 73.5
         },
         "calories": {
-            "value": 150
-        }
+            "value": 332
+        },
+        "servingSize": 237.0
     },
     "corn flour": {
         "fat": {
@@ -6333,92 +3506,8 @@
         },
         "calories": {
             "value": 110
-        }
-    },
-    "sweet rolls": {
-        "fat": {
-            "value": 2.0
         },
-        "saturatedFat": {
-            "value": 0.502
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 4.94
-        },
-        "sodium": {
-            "value": 170
-        },
-        "carbohydrates": {
-            "value": 17.0
-        },
-        "fiber": {
-            "value": 0.988
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 132
-        },
-        "iron": {
-            "value": 0.999
-        },
-        "potassium": {
-            "value": 42.2
-        },
-        "addedSugar": {
-            "value": 2.01
-        },
-        "calories": {
-            "value": 99.9
-        }
-    },
-    "breakfast bars": {
-        "fat": {
-            "value": 6.0
-        },
-        "saturatedFat": {
-            "value": 3.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 135
-        },
-        "carbohydrates": {
-            "value": 25.0
-        },
-        "fiber": {
-            "value": 5.0
-        },
-        "sugars": {
-            "value": 4.0
-        },
-        "protein": {
-            "value": 12.0
-        },
-        "calcium": {
-            "value": 80.0
-        },
-        "iron": {
-            "value": 3.6
-        },
-        "potassium": {
-            "value": 95.0
-        },
-        "calories": {
-            "value": 190
-        }
+        "servingSize": 29.0
     },
     "currants": {
         "fat": {
@@ -6456,83 +3545,8 @@
         },
         "calories": {
             "value": 110
-        }
-    },
-    "kefir": {
-        "fat": {
-            "value": 4.51
         },
-        "saturatedFat": {
-            "value": 3.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 19.2
-        },
-        "sodium": {
-            "value": 139
-        },
-        "carbohydrates": {
-            "value": 14.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 14.0
-        },
-        "protein": {
-            "value": 10.0
-        },
-        "calcium": {
-            "value": 350
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 130
-        }
-    },
-    "lasagna": {
-        "fat": {
-            "value": 9.01
-        },
-        "saturatedFat": {
-            "value": 4.99
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 39.1
-        },
-        "sodium": {
-            "value": 441
-        },
-        "carbohydrates": {
-            "value": 22.0
-        },
-        "fiber": {
-            "value": 1.95
-        },
-        "sugars": {
-            "value": 3.99
-        },
-        "protein": {
-            "value": 12.0
-        },
-        "calcium": {
-            "value": 200
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "calories": {
-            "value": 219
-        }
+        "servingSize": 40.0
     },
     "potato puffs": {
         "fat": {
@@ -6570,89 +3584,8 @@
         },
         "calories": {
             "value": 140
-        }
-    },
-    "biscuits": {
-        "fat": {
-            "value": 11.0
         },
-        "saturatedFat": {
-            "value": 7.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 24.8
-        },
-        "sodium": {
-            "value": 600
-        },
-        "carbohydrates": {
-            "value": 22.0
-        },
-        "fiber": {
-            "value": 0.992
-        },
-        "sugars": {
-            "value": 3.0
-        },
-        "protein": {
-            "value": 12.0
-        },
-        "calcium": {
-            "value": 19.8
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 200
-        }
-    },
-    "garlic bread": {
-        "fat": {
-            "value": 8.0
-        },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 300
-        },
-        "carbohydrates": {
-            "value": 26.0
-        },
-        "fiber": {
-            "value": 1.03
-        },
-        "sugars": {
-            "value": 0.998
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 10.3
-        },
-        "iron": {
-            "value": 1.8
-        },
-        "potassium": {
-            "value": 59.8
-        },
-        "addedSugar": {
-            "value": 1.03
-        },
-        "calories": {
-            "value": 200
-        }
+        "servingSize": 85.0
     },
     "okra": {
         "fat": {
@@ -6687,39 +3620,35 @@
         },
         "calories": {
             "value": 44.0
-        }
+        },
+        "servingSize": 100.0
     },
     "pickles": {
         "fat": {
             "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
         "sodium": {
-            "value": 300
+            "value": 0.0
         },
         "carbohydrates": {
-            "value": 1.0
+            "value": 14.0
         },
         "fiber": {
-            "value": 0.0
+            "value": 0.99
         },
         "sugars": {
-            "value": 1.0
+            "value": 10.0
         },
         "protein": {
             "value": 0.0
         },
+        "iron": {
+            "value": 0.72
+        },
         "calories": {
-            "value": 5.0
-        }
+            "value": 50.1
+        },
+        "servingSize": 30.0
     },
     "orange juice": {
         "fat": {
@@ -6737,12 +3666,16 @@
         "protein": {
             "value": 1.99
         },
+        "calcium": {
+            "value": 19.2
+        },
         "potassium": {
             "value": 451
         },
         "calories": {
             "value": 110
-        }
+        },
+        "servingSize": 240.0
     },
     "pears": {
         "fat": {
@@ -6780,7 +3713,8 @@
         },
         "calories": {
             "value": 115
-        }
+        },
+        "servingSize": 40.0
     },
     "juice": {
         "fat": {
@@ -6796,73 +3730,33 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 0.0
+            "value": 10.6
         },
         "carbohydrates": {
-            "value": 0.0
+            "value": 51.0
         },
         "fiber": {
-            "value": 0.0
+            "value": 1.06
         },
         "sugars": {
-            "value": 0.0
+            "value": 45.0
         },
         "protein": {
-            "value": 0.0
+            "value": 0.994
         },
         "calcium": {
-            "value": 0.0
+            "value": 21.3
         },
         "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 0.0
-        }
-    },
-    "applesauce": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 10.2
-        },
-        "carbohydrates": {
-            "value": 21.0
-        },
-        "fiber": {
-            "value": 1.02
-        },
-        "sugars": {
-            "value": 18.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
+            "value": 0.355
         },
         "potassium": {
-            "value": 70.1
-        },
-        "addedSugar": {
-            "value": 7.01
+            "value": 639
         },
         "calories": {
-            "value": 80.2
-        }
+            "value": 209
+        },
+        "servingSize": 355.0
     },
     "syrups": {
         "fat": {
@@ -6894,39 +3788,8 @@
         },
         "calories": {
             "value": 44.9
-        }
-    },
-    "yogurt parfait": {
-        "fat": {
-            "value": 2.0
         },
-        "saturatedFat": {
-            "value": 0.5
-        },
-        "sodium": {
-            "value": 74.4
-        },
-        "carbohydrates": {
-            "value": 28.0
-        },
-        "fiber": {
-            "value": 0.976
-        },
-        "sugars": {
-            "value": 15.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 100
-        },
-        "iron": {
-            "value": 0.72
-        },
-        "calories": {
-            "value": 150
-        }
+        "servingSize": 14.0
     },
     "tangerine juice": {
         "fat": {
@@ -6964,45 +3827,8 @@
         },
         "calories": {
             "value": 110
-        }
-    },
-    "beef stew": {
-        "fat": {
-            "value": 10.0
         },
-        "saturatedFat": {
-            "value": 3.99
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 30.7
-        },
-        "sodium": {
-            "value": 989
-        },
-        "carbohydrates": {
-            "value": 17.0
-        },
-        "fiber": {
-            "value": 0.944
-        },
-        "sugars": {
-            "value": 3.0
-        },
-        "protein": {
-            "value": 10.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.354
-        },
-        "calories": {
-            "value": 201
-        }
+        "servingSize": 240.0
     },
     "peaches": {
         "fat": {
@@ -7040,121 +3866,8 @@
         },
         "calories": {
             "value": 114
-        }
-    },
-    "turkey": {
-        "fat": {
-            "value": 3.0
         },
-        "saturatedFat": {
-            "value": 0.991
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 80.2
-        },
-        "sodium": {
-            "value": 1230.0
-        },
-        "carbohydrates": {
-            "value": 16.0
-        },
-        "fiber": {
-            "value": 3.07
-        },
-        "sugars": {
-            "value": 3.99
-        },
-        "protein": {
-            "value": 23.0
-        },
-        "calcium": {
-            "value": 99.1
-        },
-        "iron": {
-            "value": 2.69
-        },
-        "calories": {
-            "value": 191
-        }
-    },
-    "shake": {
-        "fat": {
-            "value": 7.0
-        },
-        "saturatedFat": {
-            "value": 1.5
-        },
-        "cholesterol": {
-            "value": 30.0
-        },
-        "sodium": {
-            "value": 340
-        },
-        "carbohydrates": {
-            "value": 20.0
-        },
-        "fiber": {
-            "value": 3.0
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 42.0
-        },
-        "calcium": {
-            "value": 800
-        },
-        "iron": {
-            "value": 3.6
-        },
-        "potassium": {
-            "value": 850
-        },
-        "calories": {
-            "value": 300
-        }
-    },
-    "roast beef": {
-        "fat": {
-            "value": 2.5
-        },
-        "saturatedFat": {
-            "value": 1.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 25.0
-        },
-        "sodium": {
-            "value": 450
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 9.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 60.0
-        }
+        "servingSize": 40.0
     },
     "broccoli": {
         "fat": {
@@ -7192,68 +3905,29 @@
         },
         "calories": {
             "value": 50.3
-        }
+        },
+        "servingSize": 148.0
     },
     "grape juice": {
         "fat": {
             "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
         "sodium": {
-            "value": 36.0
+            "value": 0.0
         },
         "carbohydrates": {
-            "value": 40.0
+            "value": 26.0
         },
         "sugars": {
-            "value": 39.0
+            "value": 24.0
         },
         "protein": {
             "value": 0.0
         },
-        "potassium": {
-            "value": 230
-        },
         "calories": {
-            "value": 161
-        }
-    },
-    "carrot juice": {
-        "fat": {
-            "value": 0.0
+            "value": 110
         },
-        "sodium": {
-            "value": 240
-        },
-        "carbohydrates": {
-            "value": 14.0
-        },
-        "sugars": {
-            "value": 11.0
-        },
-        "protein": {
-            "value": 1.99
-        },
-        "calcium": {
-            "value": 60.0
-        },
-        "iron": {
-            "value": 0.36
-        },
-        "potassium": {
-            "value": 590
-        },
-        "calories": {
-            "value": 69.6
-        }
+        "servingSize": 240.0
     },
     "pineapple juice": {
         "fat": {
@@ -7291,7 +3965,8 @@
         },
         "calories": {
             "value": 70.0
-        }
+        },
+        "servingSize": 125.0
     },
     "bamboo shoots": {
         "fat": {
@@ -7329,9 +4004,9 @@
         },
         "calories": {
             "value": 25.2
-        }
+        },
+        "servingSize": 120.0
     },
-    "potato chips": {},
     "tomato juice": {
         "fat": {
             "value": 0.0
@@ -7368,7 +4043,8 @@
         },
         "calories": {
             "value": 50.4
-        }
+        },
+        "servingSize": 240.0
     },
     "mung beans": {
         "fat": {
@@ -7409,206 +4085,38 @@
         },
         "calories": {
             "value": 170
-        }
-    },
-    "snacks": {
-        "fat": {
-            "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 24.9
-        },
-        "carbohydrates": {
-            "value": 20.0
-        },
-        "fiber": {
-            "value": 1.99
-        },
-        "sugars": {
-            "value": 16.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.361
-        },
-        "calories": {
-            "value": 80.1
-        }
-    },
-    "corn dogs": {
-        "fat": {
-            "value": 8.0
-        },
-        "saturatedFat": {
-            "value": 2.5
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 29.6
-        },
-        "sodium": {
-            "value": 610
-        },
-        "carbohydrates": {
-            "value": 24.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 9.0
-        },
-        "protein": {
-            "value": 7.0
-        },
-        "calcium": {
-            "value": 9.88
-        },
-        "iron": {
-            "value": 1.3
-        },
-        "potassium": {
-            "value": 170
-        },
-        "addedSugar": {
-            "value": 7.98
-        },
-        "calories": {
-            "value": 200
-        }
-    },
-    "rice mix": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 710
-        },
-        "carbohydrates": {
-            "value": 42.0
-        },
-        "fiber": {
-            "value": 1.01
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 5.0
-        },
-        "calcium": {
-            "value": 59.9
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 190
-        }
+        "servingSize": 50.0
     },
     "popcorn": {
         "fat": {
-            "value": 12.0
-        },
-        "saturatedFat": {
-            "value": 2.0
-        },
-        "transFat": {
-            "value": 0.0
+            "value": 0.998
         },
         "cholesterol": {
             "value": 0.0
         },
         "sodium": {
-            "value": 320
+            "value": 0.0
         },
         "carbohydrates": {
-            "value": 12.0
+            "value": 22.0
         },
         "fiber": {
-            "value": 1.99
-        },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 19.9
-        },
-        "iron": {
-            "value": 0.361
-        },
-        "calories": {
-            "value": 160
-        }
-    },
-    "ice cream cones": {
-        "fat": {
-            "value": 0.0
-        },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 10.0
-        },
-        "carbohydrates": {
-            "value": 4.0
-        },
-        "fiber": {
-            "value": 0.0
+            "value": 4.02
         },
         "sugars": {
             "value": 0.0
         },
         "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
+            "value": 3.0
         },
         "iron": {
-            "value": 0.0
-        },
-        "potassium": {
-            "value": 0.0
+            "value": 0.722
         },
         "calories": {
-            "value": 20.0
-        }
+            "value": 110
+        },
+        "servingSize": 39.0
     },
     "quinoa": {
         "fat": {
@@ -7646,39 +4154,8 @@
         },
         "calories": {
             "value": 150
-        }
-    },
-    "sauce": {
-        "fat": {
-            "value": 0.0
         },
-        "saturatedFat": {
-            "value": 0.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 90.0
-        },
-        "carbohydrates": {
-            "value": 0.4
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 2.0
-        }
+        "servingSize": 140.0
     },
     "pickle relish": {
         "fat": {
@@ -7716,45 +4193,8 @@
         },
         "calories": {
             "value": 30.0
-        }
-    },
-    "ice cream": {
-        "fat": {
-            "value": 9.0
         },
-        "saturatedFat": {
-            "value": 7.0
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 20.2
-        },
-        "sodium": {
-            "value": 44.9
-        },
-        "carbohydrates": {
-            "value": 22.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 16.0
-        },
-        "protein": {
-            "value": 2.0
-        },
-        "calcium": {
-            "value": 59.8
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 180
-        }
+        "servingSize": 28.0
     },
     "soymilk": {
         "fat": {
@@ -7795,45 +4235,8 @@
         },
         "calories": {
             "value": 101
-        }
-    },
-    "canadian bacon": {
-        "fat": {
-            "value": 1.5
         },
-        "saturatedFat": {
-            "value": 0.498
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 20.2
-        },
-        "sodium": {
-            "value": 650
-        },
-        "carbohydrates": {
-            "value": 1.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 9.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.358
-        },
-        "calories": {
-            "value": 49.8
-        }
+        "servingSize": 240.0
     },
     "nectarines": {
         "fat": {
@@ -7868,7 +4271,8 @@
         },
         "calories": {
             "value": 60.2
-        }
+        },
+        "servingSize": 140.0
     },
     "wild rice": {
         "fat": {
@@ -7909,45 +4313,8 @@
         },
         "calories": {
             "value": 170
-        }
-    },
-    "pancakes": {
-        "fat": {
-            "value": 1.5
         },
-        "saturatedFat": {
-            "value": 0.502
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 32.2
-        },
-        "sodium": {
-            "value": 237
-        },
-        "carbohydrates": {
-            "value": 33.0
-        },
-        "fiber": {
-            "value": 0.992
-        },
-        "sugars": {
-            "value": 9.0
-        },
-        "protein": {
-            "value": 4.0
-        },
-        "calcium": {
-            "value": 60.1
-        },
-        "iron": {
-            "value": 0.0
-        },
-        "calories": {
-            "value": 170
-        }
+        "servingSize": 45.0
     },
     "rye flour": {
         "fat": {
@@ -7985,11 +4352,12 @@
         },
         "calories": {
             "value": 90.0
-        }
+        },
+        "servingSize": 30.0
     },
-    "vermicelli": {
+    "capers": {
         "fat": {
-            "value": 1.0
+            "value": 0.0
         },
         "saturatedFat": {
             "value": 0.0
@@ -8001,72 +4369,31 @@
             "value": 0.0
         },
         "sodium": {
-            "value": 0.0
+            "value": 800
         },
         "carbohydrates": {
-            "value": 39.0
-        },
-        "fiber": {
             "value": 2.0
         },
-        "sugars": {
-            "value": 2.0
-        },
-        "protein": {
-            "value": 6.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.72
-        },
-        "calories": {
-            "value": 190
-        }
-    },
-    "chicken tenders": {
-        "fat": {
-            "value": 3.0
-        },
-        "saturatedFat": {
-            "value": 0.504
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 79.5
-        },
-        "sodium": {
-            "value": 50.4
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
         "fiber": {
-            "value": 0.0
+            "value": 2.01
         },
         "sugars": {
             "value": 0.0
         },
         "protein": {
-            "value": 25.0
+            "value": 0.0
         },
         "calcium": {
-            "value": 5.6
+            "value": 0.0
         },
         "iron": {
-            "value": 0.403
-        },
-        "potassium": {
-            "value": 370
+            "value": 0.36
         },
         "calories": {
-            "value": 130
-        }
+            "value": 8.1
+        },
+        "servingSize": 30.0
     },
-    "capers": {},
     "pumpkin": {
         "fat": {
             "value": 0.0
@@ -8103,161 +4430,43 @@
         },
         "calories": {
             "value": 50.4
-        }
-    },
-    "apple": {
-        "fat": {
-            "value": 1.0
         },
-        "saturatedFat": {
+        "servingSize": 120.0
+    },
+    "apricots": {
+        "fat": {
             "value": 0.0
         },
-        "transFat": {
+        "saturatedFat": {
             "value": 0.0
         },
         "cholesterol": {
             "value": 0.0
         },
         "sodium": {
-            "value": 0.0
+            "value": 3.9
         },
         "carbohydrates": {
             "value": 22.0
         },
         "fiber": {
-            "value": 4.93
-        },
-        "sugars": {
-            "value": 16.0
-        },
-        "protein": {
-            "value": 0.0
-        },
-        "calcium": {
-            "value": 0.0
-        },
-        "iron": {
-            "value": 0.354
-        },
-        "potassium": {
-            "value": 169
-        },
-        "calories": {
-            "value": 80.1
-        }
-    },
-    "salmon": {
-        "fat": {
-            "value": 22.0
-        },
-        "saturatedFat": {
-            "value": 3.49
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 79.5
-        },
-        "sodium": {
-            "value": 89.5
-        },
-        "carbohydrates": {
-            "value": 0.0
-        },
-        "fiber": {
-            "value": 0.0
-        },
-        "sugars": {
-            "value": 0.0
-        },
-        "protein": {
-            "value": 27.0
-        },
-        "calcium": {
-            "value": 19.9
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 329
-        }
-    },
-    "noodel": {
-        "fat": {
-            "value": 2.01
-        },
-        "saturatedFat": {
-            "value": 0.49
-        },
-        "transFat": {
-            "value": 0.0
-        },
-        "cholesterol": {
-            "value": 19.6
-        },
-        "sodium": {
-            "value": 669
-        },
-        "carbohydrates": {
-            "value": 12.0
-        },
-        "fiber": {
-            "value": 1.96
-        },
-        "sugars": {
-            "value": 1.0
-        },
-        "protein": {
-            "value": 7.01
-        },
-        "calcium": {
-            "value": 19.6
-        },
-        "iron": {
-            "value": 1.08
-        },
-        "calories": {
-            "value": 90.6
-        }
-    },
-    "kebab": {
-        "fat": {
-            "value": 7.0
-        },
-        "saturatedFat": {
-            "value": 0.5
-        },
-        "cholesterol": {
-            "value": 0.0
-        },
-        "sodium": {
-            "value": 370
-        },
-        "carbohydrates": {
             "value": 3.0
         },
-        "fiber": {
-            "value": 0.0
-        },
         "sugars": {
-            "value": 0.0
+            "value": 19.0
         },
         "protein": {
-            "value": 12.0
+            "value": 0.999
         },
         "calcium": {
-            "value": 30.0
+            "value": 39.9
         },
         "iron": {
-            "value": 0.9
-        },
-        "potassium": {
-            "value": 120
+            "value": 1.44
         },
         "calories": {
-            "value": 120
-        }
+            "value": 90.0
+        },
+        "servingSize": 30.0
     }
 }

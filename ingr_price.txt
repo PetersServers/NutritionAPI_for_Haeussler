@@ -1,9 +1,231 @@
-apricots, 1
-rice, 1.5
-mangos, 1.5
-macaroni and cheese, 1.5
-tortellini, 1.3
-rutabagas, 1.2
-leeks, 1.8
-focaccia, 1.9
-pizza, 1.89
+apricots,1,48
+rice,0,4
+mangos,2,5
+macaroni and cheese,1,55
+tortellini,0,4
+rutabagas,0,1
+leeks,0,49
+focaccia,2,49
+pizza,1,33
+cassava,0,56
+soup,1,59
+pie crust,1,49
+margarine,0,64
+apple juice,0,1
+crackers,2,19
+garlic,1,69
+pasta,0,24
+avocados,0,6
+edamame,2,3
+water,0,05
+ice cream cone,0,49
+sweet potatoes,0,48
+lemons,0,29
+strawberries,0,68
+doughnuts,1,12
+oat bran,0,43
+sausage,1,79
+fruit cocktail,7,0
+tapioca,1,0
+luncheon meat,1,89
+bread,0,35
+bagels,1,54
+corn,0,36
+waffle,1,21
+toaster pastries,0,45
+salad dressing,0,58
+creamy dressing,0,62
+light ice cream,0,49
+mushrooms,0,4
+tomatillos,0,73
+wheat flour,0,1
+cranberry juice,0,44
+pie,1,22
+oranges,0,15
+pepperoni,1,41
+shortening,0,49
+dates,0,85
+cinnamon buns,1,84
+kielbasa,2,32
+blackberries,1,86
+beef,1,83
+mango,0,59
+chili,2,5
+cookie,0,57
+peanut spread,1,39
+salad dressing,0,58
+peppers,0,48
+rice flour,0,9
+chicken pot pie,1,9
+potatoes,0,29
+hearts of palm,1,76
+peanuts,0,98
+puff pastry,0,58
+oil,0,49
+light ice cream,0,49
+sweetener,5,9
+rice noodles,0,52
+asparagus,1,6
+radicchio,0,52
+salami,2,09
+yogurt,0,35
+maraschino cherries,1,38
+sherbet,1,95
+sour cream,0,99
+peas,0,19
+lemonade,0,24
+bacon,2,09
+yam,1,99
+arugula,1,99
+noodles,0,14
+lemon juice,0,14
+meatballs,0,8
+ice cream bar,0,2
+lemon juice from concentrate,0,14
+cake,0,24
+cauliflower,0,19
+brussels sprouts,0,16
+sweet potato,0,24
+frankfurter,1,39
+buckwheat flour,0,46
+knackwurst,1,69
+chayote,0,35
+cookies,0,33
+cheese,0,56
+pepper,4,99
+carrots,0,14
+chili with beans,0,47
+lima beans,6,89
+pomegranate juice,0,27
+syrup,1,6
+prune juice,0,22
+turkey breast,1,6
+celery,0,13
+muffins,1,95
+limes,0,88
+soy flour,1,08
+waffles,0,32
+snack,1,5
+couscous,0,36
+kiwifruit,1,2
+candies,0,39
+figs,0,97
+pineapple,0,3
+croissants,0,62
+spices,4,99
+spinach,0,6
+bulgur,0,42
+watermelon,0,29
+taco shells,1,92
+hominy,0,64
+tomatoes,0,34
+grapefruit,0,49
+milk,0,62
+radishes,0,59
+egg rolls,3,2
+lime juice,0,63
+basil,3,9
+cheese spread,1,8
+macaroni,0,2
+cocoa,1,5
+lentils,0,16
+lemon peel,12,9
+mayonnaise,0,19
+onion rings,0,79
+parsley,3,98
+dessert topping,0,86
+grapefruit juice,0,21
+ravioli,0,44
+malt beverage,0,27
+olives,7,12
+cornmeal,0,34
+beans,0,48
+rolls,0,67
+gelatin desserts,1,4
+pork,0,95
+pie crust,0,77
+dressing,0,6
+mustard greens,0,8
+cherries,0,99
+turnip greens,1,07
+tofu,0,5
+cranberries,2,4
+tortillas,1,45
+grape leaves,2,2
+beverage,0,26
+blueberries,1,6
+dip,1,2
+chicken breast,11,6
+taquitos,11,6
+beets,2,2
+turkey ham,0,6
+grapes,0,69
+egg substitute,4,97
+chives,3,98
+salt,0,28
+split pea with ham soup,0,39
+apples,0,12
+scrapple,3,6
+egg,0,35
+artichokes,1,4
+raspberries,1,15
+chicken,0,45
+kale,1,16
+pretzels,3,98
+dumpling,1,8
+breakfast bar,0,65
+escarole,1,7
+cranberry juice cocktail,7,0
+granola bar,0,65
+muffin,1,95
+corn flour,0,44
+sweet rolls,1,35
+breakfast bars,0,65
+currants,1,32
+kefir,0,35
+lasagna,1,14
+potato puffs,0,75
+biscuits,0,6
+garlic bread,0,56
+okra,2,2
+pickles,0,25
+orange juice,0,08
+pears,0,18
+juice,0,53
+applesauce,0,36
+syrups,1,6
+yogurt parfait,0,16
+tangerine juice,0,36
+beef stew,3,29
+peaches,0,29
+turkey,1,69
+shake,1,7
+roast beef,2,99
+broccoli,0,23
+grape juice,0,1
+carrot juice,0,14
+pineapple juice,0,14
+bamboo shoots,1,1
+potato chips,1,5
+tomato juice,0,19
+butter,1,32
+mung beans,0,95
+snacks,1,5
+corn dogs,0,55
+rice mix,0,3
+popcorn,0,96
+ice cream cones,1,19
+quinoa,0,9
+sauce,1,3
+pickle relish,0,8
+ice cream,0,49
+soymilk,0,16
+canadian bacon,1,73
+nectarines,0,18
+wild rice,0,3
+pancakes,0,68
+rye flour,0,19
+vermicelli,0,2
+chicken tenders,0,59
+capers,1,65
+pumpkin,0,24
