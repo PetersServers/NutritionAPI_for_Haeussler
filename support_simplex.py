@@ -12,39 +12,37 @@ def calculation(foods, prices, man):
     # Set objective function: Maximize protein
     lp_prob += sum(foods[f].get("protein", 0) * food_vars[f] for f in foods)
     # Constraints for healthy intake for a grown man:
-    # - at least 56 grams of protein
+    # - at least 50 grams of protein
     if any(foods[f].get("protein") for f in foods):
-        lp_prob += sum(foods[f]["protein"] * food_vars[f] for f in foods) >= 56 if man else 30
-    if any(foods[f].get("protein") for f in foods):
-        lp_prob += sum(foods[f]["protein"] * food_vars[f] for f in foods) <= 150 if man else 130
-    # - at most 30% of calories from fat
-    if any(foods[f].get("fat") and foods[f].get("calories") for f in foods):
-        lp_prob += sum(foods[f]["fat"] * food_vars[f] for f in foods) <= 0.3 * sum(foods[f]["calories"] * food_vars[f] for f in foods)
+        lp_prob += sum(foods[f]["protein"] * food_vars[f] for f in foods) >= 50
+    # - maximum amount of fat 78
     if any(foods[f].get("fat") for f in foods):
-        lp_prob += sum(foods[f]["fat"] * food_vars[f] for f in foods) >=0
+        lp_prob += sum(foods[f]["fat"] * food_vars[f] for f in foods) >= 78
+    if any(foods[f].get("fat") for f in foods):
+        lp_prob += sum(foods[f]["fat"] * food_vars[f] for f in foods) >= 0
     # - at most 300 mg of cholesterol
     if any(foods[f].get("cholesterol") for f in foods):
-        lp_prob += sum(foods[f]["cholesterol"] * food_vars[f] for f in foods) <= 300 if man else 200
+        lp_prob += sum(foods[f]["cholesterol"] * food_vars[f] for f in foods) <= 300
     if any(foods[f].get("cholesterol") for f in foods):
         lp_prob += sum(foods[f]["cholesterol"] * food_vars[f] for f in foods) >= 0
     # - at most 2,300 mg of sodium
     if any(foods[f].get("sodium") for f in foods):
-        lp_prob += sum(foods[f]["sodium"] * food_vars[f] for f in foods) <= 23 if man else 20
-    # - at least 20 grams of fiber
+        total_sodium = sum(foods[f]["sodium"] * food_vars[f] for f in foods)
+        lp_prob += total_sodium >= 500
+        lp_prob += total_sodium <= 2300
+    # - at least 28 grams of fiber
     if any(foods[f].get("fiber") for f in foods):
-        lp_prob += sum(foods[f]["fiber"] * food_vars[f] for f in foods) >= 30 if man else 25
-    # - at most 25 grams of sugar
+        lp_prob += sum(foods[f]["fiber"] * food_vars[f] for f in foods) >= 28
+    # - at most 50 grams of sugar
     if any(foods[f].get("sugars") for f in foods):
-        lp_prob += sum(foods[f]["sugars"] * food_vars[f] for f in foods) <= 25 if man else 10
-    # - at least 1000 mg of calcium
+        lp_prob += sum(foods[f]["sugars"] * food_vars[f] for f in foods) <= 50
+    # - at least 1300 mg of calcium
     if any(foods[f].get("calcium") for f in foods):
-        lp_prob += sum(foods[f]["calcium"] * food_vars[f] for f in foods) >= 0.0010 if man else 0.0007
+        lp_prob += sum(foods[f]["calcium"] * food_vars[f] for f in foods) >= 1300
     if any(foods[f].get("iron") for f in foods):
-        lp_prob += sum(foods[f]["iron"] * food_vars[f] for f in foods) >= 0.008 if man else 0.006
+        lp_prob += sum(foods[f]["iron"] * food_vars[f] for f in foods) >= 18 if man else 27
     if any(foods[f].get("calories") for f in foods):
-        lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) >= 2800 if man else 1800
-    if any(foods[f].get("calories") for f in foods):
-        lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) <= 3500 if man else 2000
+        lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) >= 2000
     # Solve the optimization problem
     status = lp_prob.solve()
 
