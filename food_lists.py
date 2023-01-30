@@ -10,7 +10,7 @@ import vegan
 #mainly works via lists
 
 #all vegan foods from ingr.txt
-foods_vegan = vegan
+foods_vegan = vegan.vegan_l
 
 def call_stored_foods(vegan, num_items, random=False):
     #function that returns lists based on specifications
