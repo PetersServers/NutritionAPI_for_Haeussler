@@ -164,7 +164,7 @@ egg substitute,4,97
 chives,3,98
 salt,0,28
 split pea with ham soup,0,39
-apples,0,12
+apple,0,12
 scrapple,3,6
 egg,0,35
 artichokes,1,4
@@ -229,3 +229,5 @@ vermicelli,0,2
 chicken tenders,0,59
 capers,1,65
 pumpkin,0,24
+salmon,4,99
+noodel,0,2

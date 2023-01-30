@@ -32,7 +32,6 @@ def get_prices(foods):
         for line in file:
             food, eur, cent = line.strip().split(',')
             price = eur + '.' + cent
-            print(price)
             price = float(price)
             if food in foods:
                 prices[food] = price

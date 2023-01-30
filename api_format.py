@@ -35,8 +35,13 @@ def call_api_data(food_list):
             print(url)
             print("**")
             original_dict[food_name] = response.json()["labelNutrients"]
-            print(original_dict[food_name])
-
+            # add the serving size to the dictionary
+            try:
+                serv = response.json()["servingSize"]
+                original_dict[food_name]["servingSize"] = serv
+                print(original_dict[food_name])
+            except:
+                continue
         #check if serving size is included change values  not
         if 'servingSize' not in original_dict[food_name]:
             url = f"https://api.nal.usda.gov/fdc/v1/search?api_key={api_key}&query={food_name}"
@@ -48,11 +53,9 @@ def call_api_data(food_list):
             url = f"https://api.nal.usda.gov/fdc/v1/{food_id}?api_key={api_key}"
             response = requests.get(url)
             try:
-
                 serv = response.json()["servingSize"]
                 #add the serving size to the dictionary
                 original_dict[food_name]["servingSize"] = serv
-                print(original_dict[food_name]["servingSize"])
             except:
                 continue
 
@@ -64,7 +67,6 @@ def call_api_data(food_list):
     #normalizes the nutritional values to per 100g
     original_dict = {food: original_dict[food] for food in original_dict if food in food_list}
     new_dict = {food: {nutrient: original_dict[food].get(nutrient, {}).get("value", None) / original_dict[food].get("servingSize") * 100 for nutrient in original_dict[food] if nutrient != 'servingSize'} for food in original_dict}
-    print(new_dict)
     return ensure_values(new_dict)
 
 
