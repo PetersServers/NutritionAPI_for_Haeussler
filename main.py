@@ -34,7 +34,7 @@ class simplex:
         return self.difference
 
 #set to vegan for testing
-simplex = simplex(man=True, vegan=True, random=False, num=100)
+simplex = simplex(man=True, vegan=True, random=True, num=100)
 simplex.calculate()
 
 

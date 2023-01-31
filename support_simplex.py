@@ -42,7 +42,7 @@ def calculation(foods, prices, man):
     if any(foods[f].get("iron") for f in foods):
         lp_prob += sum(foods[f]["iron"] * food_vars[f] for f in foods) >= 18 if man else 27
     if any(foods[f].get("calories") for f in foods):
-        lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) >= 2000
+        lp_prob += sum(foods[f]["calories"] * food_vars[f] for f in foods) <= 2000
     # Solve the optimization problem
     status = lp_prob.solve()
 
