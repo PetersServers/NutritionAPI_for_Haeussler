@@ -1,40 +1,36 @@
-from api_format import *
+from data_management import *
 from support_simplex import *
 import random
-from food_lists import *
+from list_management import *
+
+#write a pandas vis for result and use webdriver to analyze if food is vegan or not
 
 class simplex:
-    def __init__(self, man, vegan, random, num):
+    def __init__(self, man, nutritious, vegan):
+
         print("simplex is beeing initialized".upper())
-        self.man = man
+
+        self.cheap = False if nutritious else True
         self.vegan = vegan
-        self.foods = call_stored_foods(vegan=vegan, random=random,
-                                       num_items=num)
-        self.nutrition = call_api_data(self.foods)
-        self.prices = get_prices(self.foods)
-        self.optimized_food, self.cost = calculation(self.nutrition, self.prices, man)
-        #test if price of food is available locally
-        for food in self.foods:
-            if food not in self.prices:
-                raise ValueError(f"price of food {food} not stored locally")
+        self.man = man
+        self.nutritious = nutritious
+
+        self.foods = manage_lists(vegan=self.vegan)
+        print(self.foods)
+        self.data = manage_data(self.foods)
 
     def calculate(self):
-        return self.optimized_food
 
-    def recalculate(self):
-        print("simplex model initialized".upper())
-        self.foods = random.shuffle(self.foods)
-        self.optimized_food = self.optimized_food = \
-            calculation(self.nutrition, self.man)
-        return self.optimized_food
+        self.solution, self.food_vars = calculation(foods=self.data, cheap_mode=self.nutritious, man=self.man)
 
-    def __sub__(self, other):
-        self.difference = calculate_calculate_diff\
-            (self.optimized_food, self.cost,other.optimized_food, other.cost)
-        return self.difference
+    def illustrate(self):
+        plot_nutrient_price(self.solution, self.food_vars,
+                            cheap=self.cheap, vegan=self.vegan,
+                            man=self.man)
 
 #set to vegan for testing
-simplex = simplex(man=True, vegan=True, random=True, num=100)
+simplex = simplex(man=True, nutritious=False, vegan=True)
 simplex.calculate()
+simplex.illustrate()
 
 
