@@ -40,7 +40,7 @@ def validate_serving(response):
     return response["servingSize"]
 
 def validate_price(food_item):
-    with open("ingr_price.txt", "r") as f:
+    with open("configurable_file.txt", "r") as f:
         for line in f:
             item, price = line.strip().split(',')
             if item == food_item:
@@ -54,10 +54,10 @@ def _delete_line(text, item_to_delete):
     return "\n".join(new_lines)
 
 def delete_line_from_file(item_to_delete):
-    with open("ingr_price.txt", "r") as file:
+    with open("configurable_file.txt", "r") as file:
         text = file.read()
     new_text = _delete_line(text, item_to_delete)
-    with open("ingr_price.txt", "w") as file:
+    with open("configurable_file.txt", "w") as file:
         file.write(new_text)
 
 

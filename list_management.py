@@ -15,7 +15,7 @@ def _read_categorization():
         return vegan_l, non_vegan_l
 
 def manage_lists(vegan=False):
-    with open('ingr_price.txt', 'r') as f:
+    with open('configurable_file.txt', 'r') as f:
         grocery_list = f.readlines()
 
     grocery_list = [item.split(',')[0] for item in grocery_list]

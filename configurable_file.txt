@@ -224,3 +224,4 @@ pumpkin,0.24
 salmon,4.99
 noodel,0.2
 pineapple, 2
+ham, 2

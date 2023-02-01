@@ -5,6 +5,8 @@ from list_management import *
 
 #write a pandas vis for result and use webdriver to analyze if food is vegan or not
 
+#everything that is in json is evaluated, have to check why
+
 class simplex:
     def __init__(self, man, nutritious, vegan):
 
