@@ -19,6 +19,7 @@ class simplex:
         self.nutritious = nutritious
 
         self.foods = manage_lists(vegan=self.vegan)
+
         self.data = manage_data(self.foods)
 
     def calculate(self):
@@ -31,7 +32,7 @@ class simplex:
                             man=self.man)
 
 #set to vegan for testing
-simplex = simplex(man=True, nutritious=True, vegan=True)
+simplex = simplex(man=True, nutritious=False, vegan=False)
 simplex.calculate()
 simplex.illustrate()
 

@@ -1,15 +1,39 @@
 import pulp
 import time
 import matplotlib as plt
+import json
 
 
 
 import matplotlib.pyplot as plt
 
-def plot_nutrient_price(nutrient_dict, food_vars, vegan, cheap, man):
 
-    nutrients = list(nutrient_dict.keys())
-    values = list(nutrient_dict.values())
+def calculate_optimum(food_amounts):
+    with open("nutrition_data.json", "r") as f:
+        food_dict = json.load(f)
+
+    optimum_dict = {}
+    for food, amount in food_amounts.items():
+        optimum_dict[food] = {}
+        food_data = food_dict[food]['nutrients']
+        for nutrient, value in food_data.items():
+            optimum_dict[food][nutrient] = value * amount
+
+    return optimum_dict
+
+
+def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
+
+    nutrients = list(nutrient_parts.keys())
+    values = list(nutrient_parts.values())
+    food_items = [f for f in food_vars if food_vars[f].value() != None and float(food_vars[f].value()) > 0]
+    food_values = [food_vars[f].value() for f in food_items]
+    food_dict = dict(zip(food_items, food_values))
+    nutrient_parts = calculate_optimum(food_dict)
+
+    print(nutrient_parts)
+
+    exit()
 
     #optimum nutrients
     fig, ax = plt.subplots()
@@ -24,8 +48,7 @@ def plot_nutrient_price(nutrient_dict, food_vars, vegan, cheap, man):
     plt.show()
 
     #optimum consume
-    food_items = [f for f in food_vars if food_vars[f].value() != None and float(food_vars[f].value()) > 0]
-    food_values = [food_vars[f].value() for f in food_items]
+
     fig, ax = plt.subplots()
     ax.set_title(f"Optimum consumption | cheap = {cheap} | vegan = {vegan} | man = {man}")
     ax.bar(food_items, food_values)
@@ -33,6 +56,8 @@ def plot_nutrient_price(nutrient_dict, food_vars, vegan, cheap, man):
     ax.set_ylabel('Values')
     plt.xticks(rotation=0)
     plt.show()
+
+
 
 
 def print_solutions(solution):
@@ -50,8 +75,6 @@ def print_solutions(solution):
 
             print(82 * "-")
             print(f"optimum cost is {val}")
-
-    #print total price, and price per consumed product
 
 def calculation(foods, man,  cheap_mode):
 
