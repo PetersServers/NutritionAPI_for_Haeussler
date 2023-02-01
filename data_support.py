@@ -7,6 +7,7 @@ import requests
 
 def normalize_ensure_values(food_data):
     for food in food_data:
+        food_data[food] = {key: value for key, value in food_data[food].items() if key in desired_keys}
         for key in desired_keys:
             if key not in food_data[food]:
                 food_data[food].update({key: 0})

@@ -2,10 +2,13 @@ import pulp
 import time
 import matplotlib as plt
 import json
-
-
-
+from data_support import normalize_ensure_values
 import matplotlib.pyplot as plt
+import numpy as np
+
+#remove price and create price graph for all values in the optimum (already datenbasis bc calculate optimum)
+#make existant graphs more fancy
+
 
 
 def calculate_optimum(food_amounts):
@@ -21,36 +24,68 @@ def calculate_optimum(food_amounts):
 
     return optimum_dict
 
+def create_stacked_bar_chart(data):
+    nutrients = list(data.values())[0].keys()
+    values = {nutrient: [item[nutrient] for item in data.values()] for nutrient in nutrients}
+    fig, ax = plt.subplots()
+    bars = ax.bar(data.keys(), values[nutrients[0]], label=nutrients[0])
+    for i in range(1, len(nutrients)):
+        bars = [bar.set_bottom(sum(x[:i])) for x, bar in zip(values.values(), bars)]
+        ax.bar(data.keys(), values[nutrients[i]], bottom=sum(values[nutrients[:i]]), label=nutrients[i])
+    ax.set_xlabel("Food")
+    ax.set_ylabel("Amount of Nutrient per 100 g")
+    ax.legend(loc="upper left")
+    plt.show()
+
 
 def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
 
+    plt.style.use('seaborn-darkgrid')
+    color_style = "jet"
+
     nutrients = list(nutrient_parts.keys())
+    nutrients = [i for i in nutrients if i != "price"]
     values = list(nutrient_parts.values())
+    values.remove(values[len(values)-1])
     food_items = [f for f in food_vars if food_vars[f].value() != None and float(food_vars[f].value()) > 0]
     food_values = [food_vars[f].value() for f in food_items]
     food_dict = dict(zip(food_items, food_values))
     nutrient_parts = calculate_optimum(food_dict)
+    nutrient_parts = normalize_ensure_values(nutrient_parts)
 
-    #optimum nutrients
     fig, ax = plt.subplots()
-    bar_colors = ['b' if nut != 'price' else 'r' for nut in nutrients]
+    cmap = plt.get_cmap(f"{color_style}")
+    bar_colors = [cmap(i / len(nutrients)) if nut != 'price' else 'r' for i, nut in enumerate(nutrients)]
     ax.bar(nutrients, values, color=bar_colors)
     ax.set_xticks(nutrients)
     ax.set_xticklabels(nutrients, rotation=30, ha='right')
-    ax.set_title(f"Nutrient Composition and Price | cheap = {cheap} | vegan = {vegan} | man = {man}")
+    ax.set_title(f"Nutrient Composition optimum")
     ax.set_ylabel("Value")
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     plt.show()
 
-    #optimum consume
-
     fig, ax = plt.subplots()
-    ax.set_title(f"Optimum consumption | cheap = {cheap} | vegan = {vegan} | man = {man}")
-    ax.bar(food_items, food_values)
+    cmap = plt.get_cmap(f"{color_style}")
+    bar_colors = [cmap(i / len(food_items)) for i, food in enumerate(food_items)]
+    ax.bar(food_items, food_values, color=bar_colors)
+    ax.set_title(f"Optimum consumption in 100g")
     ax.set_xlabel('Food items')
     ax.set_ylabel('Values')
     plt.xticks(rotation=0)
+    plt.show()
+
+    #values are overlaying instead of on top of each other
+
+    cmap = plt.get_cmap(f"{color_style}")
+    colors = [cmap(i / len(nutrient_parts)) for i, food in enumerate(nutrient_parts)]
+
+    for i, (food, nutrients) in enumerate(nutrient_parts.items()):
+        plt.bar(nutrients.keys(), nutrients.values(), color=colors[i], label=food)
+        plt.legend()
+
+    plt.title("Nutrients in optimum")
+    plt.xticks(rotation=90, fontsize=6)
     plt.show()
 
 
