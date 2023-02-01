@@ -31,10 +31,6 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     food_dict = dict(zip(food_items, food_values))
     nutrient_parts = calculate_optimum(food_dict)
 
-    print(nutrient_parts)
-
-    exit()
-
     #optimum nutrients
     fig, ax = plt.subplots()
     bar_colors = ['b' if nut != 'price' else 'r' for nut in nutrients]
