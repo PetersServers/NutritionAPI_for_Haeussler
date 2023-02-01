@@ -26,9 +26,18 @@ def manage_lists(vegan=False):
     #read the categorization back in
     vegan_l, non_vegan_l = _read_categorization()
 
+    for item in vegan_l[:]:
+        if item not in grocery_list:
+            vegan_l.remove(item)
+
+    for item in non_vegan_l[:]:
+        if item not in grocery_list:
+            non_vegan_l.remove(item)
+    #could specify also only non vegan products for optimization
     if vegan:
         return vegan_l
     else:
         return grocery_list
+
 
 

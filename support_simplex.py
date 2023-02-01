@@ -1,6 +1,9 @@
 import pulp
 import time
 import matplotlib as plt
+
+
+
 import matplotlib.pyplot as plt
 
 def plot_nutrient_price(nutrient_dict, food_vars, vegan, cheap, man):

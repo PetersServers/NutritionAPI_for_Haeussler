@@ -4,6 +4,7 @@ import random
 from list_management import *
 
 #write a pandas vis for result and use webdriver to analyze if food is vegan or not
+#problem that it is saved in vegan foods because it is categorized
 
 #everything that is in json is evaluated, have to check why
 
@@ -18,7 +19,6 @@ class simplex:
         self.nutritious = nutritious
 
         self.foods = manage_lists(vegan=self.vegan)
-        print(self.foods)
         self.data = manage_data(self.foods)
 
     def calculate(self):
@@ -31,7 +31,7 @@ class simplex:
                             man=self.man)
 
 #set to vegan for testing
-simplex = simplex(man=True, nutritious=False, vegan=True)
+simplex = simplex(man=True, nutritious=True, vegan=True)
 simplex.calculate()
 simplex.illustrate()
 
