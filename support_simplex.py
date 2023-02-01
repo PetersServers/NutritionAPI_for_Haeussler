@@ -14,7 +14,6 @@ import numpy as np
 def calculate_optimum(food_amounts):
     with open("nutrition_data.json", "r") as f:
         food_dict = json.load(f)
-
     optimum_dict = {}
     for food, amount in food_amounts.items():
         optimum_dict[food] = {}
@@ -41,8 +40,13 @@ def create_stacked_bar_chart(data):
 def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
 
     plt.style.use('seaborn-darkgrid')
-    color_style = "jet"
+    color_style = "cividis" #'prism' auch nice
 
+    classification_food = "vegan" if vegan else "non vegan"
+    classification_gender = "man" if man else "woman"
+    classification_prices = "cost minimization" if cheap else "protein maximization"
+
+    #preprocess values
     nutrients = list(nutrient_parts.keys())
     nutrients = [i for i in nutrients if i != "price"]
     values = list(nutrient_parts.values())
@@ -53,6 +57,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     nutrient_parts = calculate_optimum(food_dict)
     nutrient_parts = normalize_ensure_values(nutrient_parts)
 
+    #nutrients optimum
     fig, ax = plt.subplots()
     cmap = plt.get_cmap(f"{color_style}")
     bar_colors = [cmap(i / len(nutrients)) if nut != 'price' else 'r' for i, nut in enumerate(nutrients)]
@@ -65,6 +70,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     ax.spines['right'].set_visible(False)
     plt.show()
 
+    #optimum consumption food in 100g units
     fig, ax = plt.subplots()
     cmap = plt.get_cmap(f"{color_style}")
     bar_colors = [cmap(i / len(food_items)) for i, food in enumerate(food_items)]
@@ -75,19 +81,34 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     plt.xticks(rotation=0)
     plt.show()
 
-    #values are overlaying instead of on top of each other
 
+    #price comparison
+    cmap = plt.get_cmap(f"{color_style}")
+    food_prices = [nutrient_parts[food]['price'] for food in nutrient_parts]
+    food_names = list(nutrient_parts.keys())
+    num_bars = len(food_prices)
+    colors = cmap(np.linspace(0, 1, num_bars))
+    plt.bar(food_names, food_prices, color=colors)
+    plt.xlabel('Food Name')
+    plt.ylabel('Price')
+    plt.suptitle('Optimum food prices')
+    plt.title(f"{classification_food}, {classification_prices}, "
+              f"{classification_gender}", fontsize=10)
+    plt.show()
+
+    #nutrients comparison layered
+    #values are overlaying instead of on top of each other
     cmap = plt.get_cmap(f"{color_style}")
     colors = [cmap(i / len(nutrient_parts)) for i, food in enumerate(nutrient_parts)]
-
     for i, (food, nutrients) in enumerate(nutrient_parts.items()):
         plt.bar(nutrients.keys(), nutrients.values(), color=colors[i], label=food)
         plt.legend()
 
-    plt.title("Nutrients in optimum")
-    plt.xticks(rotation=90, fontsize=6)
+    plt.suptitle("Nutrients in optimum")
+    plt.title(f"{classification_food}, {classification_prices}, "
+              f"{classification_gender}", fontsize=10)
+    plt.xticks(rotation=30, fontsize=8)
     plt.show()
-
 
 
 

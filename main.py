@@ -1,12 +1,7 @@
-from data_management import *
 from support_simplex import *
-import random
 from list_management import *
 
-#write a pandas vis for result and use webdriver to analyze if food is vegan or not
-#problem that it is saved in vegan foods because it is categorized
-
-#everything that is in json is evaluated, have to check why
+#add suptitle and title to the remaining 2 graphs
 
 class simplex:
     def __init__(self, man, nutritious, vegan):
@@ -27,12 +22,13 @@ class simplex:
         self.solution, self.food_vars = calculation(foods=self.data, cheap_mode=self.nutritious, man=self.man)
 
     def illustrate(self):
+
         plot_nutrient_price(self.solution, self.food_vars,
                             cheap=self.cheap, vegan=self.vegan,
                             man=self.man)
 
 #set to vegan for testing
-simplex = simplex(man=True, nutritious=True, vegan=False)
+simplex = simplex(man=False, nutritious=True, vegan=False)
 simplex.calculate()
 simplex.illustrate()
 
