@@ -96,7 +96,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     plt.bar(food_names, food_prices, color=colors)
     plt.xlabel('Food Name')
     plt.ylabel('Price')
-    plt.suptitle('Optimum food prices')
+    plt.suptitle('Optimum food expenses')
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
     plt.show()
