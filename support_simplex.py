@@ -149,7 +149,7 @@ def print_solutions(solution):
             print(82 * "-")
             print(f"optimum cost is {val}")
 
-def calculation(foods, man,  cheap_mode):
+def calculation(foods, man, cheap_mode):
 
     # Create a LP Problem
     lp_prob = pulp.LpProblem('Food Optimization Problem', pulp.LpMinimize if not cheap_mode else pulp.LpMaximize)

@@ -25,7 +25,7 @@ class simplex:
                             man=self.man)
 
 #set to vegan for testing
-simplex = simplex(man=True, nutritious=True, vegan=False)
+simplex = simplex(man=True, nutritious=False, vegan=True)
 simplex.calculate()
 simplex.illustrate()
 
