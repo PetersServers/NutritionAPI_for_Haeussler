@@ -5,6 +5,7 @@ import json
 from data_support import normalize_ensure_values
 import matplotlib.pyplot as plt
 import numpy as np
+import datetime
 
 #remove price and create price graph for all values in the optimum (already datenbasis bc calculate optimum)
 #make existant graphs more fancy
@@ -57,37 +58,44 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     food_dict = dict(zip(food_items, food_values))
     nutrient_parts = calculate_optimum(food_dict)
     nutrient_parts = normalize_ensure_values(nutrient_parts)
+    date_time = datetime.datetime.now()
+
 
     #nutrients optimum
+    title = "Nutrient Composition optimum"
     fig, ax = plt.subplots()
     cmap = plt.get_cmap(f"{color_style}")
     bar_colors = [cmap(i / len(nutrients)) if nut != 'price' else 'r' for i, nut in enumerate(nutrients)]
     ax.bar(nutrients, values, color=bar_colors)
     ax.set_xticks(nutrients)
     ax.set_xticklabels(nutrients, rotation=30, ha='right')
-    plt.suptitle(f"Nutrient Composition optimum")
+    plt.suptitle(f"{title}")
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
     ax.set_ylabel("Value")
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
+    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
     #optimum consumption food in 100g units
+    title = "Optimum consumption in 100g"
     fig, ax = plt.subplots()
     cmap = plt.get_cmap(f"{color_style}")
     bar_colors = [cmap(i / len(food_items)) for i, food in enumerate(food_items)]
     ax.bar(food_items, food_values, color=bar_colors)
-    plt.suptitle(f"Optimum consumption in 100g")
+    plt.suptitle(f"{title}")
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
     ax.set_xlabel('Food items')
     ax.set_ylabel('Values')
     plt.xticks(rotation=0)
+    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
 
     #price comparison
+    title = "Optimum food expenses"
     cmap = plt.get_cmap(f"{color_style}")
     food_prices = [nutrient_parts[food]['price'] for food in nutrient_parts]
     food_names = list(nutrient_parts.keys())
@@ -96,9 +104,10 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     plt.bar(food_names, food_prices, color=colors)
     plt.xlabel('Food Name')
     plt.ylabel('Price')
-    plt.suptitle('Optimum food expenses')
+    plt.suptitle(f'{title}')
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
+    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
     #nutrients comparison layered
@@ -106,30 +115,17 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
         food: {nutrient: value for nutrient, value in nutrients.items() if nutrient not in ['price', 'transFat']}
         for food, nutrients in nutrient_parts.items()}
 
+    title = "Nutrients in optimum layered"
     cmap = plt.get_cmap(f"{color_style}")
     colors = [cmap(i / len(nutrient_parts)) for i, food in enumerate(nutrient_parts)]
     for i, (food, nutrients) in enumerate(nutrient_parts.items()):
         plt.bar(nutrients.keys(), nutrients.values(), color=colors[i], label=food)
         plt.legend()
-    plt.suptitle("Nutrients in optimum layered")
+    plt.suptitle(f"{title}")
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
     plt.xticks(rotation=30, fontsize=8)
-    plt.show()
-
-    exit()
-    # nutrients comparison stacked not working well
-    cmap = plt.get_cmap(f"{color_style}")
-    colors = [cmap(i / len(nutrient_parts)) for i, food in enumerate(nutrient_parts)]
-    bottom = np.zeros(len(list(nutrient_parts.values())[0].keys()))
-    for i, (food, nutrients) in enumerate(nutrient_parts.items()):
-        plt.bar(list(nutrients.keys()), list(nutrients.values()), bottom=bottom, color=colors[i], label=food)
-        bottom += list(nutrients.values())
-    plt.legend()
-    plt.suptitle("Nutrients in optimum stacked")
-    plt.title(f"Parameters: {classification_prices}, {classification_food}, "
-              f"{classification_gender}", fontsize=10)
-    plt.xticks(rotation=30, fontsize=8)
+    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
 

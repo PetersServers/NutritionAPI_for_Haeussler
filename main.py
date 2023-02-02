@@ -24,9 +24,14 @@ class simplex:
                             cheap=self.cheap, vegan=self.vegan,
                             man=self.man)
 
-#set to vegan for testing
-simplex = simplex(man=True, nutritious=False, vegan=True)
-simplex.calculate()
-simplex.illustrate()
 
+def calcuate_every_option():
+    for man in [True, False]:
+        for nutritious in [True, False]:
+            for vegan in [True, False]:
+                simplex_ = simplex(man=man, nutritious=nutritious, vegan=vegan)
+                simplex_.calculate()
+                simplex_.illustrate()
+
+calcuate_every_option()
 

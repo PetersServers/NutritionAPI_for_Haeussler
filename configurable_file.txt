@@ -46,7 +46,6 @@ pepperoni,1.41
 shortening,0.49
 dates,0.85
 cinnamon buns,1.84
-kielbasa,2.32
 blackberries,1.86
 beef,1.83
 mango,0.59
@@ -112,7 +111,6 @@ figs,0.97
 pineapple,0.3
 spices,4.99
 spinach,0.6
-bulgur,0.42
 taco shells,1.92
 hominy,0.64
 grapefruit,0.49
