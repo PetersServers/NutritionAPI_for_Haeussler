@@ -33,9 +33,9 @@ def calcuate_every_option():
                 simplex_.calculate()
                 simplex_.illustrate()
 
-#calcuate_every_option()
 
-simplex_ = simplex(man=True, nutritious=True, vegan=False)
+
+simplex = simplex(man=True, nutritious=True, vegan=False)
 simplex.calculate()
 simplex.illustrate()
 

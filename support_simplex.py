@@ -24,19 +24,6 @@ def calculate_optimum(food_amounts):
 
     return optimum_dict
 
-def create_stacked_bar_chart(data):
-    nutrients = list(data.values())[0].keys()
-    values = {nutrient: [item[nutrient] for item in data.values()] for nutrient in nutrients}
-    fig, ax = plt.subplots()
-    bars = ax.bar(data.keys(), values[nutrients[0]], label=nutrients[0])
-    for i in range(1, len(nutrients)):
-        bars = [bar.set_bottom(sum(x[:i])) for x, bar in zip(values.values(), bars)]
-        ax.bar(data.keys(), values[nutrients[i]], bottom=sum(values[nutrients[:i]]), label=nutrients[i])
-    ax.set_xlabel("Food")
-    ax.set_ylabel("Amount of Nutrient per 100 g")
-    ax.legend(loc="upper left")
-    plt.show()
-
 
 def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
 
@@ -138,12 +125,15 @@ def print_solutions(solution):
 
         if key != "price":
 
-            print(f"the optimum comprises {val}g of {key}")
 
-        if key == "price":
+            if key in ["sodium", "fiber", "cholesterol", "calcium", "iron"]:
+                print(f"the optimum comprises {round(val, 2)} mg of {key}")
+                continue
+            print(f"the optimum comprises {round(val, 2)} g of {key}")
 
+        else:
             print(82 * "-")
-            print(f"optimum cost is {val}")
+            print(f"optimum cost is {round(val, 2)}")
 
 def calculation(foods, man, cheap_mode):
 
