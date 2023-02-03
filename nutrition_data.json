@@ -1,0 +1,3082 @@
+{
+    "apricots": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 13.0,
+            "fiber": 10.0,
+            "sugars": 63.333333333333336,
+            "protein": 3.33,
+            "calcium": 133.0,
+            "iron": 4.8,
+            "calories": 300.0,
+            "price": 1.48
+        }
+    },
+    "rice": {
+        "nutrients": {
+            "fat": 2.4305555555555554,
+            "cholesterol": 0.0,
+            "sodium": 465.27777777777777,
+            "fiber": 1.4027777777777777,
+            "sugars": 1.3888888888888888,
+            "protein": 3.4722222222222223,
+            "calcium": 27.986111111111107,
+            "iron": 1.8819444444444444,
+            "calories": 138.88888888888889,
+            "price": 0.4
+        }
+    },
+    "mangos": {
+        "nutrients": {
+            "fat": 0.3601449275362319,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 1.3985507246376812,
+            "sugars": 13.768115942028986,
+            "protein": 0.7202898550724638,
+            "calcium": 13.985507246376812,
+            "iron": 0.13985507246376813,
+            "calories": 57.971014492753625,
+            "price": 2.5
+        }
+    },
+    "tortellini": {
+        "nutrients": {
+            "fat": 6.08695652173913,
+            "cholesterol": 48.0,
+            "sodium": 304.3478260869565,
+            "fiber": 1.7043478260869565,
+            "sugars": 1.7391304347826086,
+            "protein": 12.17391304347826,
+            "calcium": 95.65217391304347,
+            "iron": 1.7391304347826086,
+            "calories": 269.5652173913043,
+            "price": 0.4
+        }
+    },
+    "rutabagas": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.4,
+            "sugars": 5.882352941176471,
+            "protein": 1.1764705882352942,
+            "calcium": 39.05882352941177,
+            "iron": 0.0,
+            "calories": 35.05882352941177,
+            "price": 0.1
+        }
+    },
+    "leeks": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 6.0,
+            "fiber": 1.2,
+            "sugars": 3.5294117647058822,
+            "protein": 1.1764705882352942,
+            "calcium": 19.058823529411764,
+            "iron": 0.31058823529411766,
+            "calories": 35.05882352941177,
+            "price": 0.49
+        }
+    },
+    "focaccia": {
+        "nutrients": {
+            "fat": 4.464285714285714,
+            "cholesterol": 0.0,
+            "sodium": 571.4285714285714,
+            "fiber": 1.8035714285714286,
+            "sugars": 1.7857142857142858,
+            "protein": 7.142857142857143,
+            "calcium": 0.0,
+            "iron": 3.2142857142857144,
+            "calories": 250.0,
+            "price": 2.49
+        }
+    },
+    "pizza": {
+        "nutrients": {
+            "fat": 10.0,
+            "cholesterol": 21.0,
+            "sodium": 407.14285714285717,
+            "fiber": 1.4,
+            "sugars": 2.857142857142857,
+            "protein": 10.714285714285715,
+            "calcium": 43.0,
+            "iron": 2.1928571428571426,
+            "calories": 250.0,
+            "price": 1.33
+        }
+    },
+    "cassava": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 3.0000000000000004,
+            "fiber": 1.1,
+            "sugars": 0.0,
+            "protein": 0.5611111111111111,
+            "calcium": 17.0,
+            "iron": 0.1,
+            "price": 0.56,
+            "calories": 0
+        }
+    },
+    "soup": {
+        "nutrients": {
+            "fat": 5.76923076923077,
+            "cholesterol": 14.006410256410259,
+            "sodium": 316.9871794871795,
+            "fiber": 1.3012820512820513,
+            "sugars": 2.881410256410257,
+            "protein": 1.278846153846154,
+            "calcium": 31.98717948717949,
+            "iron": 0.8685897435897436,
+            "calories": 80.12820512820514,
+            "price": 1.59
+        }
+    },
+    "pie crust": {
+        "nutrients": {
+            "fat": 22.22222222222222,
+            "cholesterol": 19.0,
+            "sodium": 555.5555555555555,
+            "fiber": 0.0,
+            "sugars": 3.7,
+            "protein": 3.7,
+            "calcium": 0.0,
+            "iron": 1.8518518518518519,
+            "calories": 444.44444444444446,
+            "price": 1.49
+        }
+    },
+    "apple juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 12.0,
+            "sugars": 12.5,
+            "protein": 0.0,
+            "calories": 50.0,
+            "price": 0.1,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "crackers": {
+        "nutrients": {
+            "fat": 21.42857142857143,
+            "cholesterol": 0.0,
+            "sodium": 607.1428571428572,
+            "fiber": 7.1000000000000005,
+            "sugars": 7.142857142857143,
+            "protein": 14.285714285714286,
+            "calcium": 71.0,
+            "iron": 5.0,
+            "calories": 500.0,
+            "price": 2.19
+        }
+    },
+    "garlic": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "protein": 0.0,
+            "calcium": 666.6666666666667,
+            "calories": 167.0,
+            "price": 1.69,
+            "sugars": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "pasta": {
+        "nutrients": {
+            "fat": 1.7857142857142858,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.607142857142857,
+            "sugars": 3.5714285714285716,
+            "protein": 12.5,
+            "calcium": 0.0,
+            "iron": 3.2142857142857144,
+            "calories": 375.0,
+            "price": 0.24
+        }
+    },
+    "avocados": {
+        "nutrients": {
+            "fat": 15.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 6.699999999999999,
+            "sugars": 0.0,
+            "protein": 3.33,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 167.0,
+            "price": 0.6
+        }
+    },
+    "edamame": {
+        "nutrients": {
+            "fat": 4.705882352941177,
+            "cholesterol": 0.0,
+            "sodium": 6.0,
+            "fiber": 4.705882352941177,
+            "sugars": 2.3529411764705883,
+            "protein": 10.588235294117647,
+            "calcium": 59.05882352941177,
+            "iron": 2.1176470588235294,
+            "calories": 106.0,
+            "price": 2.3
+        }
+    },
+    "water": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 8.0,
+            "sugars": 10.833333333333334,
+            "protein": 0.0,
+            "calories": 42.083333333333336,
+            "price": 0.05,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "sweet potatoes": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 55.037593984962406,
+            "fiber": 3.0,
+            "sugars": 4.511278195488721,
+            "protein": 1.5037593984962405,
+            "calcium": 29.999999999999996,
+            "iron": 0.6796992481203007,
+            "calories": 85.71428571428571,
+            "price": 0.48
+        }
+    },
+    "lemons": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.6991150442477876,
+            "sugars": 2.6460176991150446,
+            "protein": 0.8796460176991151,
+            "calcium": 26.01769911504425,
+            "calories": 30.97345132743363,
+            "price": 0.29,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "strawberries": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.1,
+            "sugars": 4.292857142857143,
+            "protein": 0.71,
+            "calcium": 14.000000000000002,
+            "iron": 0.7714285714285715,
+            "calories": 36.0,
+            "price": 0.68
+        }
+    },
+    "doughnuts": {
+        "nutrients": {
+            "fat": 34.54545454545455,
+            "cholesterol": 0.0,
+            "sodium": 363.6363636363636,
+            "fiber": 1.7999999999999998,
+            "sugars": 12.727272727272727,
+            "protein": 5.454545454545454,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 472.7272727272727,
+            "price": 1.12
+        }
+    },
+    "oat bran": {
+        "nutrients": {
+            "fat": 7.5,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 17.5,
+            "sugars": 0.0,
+            "protein": 20.0,
+            "calcium": 100.0,
+            "iron": 6.75,
+            "calories": 400.0,
+            "price": 0.43
+        }
+    },
+    "sausage": {
+        "nutrients": {
+            "fat": 6.25,
+            "cholesterol": 70.0,
+            "sodium": 328.125,
+            "fiber": 3.1015625,
+            "sugars": 2.34375,
+            "protein": 7.8125,
+            "calcium": 77.96875,
+            "iron": 1.1171875,
+            "calories": 188.28125,
+            "price": 1.79
+        }
+    },
+    "fruit cocktail": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 15.98360655737705,
+            "fiber": 2.5,
+            "sugars": 9.836065573770492,
+            "protein": 0.0,
+            "calcium": 15.98360655737705,
+            "iron": 0.3,
+            "calories": 49.01639344262295,
+            "price": 7.0
+        }
+    },
+    "tapioca": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "protein": 0.0,
+            "calories": 333.33333333333337,
+            "price": 1.0,
+            "sugars": 0,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "bread": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 353.92857142857144,
+            "fiber": 3.607142857142857,
+            "sugars": 0.0,
+            "protein": 3.5714285714285716,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 146.07142857142858,
+            "price": 0.35
+        }
+    },
+    "bagels": {
+        "nutrients": {
+            "fat": 4.2105263157894735,
+            "cholesterol": 0.0,
+            "sodium": 410.52631578947364,
+            "fiber": 2.1052631578947367,
+            "sugars": 5.263157894736842,
+            "protein": 9.473684210526315,
+            "calcium": 94.94736842105263,
+            "iron": 3.1578947368421053,
+            "calories": 273.6842105263158,
+            "price": 1.54
+        }
+    },
+    "corn": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 240.0,
+            "fiber": 0.8,
+            "sugars": 6.4,
+            "protein": 0.8,
+            "calcium": 3.0,
+            "iron": 0.0,
+            "calories": 56.0,
+            "price": 0.36
+        }
+    },
+    "waffle": {
+        "nutrients": {
+            "fat": 31.111111111111114,
+            "cholesterol": 28.88888888888889,
+            "sodium": 355.55555555555554,
+            "fiber": 0.7000000000000001,
+            "sugars": 35.55555555555556,
+            "protein": 4.444444444444445,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 544.4444444444445,
+            "price": 1.21
+        }
+    },
+    "toaster pastries": {
+        "nutrients": {
+            "fat": 8.653846153846153,
+            "cholesterol": 0.0,
+            "sodium": 250.0,
+            "fiber": 1.0,
+            "sugars": 38.46153846153846,
+            "protein": 2.8846153846153846,
+            "calcium": 29.03846153846154,
+            "iron": 4.8076923076923075,
+            "calories": 375.0,
+            "price": 0.45
+        }
+    },
+    "salad dressing": {
+        "nutrients": {
+            "fat": 30.0,
+            "cholesterol": 33.0,
+            "sodium": 800.0,
+            "fiber": 0.0,
+            "sugars": 13.333333333333334,
+            "protein": 0.0,
+            "calcium": 7.000000000000001,
+            "iron": 0.0,
+            "calories": 333.33333333333337,
+            "price": 0.58
+        }
+    },
+    "creamy dressing": {
+        "nutrients": {
+            "fat": 43.333333333333336,
+            "cholesterol": 0.0,
+            "sodium": 766.6666666666667,
+            "fiber": 0.0,
+            "sugars": 20.0,
+            "protein": 3.33,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 466.6666666666667,
+            "price": 0.62
+        }
+    },
+    "mushrooms": {
+        "nutrients": {
+            "fat": 0.7692307692307693,
+            "cholesterol": 0.0,
+            "sodium": 307.69230769230774,
+            "fiber": 2.3000000000000003,
+            "sugars": 0.0,
+            "protein": 2.307692307692308,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 23.0,
+            "price": 0.4
+        }
+    },
+    "tomatillos": {
+        "nutrients": {
+            "fat": 1.153846153846154,
+            "cholesterol": 0.0,
+            "sodium": 507.69230769230774,
+            "fiber": 0.8,
+            "sugars": 1.5384615384615385,
+            "protein": 1.5384615384615385,
+            "calcium": 0.0,
+            "iron": 0.8307692307692308,
+            "calories": 31.0,
+            "price": 0.73
+        }
+    },
+    "wheat flour": {
+        "nutrients": {
+            "fat": 20.0,
+            "cholesterol": 0.0,
+            "sodium": 800.0,
+            "fiber": 6.666666666666667,
+            "sugars": 6.666666666666667,
+            "protein": 6.666666666666667,
+            "calcium": 0.0,
+            "iron": 2.4,
+            "calories": 466.6666666666667,
+            "price": 0.1
+        }
+    },
+    "cranberry juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 12.0,
+            "fiber": 0.0,
+            "sugars": 2.9208333333333334,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.45833333333333337,
+            "calories": 29.0,
+            "price": 0.44
+        }
+    },
+    "pie": {
+        "nutrients": {
+            "fat": 12.080536912751679,
+            "cholesterol": 10.0,
+            "sodium": 248.32214765100673,
+            "fiber": 0.0,
+            "sugars": 16.107382550335572,
+            "protein": 2.677852348993289,
+            "calcium": 12.013422818791947,
+            "iron": 0.6697986577181209,
+            "calories": 267.7852348993289,
+            "price": 1.22
+        }
+    },
+    "oranges": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 4.5,
+            "sugars": 9.09090909090909,
+            "protein": 0.6493506493506493,
+            "calcium": 39.02597402597403,
+            "iron": 0.22987012987012986,
+            "calories": 45.0,
+            "price": 0.15
+        }
+    },
+    "pepperoni": {
+        "nutrients": {
+            "fat": 46.42857142857143,
+            "cholesterol": 125.0,
+            "sodium": 1750.0,
+            "protein": 17.857142857142858,
+            "iron": 1.2892857142857144,
+            "calories": 500.0,
+            "price": 1.41,
+            "sugars": 0,
+            "calcium": 0,
+            "fiber": 0
+        }
+    },
+    "shortening": {
+        "nutrients": {
+            "fat": 100.00000000000001,
+            "cholesterol": 90.90909090909092,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 909.0909090909091,
+            "price": 0.49
+        }
+    },
+    "dates": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 25.0,
+            "fiber": 7.5,
+            "sugars": 55.0,
+            "protein": 2.5,
+            "calcium": 0.0,
+            "iron": 0.8999999999999999,
+            "calories": 300.0,
+            "price": 0.85
+        }
+    },
+    "cinnamon buns": {
+        "nutrients": {
+            "fat": 10.294117647058824,
+            "cholesterol": 15.0,
+            "sodium": 147.05882352941177,
+            "fiber": 2.9000000000000004,
+            "sugars": 23.529411764705884,
+            "protein": 2.9411764705882355,
+            "calcium": 59.117647058823536,
+            "iron": 3.1764705882352944,
+            "calories": 294.11764705882354,
+            "price": 1.84
+        }
+    },
+    "blackberries": {
+        "nutrients": {
+            "fat": 0.36,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 5.0,
+            "sugars": 4.292857142857143,
+            "protein": 1.4285714285714286,
+            "calcium": 29.0,
+            "iron": 0.71,
+            "calories": 43.0,
+            "price": 1.86
+        }
+    },
+    "mango": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.1,
+            "sugars": 15.0,
+            "protein": 0.71,
+            "calcium": 14.000000000000002,
+            "iron": 1.9285714285714288,
+            "calories": 71.0,
+            "price": 0.59
+        }
+    },
+    "chili": {
+        "nutrients": {
+            "fat": 5.084745762711864,
+            "cholesterol": 14.999999999999998,
+            "sodium": 419.06779661016947,
+            "fiber": 0.8008474576271186,
+            "sugars": 1.271186440677966,
+            "protein": 6.779661016949152,
+            "calcium": 16.991525423728813,
+            "iron": 0.6101694915254237,
+            "calories": 102.11864406779661,
+            "price": 2.5
+        }
+    },
+    "cookie": {
+        "nutrients": {
+            "fat": 17.391304347826086,
+            "sodium": 456.52173913043475,
+            "fiber": 2.1956521739130435,
+            "sugars": 19.565217391304348,
+            "protein": 21.73913043478261,
+            "calcium": 130.0,
+            "iron": 1.5695652173913042,
+            "calories": 369.5652173913043,
+            "price": 0.57,
+            "cholesterol": 0
+        }
+    },
+    "peanut spread": {
+        "nutrients": {
+            "fat": 34.285714285714285,
+            "cholesterol": 0.0,
+            "sodium": 400.0,
+            "fiber": 5.714285714285714,
+            "sugars": 8.571428571428571,
+            "protein": 25.714285714285715,
+            "calcium": 57.142857142857146,
+            "iron": 2.06,
+            "calories": 542.8571428571429,
+            "price": 1.39
+        }
+    },
+    "peppers": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 4.4,
+            "sugars": 4.444444444444445,
+            "protein": 2.22,
+            "calcium": 0.0,
+            "iron": 0.8,
+            "calories": 32.88888888888889,
+            "price": 0.48
+        }
+    },
+    "rice flour": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 3.8461538461538463,
+            "protein": 7.6923076923076925,
+            "calories": 346.1538461538462,
+            "price": 0.9,
+            "calcium": 0,
+            "iron": 0
+        }
+    },
+    "potatoes": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 1.3986486486486485,
+            "sugars": 0.6824324324324325,
+            "protein": 2.027027027027027,
+            "calcium": 13.986486486486486,
+            "iron": 0.7297297297297297,
+            "calories": 74.32432432432432,
+            "price": 0.29
+        }
+    },
+    "hearts of palm": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 416.6666666666667,
+            "fiber": 4.2,
+            "sugars": 0.0,
+            "protein": 1.6666666666666667,
+            "calcium": 67.00000000000001,
+            "iron": 2.2500000000000004,
+            "calories": 29.0,
+            "price": 1.76
+        }
+    },
+    "peanuts": {
+        "nutrients": {
+            "fat": 46.42857142857143,
+            "cholesterol": 0.0,
+            "sodium": 607.1428571428572,
+            "fiber": 7.107142857142858,
+            "sugars": 3.5714285714285716,
+            "protein": 21.42857142857143,
+            "calcium": 0.0,
+            "iron": 2.5714285714285716,
+            "calories": 571.4285714285714,
+            "price": 0.98
+        }
+    },
+    "puff pastry": {
+        "nutrients": {
+            "fat": 20.634920634920633,
+            "cholesterol": 0.0,
+            "sodium": 333.3333333333333,
+            "fiber": 1.603174603174603,
+            "sugars": 3.1746031746031744,
+            "protein": 6.349206349206349,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 380.9523809523809,
+            "price": 0.58
+        }
+    },
+    "oil": {
+        "nutrients": {
+            "fat": 93.33333333333334,
+            "cholesterol": 0.0,
+            "sodium": 833.3333333333334,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calories": 866.6666666666667,
+            "price": 0.49,
+            "calcium": 0,
+            "iron": 0
+        }
+    },
+    "sweetener": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "sugars": 100.0,
+            "protein": 0.0,
+            "calories": 0.0,
+            "price": 5.9,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "rice noodles": {
+        "nutrients": {
+            "fat": 1.750877192982456,
+            "cholesterol": 0.0,
+            "sodium": 207.01754385964912,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 400.0,
+            "price": 0.52
+        }
+    },
+    "asparagus": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.4,
+            "sugars": 2.3529411764705883,
+            "protein": 2.3529411764705883,
+            "calcium": 24.0,
+            "iron": 2.3529411764705883,
+            "calories": 18.0,
+            "price": 1.6
+        }
+    },
+    "radicchio": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 45.0,
+            "fiber": 3.0,
+            "sugars": 1.0,
+            "protein": 2.0,
+            "calcium": 20.0,
+            "iron": 0.36,
+            "calories": 23.0,
+            "price": 0.52
+        }
+    },
+    "salami": {
+        "nutrients": {
+            "fat": 28.571428571428573,
+            "cholesterol": 107.14285714285715,
+            "sodium": 1607.1428571428573,
+            "fiber": 0.0,
+            "protein": 28.571428571428573,
+            "calcium": 0.0,
+            "iron": 1.2892857142857144,
+            "calories": 392.8571428571429,
+            "price": 2.09,
+            "sugars": 0
+        }
+    },
+    "maraschino cherries": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "sugars": 33.333333333333336,
+            "protein": 0.0,
+            "calories": 166.66666666666669,
+            "price": 1.38,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "sherbet": {
+        "nutrients": {
+            "fat": 1.1604651162790698,
+            "cholesterol": 6.000000000000001,
+            "sodium": 23.02325581395349,
+            "fiber": 0.0,
+            "sugars": 19.767441860465116,
+            "protein": 1.1604651162790698,
+            "calcium": 46.97674418604651,
+            "iron": 0.0,
+            "calories": 127.90697674418605,
+            "price": 1.95
+        }
+    },
+    "peas": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 112.0,
+            "fiber": 2.4000000000000004,
+            "sugars": 4.0,
+            "protein": 2.4000000000000004,
+            "calcium": 14.0,
+            "iron": 0.8,
+            "calories": 48.0,
+            "price": 0.19
+        }
+    },
+    "lemonade": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 15.0,
+            "sugars": 13.333333333333334,
+            "protein": 0.0,
+            "calories": 54.16666666666667,
+            "price": 0.24,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "yam": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 9.0,
+            "fiber": 4.0,
+            "sugars": 0.6666666666666666,
+            "protein": 1.3333333333333333,
+            "calcium": 20.0,
+            "iron": 0.48,
+            "calories": 118.0,
+            "price": 1.99
+        }
+    },
+    "arugula": {
+        "nutrients": {
+            "fat": 0.5905882352941176,
+            "cholesterol": 0.0,
+            "sodium": 28.94117647058824,
+            "fiber": 1.2,
+            "sugars": 2.3529411764705883,
+            "protein": 2.3529411764705883,
+            "calcium": 176.47058823529412,
+            "iron": 1.2705882352941178,
+            "calories": 24.0,
+            "price": 1.99
+        }
+    },
+    "noodles": {
+        "nutrients": {
+            "fat": 1.85,
+            "cholesterol": 0.0,
+            "sodium": 351.85185185185185,
+            "fiber": 3.7037037037037037,
+            "sugars": 1.85,
+            "protein": 11.11111111111111,
+            "calcium": 0.0,
+            "iron": 1.3296296296296295,
+            "calories": 370.3703703703704,
+            "price": 0.14
+        }
+    },
+    "lemon juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "protein": 0.0,
+            "calories": 0.0,
+            "price": 0.14,
+            "sugars": 0,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0
+        }
+    },
+    "meatballs": {
+        "nutrients": {
+            "fat": 24.705882352941178,
+            "cholesterol": 28.94117647058824,
+            "sodium": 717.6470588235294,
+            "fiber": 0.0,
+            "sugars": 1.1764705882352942,
+            "protein": 14.117647058823529,
+            "calcium": 47.05882352941177,
+            "iron": 1.2705882352941178,
+            "calories": 305.88235294117646,
+            "price": 0.8
+        }
+    },
+    "lemon juice from concentrate": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 0.0,
+            "price": 0.14
+        }
+    },
+    "cake": {
+        "nutrients": {
+            "fat": 23.529411764705884,
+            "cholesterol": 24.0,
+            "sodium": 423.5294117647059,
+            "fiber": 0.0,
+            "sugars": 43.529411764705884,
+            "protein": 3.5294117647058822,
+            "calcium": 24.0,
+            "iron": 1.06,
+            "calories": 447.05882352941177,
+            "price": 0.24
+        }
+    },
+    "cauliflower": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 24.0,
+            "fiber": 2.4,
+            "sugars": 2.3529411764705883,
+            "protein": 2.3529411764705883,
+            "calcium": 24.0,
+            "iron": 0.5905882352941176,
+            "calories": 24.0,
+            "price": 0.19
+        }
+    },
+    "brussels sprouts": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 24.0,
+            "fiber": 3.5058823529411764,
+            "sugars": 2.3529411764705883,
+            "protein": 3.5294117647058822,
+            "calcium": 47.05882352941177,
+            "iron": 1.2705882352941178,
+            "calories": 40.94117647058823,
+            "price": 0.16
+        }
+    },
+    "sweet potato": {
+        "nutrients": {
+            "fat": 1.278846153846154,
+            "cholesterol": 14.006410256410259,
+            "sodium": 173.0769230769231,
+            "fiber": 1.9006410256410258,
+            "sugars": 4.166666666666667,
+            "protein": 5.448717948717949,
+            "calcium": 25.993589743589745,
+            "iron": 0.5801282051282052,
+            "calories": 106.0897435897436,
+            "price": 0.24
+        }
+    },
+    "frankfurter": {
+        "nutrients": {
+            "fiber": 0.0,
+            "price": 1.39,
+            "sugars": 0,
+            "calcium": 0,
+            "iron": 0,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fat": 0,
+            "protein": 0,
+            "calories": 0
+        }
+    },
+    "buckwheat flour": {
+        "nutrients": {
+            "fat": 3.33,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 10.0,
+            "sugars": 0.0,
+            "protein": 6.666666666666667,
+            "calcium": 0.0,
+            "iron": 4.8,
+            "calories": 333.00000000000006,
+            "price": 0.46
+        }
+    },
+    "knackwurst": {
+        "nutrients": {
+            "fat": 18.58407079646018,
+            "cholesterol": 46.01769911504425,
+            "sodium": 412.3893805309735,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 9.734513274336283,
+            "calcium": 0.0,
+            "iron": 0.32035398230088497,
+            "calories": 258.40707964601773,
+            "price": 1.69
+        }
+    },
+    "chayote": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 1.5,
+            "sugars": 1.5151515151515151,
+            "protein": 1.5151515151515151,
+            "calcium": 30.0,
+            "iron": 0.5499999999999999,
+            "calories": 23.030303030303028,
+            "price": 0.35
+        }
+    },
+    "cookies": {
+        "nutrients": {
+            "fat": 22.72727272727273,
+            "cholesterol": 0.0,
+            "sodium": 318.1818181818182,
+            "fiber": 2.295454545454546,
+            "sugars": 31.81818181818182,
+            "protein": 4.545454545454546,
+            "calcium": 0.0,
+            "iron": 4.090909090909092,
+            "calories": 500.00000000000006,
+            "price": 0.33
+        }
+    },
+    "pepper": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 33.300000000000004,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 436.6666666666667,
+            "iron": 28.900000000000002,
+            "calories": 333.00000000000006,
+            "price": 4.99
+        }
+    },
+    "carrots": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 77.05128205128206,
+            "fiber": 2.6025641025641026,
+            "sugars": 6.410256410256411,
+            "protein": 1.2794871794871796,
+            "calcium": 26.02564102564103,
+            "iron": 0.4602564102564103,
+            "calories": 37.948717948717956,
+            "price": 0.14
+        }
+    },
+    "chili with beans": {
+        "nutrients": {
+            "fat": 3.639676113360324,
+            "cholesterol": 10.0,
+            "sodium": 400.80971659919027,
+            "fiber": 2.8016194331983804,
+            "sugars": 2.020242914979757,
+            "protein": 6.882591093117409,
+            "calcium": 24.008097165991902,
+            "iron": 0.728744939271255,
+            "calories": 108.90688259109311,
+            "price": 0.47
+        }
+    },
+    "lima beans": {
+        "nutrients": {
+            "fat": 0.4,
+            "cholesterol": 0.0,
+            "sodium": 240.0,
+            "fiber": 2.4000000000000004,
+            "sugars": 0.8,
+            "protein": 2.4000000000000004,
+            "calcium": 18.0,
+            "iron": 0.8,
+            "calories": 72.0,
+            "price": 6.89
+        }
+    },
+    "pomegranate juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 11.016949152542372,
+            "protein": 0.0,
+            "calcium": 41.99152542372881,
+            "iron": 0.0,
+            "calories": 41.99152542372881,
+            "price": 0.27
+        }
+    },
+    "syrup": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 78.94736842105263,
+            "fiber": 0.0,
+            "sugars": 52.631578947368425,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 1.8894736842105264,
+            "calories": 236.84210526315792,
+            "price": 1.6
+        }
+    },
+    "prune juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 21.0,
+            "fiber": 1.2,
+            "sugars": 10.416666666666668,
+            "protein": 1.25,
+            "calcium": 8.0,
+            "iron": 0.3,
+            "calories": 75.0,
+            "price": 0.22
+        }
+    },
+    "turkey breast": {
+        "nutrients": {
+            "fat": 0.8807017543859649,
+            "cholesterol": 44.03508771929825,
+            "sodium": 52.98245614035087,
+            "protein": 28.07017543859649,
+            "iron": 1.2596491228070175,
+            "calories": 122.98245614035086,
+            "price": 1.6,
+            "sugars": 0,
+            "calcium": 0,
+            "fiber": 0
+        }
+    },
+    "celery": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 105.45454545454545,
+            "fiber": 1.7999999999999998,
+            "sugars": 1.8181818181818181,
+            "protein": 0.0,
+            "calcium": 36.0,
+            "iron": 0.32999999999999996,
+            "calories": 14.0,
+            "price": 0.13
+        }
+    },
+    "muffins": {
+        "nutrients": {
+            "fat": 0.819672131147541,
+            "cholesterol": 0.0,
+            "sodium": 344.26229508196724,
+            "fiber": 14.803278688524589,
+            "sugars": 1.639344262295082,
+            "protein": 8.196721311475411,
+            "calcium": 245.9016393442623,
+            "iron": 2.360655737704918,
+            "calories": 180.32786885245903,
+            "price": 1.95
+        }
+    },
+    "limes": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.0,
+            "protein": 0.0,
+            "calcium": 30.000000000000004,
+            "iron": 0.6000000000000001,
+            "calories": 30.000000000000004,
+            "price": 0.88,
+            "sugars": 0,
+            "cholesterol": 0
+        }
+    },
+    "soy flour": {
+        "nutrients": {
+            "fat": 16.666666666666668,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 13.3,
+            "sugars": 6.666666666666667,
+            "protein": 40.0,
+            "calcium": 197.0,
+            "iron": 6.666666666666667,
+            "calories": 433.33333333333337,
+            "price": 1.08
+        }
+    },
+    "waffles": {
+        "nutrients": {
+            "fat": 10.0,
+            "cholesterol": 0.0,
+            "sodium": 528.5714285714286,
+            "fiber": 2.9,
+            "sugars": 7.142857142857143,
+            "protein": 2.857142857142857,
+            "calcium": 86.0,
+            "iron": 1.03,
+            "calories": 300.0,
+            "price": 0.32
+        }
+    },
+    "snack": {
+        "nutrients": {
+            "fat": 27.5,
+            "cholesterol": 18.0,
+            "sodium": 185.0,
+            "fiber": 2.5,
+            "sugars": 40.0,
+            "protein": 5.0,
+            "calcium": 125.0,
+            "iron": 4.050000000000001,
+            "calories": 470.0,
+            "price": 1.5
+        }
+    },
+    "couscous": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 4.4,
+            "sugars": 2.22,
+            "protein": 13.333333333333334,
+            "calcium": 32.88888888888889,
+            "iron": 2.22,
+            "calories": 377.77777777777777,
+            "price": 0.36
+        }
+    },
+    "kiwifruit": {
+        "nutrients": {
+            "fat": 0.6824324324324325,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.7027027027027026,
+            "sugars": 8.783783783783784,
+            "protein": 0.6824324324324325,
+            "calcium": 13.986486486486486,
+            "iron": 0.23986486486486486,
+            "calories": 61.01351351351351,
+            "price": 1.2
+        }
+    },
+    "candies": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 1000000.0000000001,
+            "sugars": 50.0,
+            "protein": 0.0,
+            "calories": 316.6666666666667,
+            "price": 0.39,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "figs": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 12.0,
+            "fiber": 7.5,
+            "sugars": 45.0,
+            "protein": 2.5,
+            "calcium": 142.0,
+            "iron": 0.0,
+            "calories": 275.0,
+            "price": 0.97
+        }
+    },
+    "pineapple": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 18.0,
+            "fiber": 4.285714285714286,
+            "sugars": 64.28571428571429,
+            "protein": 0.0,
+            "calcium": 36.07142857142857,
+            "iron": 0.6392857142857143,
+            "price": 0.3,
+            "calories": 0
+        }
+    },
+    "spices": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 333.33333333333337,
+            "price": 4.99
+        }
+    },
+    "spinach": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 76.0,
+            "fiber": 2.4,
+            "sugars": 0.0,
+            "protein": 2.3529411764705883,
+            "calcium": 99.05882352941177,
+            "iron": 2.3529411764705883,
+            "calories": 24.0,
+            "price": 0.6
+        }
+    },
+    "taco shells": {
+        "nutrients": {
+            "fat": 24.242424242424242,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 6.0606060606060606,
+            "calcium": 103.03030303030303,
+            "iron": 0.0,
+            "calories": 454.54545454545456,
+            "price": 1.92
+        }
+    },
+    "hominy": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 432.0,
+            "fiber": 0.8,
+            "sugars": 0.8,
+            "protein": 0.8,
+            "calcium": 0.0,
+            "iron": 0.2896,
+            "calories": 56.0,
+            "price": 0.64
+        }
+    },
+    "grapefruit": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "sugars": 9.90990990990991,
+            "protein": 0.0,
+            "calories": 45.0,
+            "price": 0.49,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "radishes": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 40.94117647058823,
+            "fiber": 1.2,
+            "sugars": 2.3529411764705883,
+            "protein": 1.1764705882352942,
+            "calcium": 24.941176470588236,
+            "iron": 0.0,
+            "calories": 18.0,
+            "price": 0.59
+        }
+    },
+    "lime juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "sugars": 3.33,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "price": 0.63,
+            "fiber": 0,
+            "cholesterol": 0,
+            "calories": 0
+        }
+    },
+    "macaroni": {
+        "nutrients": {
+            "fat": 1.7857142857142858,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.607142857142857,
+            "sugars": 1.7857142857142858,
+            "protein": 10.714285714285715,
+            "calcium": 0.0,
+            "iron": 3.2142857142857144,
+            "calories": 357.14285714285717,
+            "price": 0.2
+        }
+    },
+    "cocoa": {
+        "nutrients": {
+            "fat": 20.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 10.0,
+            "sugars": 10.0,
+            "protein": 20.0,
+            "calories": 300.0,
+            "price": 1.5,
+            "calcium": 0,
+            "iron": 0
+        }
+    },
+    "lentils": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 16.0,
+            "fiber": 28.09375,
+            "sugars": 0.0,
+            "protein": 25.0,
+            "calcium": 0.0,
+            "iron": 8.4375,
+            "calories": 219.06249999999997,
+            "price": 0.16
+        }
+    },
+    "mayonnaise": {
+        "nutrients": {
+            "fat": 78.57142857142857,
+            "cholesterol": 71.0,
+            "sodium": 607.1428571428572,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calories": 714.2857142857143,
+            "price": 0.19,
+            "calcium": 0,
+            "iron": 0
+        }
+    },
+    "onion rings": {
+        "nutrients": {
+            "fat": 25.0,
+            "cholesterol": 0.0,
+            "sodium": 1000.0,
+            "fiber": 3.607142857142857,
+            "sugars": 3.5714285714285716,
+            "protein": 7.142857142857143,
+            "calcium": 71.07142857142857,
+            "iron": 1.2892857142857144,
+            "calories": 500.0,
+            "price": 0.79
+        }
+    },
+    "dessert topping": {
+        "nutrients": {
+            "fat": 21.42857142857143,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 14.285714285714286,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 285.7142857142857,
+            "price": 0.86
+        }
+    },
+    "grapefruit juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 35.9915611814346,
+            "fiber": 2.49789029535865,
+            "sugars": 7.59493670886076,
+            "protein": 1.270042194092827,
+            "calcium": 34.0084388185654,
+            "iron": 0.3,
+            "calories": 41.983122362869196,
+            "price": 0.21
+        }
+    },
+    "ravioli": {
+        "nutrients": {
+            "fat": 7.092198581560284,
+            "cholesterol": 50.0,
+            "sodium": 375.88652482269504,
+            "fiber": 1.397163120567376,
+            "sugars": 2.127659574468085,
+            "protein": 12.056737588652483,
+            "calcium": 248.22695035460993,
+            "iron": 1.2765957446808511,
+            "calories": 212.76595744680853,
+            "price": 0.44
+        }
+    },
+    "malt beverage": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 36.901408450704224,
+            "fiber": 0.2985915492957747,
+            "sugars": 8.732394366197184,
+            "protein": 0.5605633802816902,
+            "calcium": 17.014084507042252,
+            "iron": 0.2,
+            "calories": 54.08450704225352,
+            "price": 0.27
+        }
+    },
+    "olives": {
+        "nutrients": {
+            "fat": 13.333333333333334,
+            "cholesterol": 0.0,
+            "sodium": 2000.0,
+            "protein": 0.0,
+            "calories": 133.33333333333334,
+            "price": 7.12,
+            "sugars": 0,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0
+        }
+    },
+    "cornmeal": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.4047619047619047,
+            "sugars": 0.0,
+            "protein": 7.142857142857142,
+            "calcium": 0.0,
+            "iron": 0.8595238095238095,
+            "calories": 357.14285714285717,
+            "price": 0.34
+        }
+    },
+    "beans": {
+        "nutrients": {
+            "fat": 3.0,
+            "cholesterol": 0.0,
+            "sodium": 10.0,
+            "fiber": 26.0,
+            "sugars": 0.0,
+            "protein": 22.0,
+            "calcium": 160.0,
+            "iron": 7.2,
+            "calories": 340.0,
+            "price": 0.48
+        }
+    },
+    "rolls": {
+        "nutrients": {
+            "fat": 7.070707070707071,
+            "cholesterol": 0.0,
+            "sodium": 535.3535353535353,
+            "fiber": 1.0,
+            "sugars": 24.242424242424242,
+            "protein": 5.050505050505051,
+            "calcium": 0.0,
+            "iron": 1.8181818181818183,
+            "calories": 303.03030303030306,
+            "price": 0.67
+        }
+    },
+    "dressing": {
+        "nutrients": {
+            "fat": 23.333333333333336,
+            "cholesterol": 33.0,
+            "sodium": 633.3333333333334,
+            "fiber": 0.0,
+            "sugars": 6.666666666666667,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 266.6666666666667,
+            "price": 0.6
+        }
+    },
+    "mustard greens": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 18.0,
+            "fiber": 3.5058823529411764,
+            "sugars": 1.1764705882352942,
+            "protein": 2.3529411764705883,
+            "calcium": 117.64705882352942,
+            "iron": 1.1764705882352942,
+            "calories": 28.94117647058824,
+            "price": 0.8
+        }
+    },
+    "cherries": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 40.0,
+            "calcium": 0.0,
+            "calories": 100.0,
+            "price": 0.99,
+            "iron": 0,
+            "protein": 0
+        }
+    },
+    "turnip greens": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 40.94117647058823,
+            "fiber": 3.5058823529411764,
+            "sugars": 1.1764705882352942,
+            "protein": 1.1764705882352942,
+            "calcium": 188.23529411764707,
+            "iron": 1.1764705882352942,
+            "calories": 28.94117647058824,
+            "price": 1.07
+        }
+    },
+    "tofu": {
+        "nutrients": {
+            "sugars": 0.0,
+            "price": 0.5,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0,
+            "sodium": 0,
+            "fat": 0,
+            "protein": 0,
+            "calories": 0
+        }
+    },
+    "cranberries": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 25.0,
+            "fiber": 5.0,
+            "sugars": 65.0,
+            "protein": 0.0,
+            "calcium": 100.0,
+            "iron": 0.0,
+            "calories": 350.0,
+            "price": 2.4
+        }
+    },
+    "tortillas": {
+        "nutrients": {
+            "fat": 1.7892857142857144,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.607142857142857,
+            "sugars": 0.0,
+            "protein": 3.5714285714285716,
+            "calcium": 142.85714285714286,
+            "iron": 1.2892857142857144,
+            "calories": 213.92857142857144,
+            "price": 1.45
+        }
+    },
+    "grape leaves": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 1750.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 300.0,
+            "iron": 2.5,
+            "calories": 75.0,
+            "price": 2.2
+        }
+    },
+    "beverage": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 17.014084507042252,
+            "sugars": 12.95774647887324,
+            "protein": 0.0,
+            "calories": 47.887323943661976,
+            "price": 0.26,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "blueberries": {
+        "nutrients": {
+            "fat": 0.71,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.9,
+            "sugars": 8.571428571428571,
+            "protein": 0.71,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 50.0,
+            "price": 1.6
+        }
+    },
+    "dip": {
+        "nutrients": {
+            "fat": 30.0,
+            "cholesterol": 0.0,
+            "sodium": 350.0,
+            "fiber": 3.3000000000000003,
+            "sugars": 3.33,
+            "protein": 10.0,
+            "calcium": 133.0,
+            "iron": 2.4,
+            "calories": 333.00000000000006,
+            "price": 1.2
+        }
+    },
+    "taquitos": {
+        "nutrients": {
+            "fat": 9.574468085106382,
+            "cholesterol": 10.957446808510639,
+            "sodium": 329.78723404255317,
+            "fiber": 3.202127659574468,
+            "sugars": 1.0595744680851065,
+            "protein": 8.51063829787234,
+            "calcium": 42.97872340425532,
+            "iron": 1.148936170212766,
+            "calories": 244.68085106382978,
+            "price": 11.6
+        }
+    },
+    "beets": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 208.33333333333334,
+            "fiber": 0.8,
+            "sugars": 5.0,
+            "protein": 0.8300000000000001,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 33.0,
+            "price": 2.2
+        }
+    },
+    "grapes": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 1.807017543859649,
+            "sugars": 15.789473684210526,
+            "protein": 0.0,
+            "calcium": 18.070175438596493,
+            "iron": 0.3508771929824561,
+            "calories": 78.94736842105263,
+            "price": 0.69
+        }
+    },
+    "salt": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 39000.0,
+            "protein": 0.0,
+            "calories": 0.0,
+            "price": 0.28,
+            "sugars": 0,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "apple": {
+        "nutrients": {
+            "fat": 0.6493506493506493,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.201298701298701,
+            "sugars": 10.38961038961039,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.22987012987012986,
+            "calories": 52.01298701298701,
+            "price": 0.12
+        }
+    },
+    "scrapple": {
+        "nutrients": {
+            "fat": 8.928571428571429,
+            "cholesterol": 53.92857142857143,
+            "sodium": 446.42857142857144,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 8.928571428571429,
+            "calcium": 0.0,
+            "iron": 2.5714285714285716,
+            "calories": 161.07142857142858,
+            "price": 3.6
+        }
+    },
+    "artichokes": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 95.83333333333334,
+            "fiber": 5.0,
+            "sugars": 0.8300000000000001,
+            "protein": 3.3333333333333335,
+            "calcium": 50.0,
+            "iron": 1.2,
+            "calories": 50.0,
+            "price": 1.4
+        }
+    },
+    "raspberries": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 6.4,
+            "sugars": 4.292857142857143,
+            "protein": 1.4285714285714286,
+            "calcium": 29.0,
+            "iron": 0.7714285714285715,
+            "calories": 50.0,
+            "price": 1.15
+        }
+    },
+    "kale": {
+        "nutrients": {
+            "fat": 0.8796460176991151,
+            "cholesterol": 0.0,
+            "sodium": 43.982300884955755,
+            "fiber": 1.7964601769911503,
+            "sugars": 0.0,
+            "protein": 3.5398230088495577,
+            "calcium": 132.7433628318584,
+            "iron": 1.592920353982301,
+            "calories": 53.008849557522126,
+            "price": 1.16
+        }
+    },
+    "pretzels": {
+        "nutrients": {
+            "fat": 1.7892857142857144,
+            "cholesterol": 0.0,
+            "sodium": 1714.2857142857144,
+            "fiber": 7.107142857142858,
+            "sugars": 3.5714285714285716,
+            "protein": 10.714285714285715,
+            "calcium": 0.0,
+            "iron": 3.5714285714285716,
+            "calories": 392.8571428571429,
+            "price": 3.98
+        }
+    },
+    "dumpling": {
+        "nutrients": {
+            "fat": 4.232394366197183,
+            "cholesterol": 20.985915492957744,
+            "sodium": 316.9014084507042,
+            "fiber": 2.8028169014084505,
+            "sugars": 4.232394366197183,
+            "protein": 5.633802816901408,
+            "calcium": 14.014084507042252,
+            "iron": 2.816901408450704,
+            "calories": 128.16901408450704,
+            "price": 1.8
+        }
+    },
+    "breakfast bar": {
+        "nutrients": {
+            "fat": 22.22222222222222,
+            "cholesterol": 0.0,
+            "sodium": 4.0,
+            "fiber": 3.7,
+            "sugars": 7.407407407407407,
+            "protein": 7.407407407407407,
+            "calcium": 74.07407407407408,
+            "iron": 4.0,
+            "calories": 278.14814814814815,
+            "price": 0.65
+        }
+    },
+    "escarole": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 24.0,
+            "fiber": 3.5058823529411764,
+            "sugars": 0.0,
+            "protein": 1.1764705882352942,
+            "calcium": 47.05882352941177,
+            "calories": 18.0,
+            "price": 1.7,
+            "iron": 0
+        }
+    },
+    "cranberry juice cocktail": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.0,
+            "sugars": 34.0084388185654,
+            "protein": 0.0,
+            "calcium": 24.9789029535865,
+            "iron": 0.0,
+            "calories": 140.084388185654,
+            "price": 7.0
+        }
+    },
+    "granola bar": {
+        "nutrients": {
+            "fat": 20.58823529411765,
+            "cholesterol": 0.0,
+            "sodium": 132.05882352941177,
+            "fiber": 5.911764705882352,
+            "sugars": 35.294117647058826,
+            "protein": 8.823529411764707,
+            "calcium": 59.117647058823536,
+            "iron": 2.1205882352941177,
+            "calories": 441.1764705882353,
+            "price": 0.65
+        }
+    },
+    "muffin": {
+        "nutrients": {
+            "fat": 3.0,
+            "cholesterol": 0.0,
+            "sodium": 160.0,
+            "fiber": 1.0,
+            "sugars": 19.0,
+            "protein": 3.0,
+            "calcium": 0.0,
+            "iron": 0.72,
+            "calories": 220.0,
+            "price": 1.95
+        }
+    },
+    "corn flour": {
+        "nutrients": {
+            "fat": 5.172413793103448,
+            "cholesterol": 0.0,
+            "sodium": 33.99999999999999,
+            "fiber": 6.896551724137931,
+            "sugars": 0.0,
+            "protein": 10.344827586206897,
+            "calcium": 0.0,
+            "iron": 2.479310344827586,
+            "calories": 379.31034482758616,
+            "price": 0.44
+        }
+    },
+    "sweet rolls": {
+        "nutrients": {
+            "fat": 5.2631578947368425,
+            "cholesterol": 13.000000000000002,
+            "sodium": 447.3684210526316,
+            "fiber": 2.6,
+            "sugars": 5.2631578947368425,
+            "protein": 10.526315789473685,
+            "calcium": 347.3684210526316,
+            "iron": 2.628947368421053,
+            "calories": 262.8947368421053,
+            "price": 1.35
+        }
+    },
+    "breakfast bars": {
+        "nutrients": {
+            "fat": 12.0,
+            "cholesterol": 0.0,
+            "sodium": 270.0,
+            "fiber": 10.0,
+            "sugars": 8.0,
+            "protein": 24.0,
+            "calcium": 160.0,
+            "iron": 7.2,
+            "calories": 380.0,
+            "price": 0.65
+        }
+    },
+    "currants": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 7.5,
+            "sugars": 67.5,
+            "protein": 5.0,
+            "calcium": 100.0,
+            "iron": 3.5999999999999996,
+            "calories": 275.0,
+            "price": 1.32
+        }
+    },
+    "lasagna": {
+        "nutrients": {
+            "fat": 4.152073732718894,
+            "cholesterol": 18.018433179723502,
+            "sodium": 203.2258064516129,
+            "fiber": 0.8986175115207373,
+            "sugars": 1.838709677419355,
+            "protein": 5.529953917050691,
+            "calcium": 92.16589861751152,
+            "iron": 0.8294930875576038,
+            "calories": 100.92165898617512,
+            "price": 1.14
+        }
+    },
+    "potato puffs": {
+        "nutrients": {
+            "fat": 7.0588235294117645,
+            "cholesterol": 0.0,
+            "sodium": 470.5882352941177,
+            "fiber": 1.2,
+            "sugars": 0.0,
+            "protein": 2.3529411764705883,
+            "calcium": 24.0,
+            "iron": 0.42,
+            "calories": 164.7058823529412,
+            "price": 0.75
+        }
+    },
+    "biscuits": {
+        "nutrients": {
+            "fat": 20.0,
+            "cholesterol": 0.0,
+            "sodium": 233.00000000000003,
+            "fiber": 5.0,
+            "sugars": 20.0,
+            "protein": 6.666666666666667,
+            "calcium": 0.0,
+            "iron": 1.2,
+            "calories": 466.6666666666667,
+            "price": 0.6
+        }
+    },
+    "garlic bread": {
+        "nutrients": {
+            "fat": 7.894736842105263,
+            "cholesterol": 9.0,
+            "sodium": 421.05263157894734,
+            "fiber": 1.807017543859649,
+            "sugars": 1.750877192982456,
+            "protein": 5.263157894736842,
+            "calcium": 0.0,
+            "iron": 2.526315789473684,
+            "calories": 245.6140350877193,
+            "price": 0.56
+        }
+    },
+    "okra": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 3.0,
+            "fiber": 1.0,
+            "sugars": 0.0,
+            "protein": 3.0,
+            "calcium": 80.0,
+            "iron": 0.54,
+            "calories": 44.0,
+            "price": 2.2
+        }
+    },
+    "pickles": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.3000000000000003,
+            "sugars": 33.333333333333336,
+            "protein": 0.0,
+            "iron": 2.4,
+            "calories": 167.0,
+            "price": 0.25,
+            "calcium": 0,
+            "cholesterol": 0
+        }
+    },
+    "orange juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "sugars": 9.166666666666668,
+            "protein": 0.8291666666666667,
+            "calcium": 8.0,
+            "calories": 45.833333333333336,
+            "price": 0.08,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "pears": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 5.0,
+            "fiber": 15.0,
+            "sugars": 35.0,
+            "protein": 2.5,
+            "calcium": 25.0,
+            "iron": 3.15,
+            "calories": 287.5,
+            "price": 0.18
+        }
+    },
+    "juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 2.9859154929577465,
+            "fiber": 0.2985915492957747,
+            "sugars": 12.67605633802817,
+            "protein": 0.28,
+            "calcium": 6.000000000000001,
+            "iron": 0.1,
+            "calories": 58.87323943661972,
+            "price": 0.53
+        }
+    },
+    "applesauce": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.9026548672566372,
+            "sugars": 15.92920353982301,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 70.97345132743364,
+            "price": 0.36
+        }
+    },
+    "apples": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 3.201298701298701,
+            "sugars": 10.38961038961039,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.22987012987012986,
+            "calories": 52.01298701298701,
+            "price": 1.0
+        }
+    },
+    "syrups": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 36.0,
+            "fiber": 0.0,
+            "sugars": 85.71428571428572,
+            "protein": 0.0,
+            "calories": 320.7142857142857,
+            "price": 1.6,
+            "calcium": 0,
+            "iron": 0
+        }
+    },
+    "tangerine juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 6.0,
+            "fiber": 0.4,
+            "sugars": 9.583333333333334,
+            "protein": 0.42083333333333334,
+            "calcium": 17.0,
+            "iron": 0.0,
+            "calories": 45.833333333333336,
+            "price": 0.36
+        }
+    },
+    "peaches": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 5.0,
+            "fiber": 7.5,
+            "sugars": 40.0,
+            "protein": 0.0,
+            "calcium": 25.0,
+            "iron": 3.15,
+            "calories": 285.0,
+            "price": 0.29
+        }
+    },
+    "turkey": {
+        "nutrients": {
+            "fat": 1.271186440677966,
+            "cholesterol": 33.983050847457626,
+            "sodium": 521.1864406779661,
+            "fiber": 1.3008474576271185,
+            "sugars": 1.6906779661016949,
+            "protein": 9.745762711864407,
+            "calcium": 41.99152542372881,
+            "iron": 1.1398305084745761,
+            "calories": 80.9322033898305,
+            "price": 1.69
+        }
+    },
+    "shake": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 24000.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 100.0,
+            "iron": 0.0,
+            "calories": 0.0,
+            "price": 1.7
+        }
+    },
+    "broccoli": {
+        "nutrients": {
+            "fat": 0.33986486486486484,
+            "cholesterol": 0.0,
+            "sodium": 53.98648648648649,
+            "fiber": 2.0,
+            "sugars": 1.3513513513513513,
+            "protein": 2.7027027027027026,
+            "calcium": 41.013513513513516,
+            "iron": 0.7297297297297297,
+            "calories": 33.986486486486484,
+            "price": 0.23
+        }
+    },
+    "grape juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 0.0,
+            "sugars": 10.0,
+            "protein": 0.0,
+            "calories": 45.833333333333336,
+            "price": 0.1,
+            "calcium": 0,
+            "fiber": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "carrot juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 100.0,
+            "sugars": 4.583333333333334,
+            "protein": 0.8291666666666667,
+            "calcium": 25.0,
+            "iron": 0.15,
+            "calories": 29.0,
+            "price": 0.14,
+            "fiber": 0,
+            "cholesterol": 0
+        }
+    },
+    "pineapple juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 0.8,
+            "sugars": 12.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.2896,
+            "calories": 56.0,
+            "price": 0.14
+        }
+    },
+    "bamboo shoots": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 2.5,
+            "sugars": 0.0,
+            "protein": 2.5,
+            "calcium": 17.0,
+            "iron": 0.3,
+            "calories": 21.0,
+            "price": 1.1
+        }
+    },
+    "tomato juice": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 262.08333333333337,
+            "fiber": 0.8,
+            "sugars": 2.9208333333333334,
+            "protein": 0.8291666666666667,
+            "calcium": 8.0,
+            "iron": 0.15,
+            "calories": 21.0,
+            "price": 0.19
+        }
+    },
+    "mung beans": {
+        "nutrients": {
+            "fat": 1.0,
+            "cholesterol": 0.0,
+            "sodium": 20.0,
+            "fiber": 16.0,
+            "sugars": 6.0,
+            "protein": 24.0,
+            "calcium": 132.0,
+            "iron": 6.8,
+            "calories": 340.0,
+            "price": 0.95
+        }
+    },
+    "snacks": {
+        "nutrients": {
+            "fat": 25.0,
+            "cholesterol": 0.0,
+            "sodium": 162.0,
+            "fiber": 7.5,
+            "sugars": 32.5,
+            "protein": 10.0,
+            "calcium": 100.0,
+            "iron": 3.5999999999999996,
+            "calories": 425.0,
+            "price": 1.5
+        }
+    },
+    "corn dogs": {
+        "nutrients": {
+            "fat": 10.526315789473685,
+            "cholesterol": 38.94736842105264,
+            "sodium": 802.6315789473684,
+            "fiber": 0.0,
+            "sugars": 11.842105263157896,
+            "protein": 9.210526315789474,
+            "calcium": 13.000000000000002,
+            "iron": 1.710526315789474,
+            "calories": 263.15789473684214,
+            "price": 0.55
+        }
+    },
+    "rice mix": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 1267.857142857143,
+            "fiber": 1.8035714285714286,
+            "sugars": 3.5714285714285716,
+            "protein": 8.928571428571429,
+            "calcium": 106.96428571428572,
+            "iron": 1.9285714285714288,
+            "calories": 339.2857142857143,
+            "price": 0.3
+        }
+    },
+    "popcorn": {
+        "nutrients": {
+            "fat": 2.558974358974359,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 10.307692307692307,
+            "sugars": 0.0,
+            "protein": 7.692307692307693,
+            "iron": 1.8512820512820514,
+            "calories": 282.0512820512821,
+            "price": 0.96,
+            "calcium": 0
+        }
+    },
+    "quinoa": {
+        "nutrients": {
+            "fat": 1.7928571428571427,
+            "cholesterol": 0.0,
+            "sodium": 157.14285714285714,
+            "fiber": 2.1,
+            "sugars": 2.142857142857143,
+            "protein": 2.857142857142857,
+            "calcium": 14.000000000000002,
+            "iron": 0.7714285714285715,
+            "calories": 107.14285714285714,
+            "price": 0.9
+        }
+    },
+    "sauce": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 4277.777777777777,
+            "fiber": 0.0,
+            "sugars": 16.666666666666664,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 111.11111111111111,
+            "price": 1.3
+        }
+    },
+    "pickle relish": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 375.0,
+            "fiber": 0.0,
+            "sugars": 25.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 107.14285714285715,
+            "price": 0.8
+        }
+    },
+    "soymilk": {
+        "nutrients": {
+            "fat": 1.6708333333333334,
+            "cholesterol": 0.0,
+            "sodium": 45.833333333333336,
+            "fiber": 0.8,
+            "sugars": 2.079166666666667,
+            "protein": 2.9208333333333334,
+            "calcium": 167.08333333333334,
+            "iron": 0.45000000000000007,
+            "calories": 42.083333333333336,
+            "price": 0.16
+        }
+    },
+    "nectarines": {
+        "nutrients": {
+            "fat": 0.36,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 1.4,
+            "sugars": 7.857142857142858,
+            "protein": 0.71,
+            "calcium": 0.0,
+            "iron": 0.26,
+            "calories": 43.0,
+            "price": 0.18
+        }
+    },
+    "wild rice": {
+        "nutrients": {
+            "fat": 1.1111111111111112,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 4.4,
+            "sugars": 0.0,
+            "protein": 13.333333333333334,
+            "calcium": 0.0,
+            "iron": 1.6,
+            "calories": 377.77777777777777,
+            "price": 0.3
+        }
+    },
+    "pancakes": {
+        "nutrients": {
+            "fat": 2.419354838709677,
+            "cholesterol": 51.935483870967744,
+            "sodium": 382.258064516129,
+            "fiber": 1.5999999999999999,
+            "sugars": 14.516129032258064,
+            "protein": 6.451612903225806,
+            "calcium": 96.93548387096774,
+            "iron": 0.0,
+            "calories": 274.19354838709677,
+            "price": 0.68
+        }
+    },
+    "rye flour": {
+        "nutrients": {
+            "fat": 3.33,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 16.7,
+            "sugars": 0.0,
+            "protein": 10.0,
+            "calcium": 0.0,
+            "iron": 2.4,
+            "calories": 300.0,
+            "price": 0.19
+        }
+    },
+    "vermicelli": {
+        "nutrients": {
+            "fat": 2.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 4.0,
+            "sugars": 4.0,
+            "protein": 12.0,
+            "calcium": 0.0,
+            "iron": 1.44,
+            "calories": 380.0,
+            "price": 0.2
+        }
+    },
+    "capers": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 2666.666666666667,
+            "fiber": 6.699999999999999,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 1.2,
+            "calories": 27.0,
+            "price": 1.65
+        }
+    },
+    "pumpkin": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 8.0,
+            "fiber": 2.5,
+            "sugars": 3.3333333333333335,
+            "protein": 1.6666666666666667,
+            "calcium": 33.0,
+            "iron": 0.6,
+            "calories": 42.0,
+            "price": 0.24
+        }
+    },
+    "salmon": {
+        "nutrients": {
+            "fat": 15.492957746478872,
+            "cholesterol": 55.985915492957744,
+            "sodium": 63.028169014084504,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 19.014084507042252,
+            "calcium": 14.014084507042252,
+            "iron": 0.7605633802816901,
+            "calories": 231.6901408450704,
+            "price": 4.99
+        }
+    },
+    "noodel": {
+        "nutrients": {
+            "fat": 0.8204081632653061,
+            "cholesterol": 8.0,
+            "sodium": 273.0612244897959,
+            "fiber": 0.8,
+            "sugars": 0.40816326530612246,
+            "protein": 2.8612244897959185,
+            "calcium": 8.0,
+            "iron": 0.44081632653061226,
+            "calories": 36.97959183673469,
+            "price": 0.2
+        }
+    },
+    "macaroni and cheese": {
+        "nutrients": {
+            "fat": 2.3490196078431373,
+            "cholesterol": 3.9999999999999996,
+            "sodium": 450.98039215686276,
+            "fiber": 0.0,
+            "sugars": 1.9607843137254901,
+            "protein": 3.5294117647058822,
+            "calcium": 41.1764705882353,
+            "iron": 0.7803921568627451,
+            "calories": 109.80392156862744,
+            "price": 1.55
+        }
+    },
+    "margarine": {
+        "nutrients": {
+            "fat": 78.57142857142857,
+            "cholesterol": 0.0,
+            "sodium": 679.2857142857143,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 714.2857142857143,
+            "price": 0.64
+        }
+    },
+    "ice cream cone": {
+        "nutrients": {
+            "fat": 16.049382716049383,
+            "cholesterol": 24.93827160493827,
+            "sodium": 148.14814814814815,
+            "fiber": 1.2,
+            "sugars": 25.925925925925924,
+            "protein": 4.938271604938271,
+            "calcium": 99.01234567901234,
+            "iron": 0.4395061728395061,
+            "calories": 308.641975308642,
+            "price": 0.49
+        }
+    },
+    "luncheon meat": {
+        "nutrients": {
+            "fat": 28.571428571428573,
+            "cholesterol": 71.07142857142857,
+            "sodium": 1410.7142857142858,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 12.5,
+            "calcium": 0.0,
+            "iron": 0.6392857142857143,
+            "calories": 303.5714285714286,
+            "price": 1.89
+        }
+    },
+    "light ice cream": {
+        "nutrients": {
+            "fat": 5.747126436781609,
+            "cholesterol": 28.965517241379306,
+            "sodium": 126.43678160919539,
+            "fiber": 0.0,
+            "sugars": 21.839080459770113,
+            "protein": 4.597701149425287,
+            "calcium": 151.72413793103448,
+            "iron": 0.15977011494252874,
+            "calories": 183.90804597701148,
+            "price": 0.49
+        }
+    },
+    "beef": {
+        "nutrients": {
+            "fat": 6.25,
+            "cholesterol": 53.92857142857143,
+            "sodium": 214.2857142857143,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 19.642857142857142,
+            "calcium": 0.0,
+            "iron": 4.821428571428572,
+            "calories": 125.0,
+            "price": 1.83
+        }
+    },
+    "chicken pot pie": {
+        "nutrients": {
+            "fat": 12.55813953488372,
+            "cholesterol": 14.0,
+            "sodium": 353.0232558139535,
+            "fiber": 1.4,
+            "sugars": 1.4,
+            "protein": 4.651162790697675,
+            "calcium": 14.0,
+            "iron": 1.1209302325581396,
+            "calories": 200.0,
+            "price": 1.9
+        }
+    },
+    "yogurt": {
+        "nutrients": {
+            "fat": 2.9411764705882355,
+            "cholesterol": 12.0,
+            "sodium": 41.0,
+            "fiber": 0.0,
+            "sugars": 15.882352941176471,
+            "protein": 2.9411764705882355,
+            "calcium": 118.23529411764706,
+            "iron": 0.0,
+            "calories": 94.11764705882354,
+            "price": 0.35
+        }
+    },
+    "sour cream": {
+        "nutrients": {
+            "fat": 20.0,
+            "cholesterol": 67.00000000000001,
+            "sodium": 33.0,
+            "fiber": 0.0,
+            "sugars": 3.33,
+            "protein": 3.33,
+            "calcium": 67.00000000000001,
+            "iron": 0.0,
+            "calories": 200.0,
+            "price": 0.99
+        }
+    },
+    "bacon": {
+        "nutrients": {
+            "fat": 50.0,
+            "cholesterol": 71.0,
+            "sodium": 785.7142857142858,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 7.142857142857143,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 500.0,
+            "price": 2.09
+        }
+    },
+    "ice cream bar": {
+        "nutrients": {
+            "fat": 21.518987341772153,
+            "cholesterol": 25.06329113924051,
+            "sodium": 94.9367088607595,
+            "fiber": 1.3037974683544304,
+            "sugars": 31.645569620253166,
+            "protein": 3.79746835443038,
+            "calcium": 75.9493670886076,
+            "iron": 1.8227848101265822,
+            "calories": 341.7721518987342,
+            "price": 0.2
+        }
+    },
+    "milk": {
+        "nutrients": {
+            "fat": 3.75,
+            "cholesterol": 15.0,
+            "sodium": 57.91666666666667,
+            "fiber": 0.0,
+            "sugars": 5.0,
+            "protein": 3.329166666666667,
+            "calcium": 137.91666666666669,
+            "iron": 0.0,
+            "calories": 70.83333333333334,
+            "price": 0.62
+        }
+    },
+    "egg rolls": {
+        "nutrients": {
+            "fat": 7.04225352112676,
+            "cholesterol": 13.999999999999998,
+            "sodium": 492.9577464788732,
+            "fiber": 1.4,
+            "sugars": 4.225352112676056,
+            "protein": 8.450704225352112,
+            "calcium": 0.0,
+            "iron": 0.5098591549295775,
+            "calories": 211.26760563380282,
+            "price": 3.2
+        }
+    },
+    "cheese spread": {
+        "nutrients": {
+            "fat": 26.666666666666668,
+            "cholesterol": 50.0,
+            "sodium": 533.3333333333334,
+            "fiber": 0.0,
+            "sugars": 16.666666666666668,
+            "protein": 13.333333333333334,
+            "calcium": 500.0,
+            "iron": 1.2,
+            "calories": 366.6666666666667,
+            "price": 1.8
+        }
+    },
+    "gelatin desserts": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 30.0,
+            "fiber": 0.0,
+            "sugars": 5.050505050505051,
+            "protein": 1.0101010101010102,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 25.050505050505052,
+            "price": 1.4
+        }
+    },
+    "pork": {
+        "nutrients": {
+            "fat": 4.11764705882353,
+            "cholesterol": 76.0,
+            "sodium": 211.76470588235296,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 21.176470588235293,
+            "calcium": 0.0,
+            "iron": 1.2705882352941178,
+            "calories": 117.64705882352942,
+            "price": 0.95
+        }
+    },
+    "chicken breast": {
+        "nutrients": {
+            "fat": 8.928571428571429,
+            "cholesterol": 53.92857142857143,
+            "sodium": 928.5714285714287,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 14.285714285714286,
+            "calcium": 0.0,
+            "iron": 1.2892857142857144,
+            "calories": 142.85714285714286,
+            "price": 11.6
+        }
+    },
+    "turkey ham": {
+        "nutrients": {
+            "fat": 6.25,
+            "cholesterol": 61.96428571428572,
+            "sodium": 982.1428571428572,
+            "fiber": 0.0,
+            "sugars": 1.7857142857142858,
+            "protein": 17.857142857142858,
+            "calcium": 0.0,
+            "iron": 1.2892857142857144,
+            "calories": 143.03571428571428,
+            "price": 0.6
+        }
+    },
+    "egg substitute": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 184.99999999999997,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 10.869565217391305,
+            "calcium": 21.956521739130434,
+            "iron": 1.7391304347826086,
+            "calories": 53.91304347826087,
+            "price": 4.97
+        }
+    },
+    "split pea with ham soup": {
+        "nutrients": {
+            "fat": 1.8408163265306121,
+            "cholesterol": 6.0,
+            "sodium": 273.0612244897959,
+            "fiber": 1.6,
+            "sugars": 1.2204081632653063,
+            "protein": 3.269387755102041,
+            "calcium": 16.0,
+            "iron": 0.5918367346938775,
+            "calories": 57.142857142857146,
+            "price": 0.39
+        }
+    },
+    "egg": {
+        "nutrients": {
+            "fat": 0.0,
+            "sodium": 150.0,
+            "sugars": 63.333333333333336,
+            "protein": 0.0,
+            "calories": 366.6666666666667,
+            "price": 0.35,
+            "fiber": 0,
+            "calcium": 0,
+            "iron": 0,
+            "cholesterol": 0
+        }
+    },
+    "chicken": {
+        "nutrients": {
+            "fat": 1.7857142857142858,
+            "cholesterol": 45.0,
+            "sodium": 178.57142857142858,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 21.42857142857143,
+            "calcium": 0.0,
+            "iron": 0.0,
+            "calories": 106.96428571428572,
+            "price": 0.45
+        }
+    },
+    "kefir": {
+        "nutrients": {
+            "fat": 1.8791666666666667,
+            "cholesterol": 8.0,
+            "sodium": 57.91666666666667,
+            "fiber": 0.0,
+            "sugars": 5.833333333333334,
+            "protein": 4.166666666666667,
+            "calcium": 145.83333333333334,
+            "iron": 0.0,
+            "calories": 54.16666666666667,
+            "price": 0.35
+        }
+    },
+    "yogurt parfait": {
+        "nutrients": {
+            "fat": 1.639344262295082,
+            "sodium": 60.98360655737706,
+            "fiber": 0.8,
+            "sugars": 12.295081967213115,
+            "protein": 3.278688524590164,
+            "calcium": 81.9672131147541,
+            "iron": 0.5901639344262295,
+            "calories": 122.95081967213115,
+            "price": 0.16,
+            "cholesterol": 0
+        }
+    },
+    "beef stew": {
+        "nutrients": {
+            "fat": 4.23728813559322,
+            "cholesterol": 13.008474576271185,
+            "sodium": 419.06779661016947,
+            "fiber": 0.39999999999999997,
+            "sugars": 1.271186440677966,
+            "protein": 4.23728813559322,
+            "calcium": 0.0,
+            "iron": 0.15,
+            "calories": 85.16949152542372,
+            "price": 3.29
+        }
+    },
+    "roast beef": {
+        "nutrients": {
+            "fat": 5.0,
+            "cholesterol": 50.0,
+            "sodium": 900.0,
+            "fiber": 0.0,
+            "sugars": 2.0,
+            "protein": 18.0,
+            "calcium": 0.0,
+            "iron": 2.16,
+            "calories": 120.0,
+            "price": 2.99
+        }
+    },
+    "butter": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 0.0,
+            "fiber": 1.2,
+            "sugars": 1.1764705882352942,
+            "protein": 1.1764705882352942,
+            "calcium": 24.0,
+            "iron": 1.2705882352941178,
+            "calories": 12.0,
+            "price": 1.32
+        }
+    },
+    "ice cream cones": {
+        "nutrients": {
+            "fat": 0.0,
+            "cholesterol": 0.0,
+            "sodium": 200.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 0.0,
+            "calcium": 20.0,
+            "iron": 0.0,
+            "calories": 400.0,
+            "price": 1.19
+        }
+    },
+    "ice cream": {
+        "nutrients": {
+            "fat": 10.227272727272728,
+            "cholesterol": 22.954545454545457,
+            "sodium": 51.02272727272727,
+            "fiber": 0.0,
+            "sugars": 18.181818181818183,
+            "protein": 2.272727272727273,
+            "calcium": 67.95454545454545,
+            "iron": 0.0,
+            "calories": 204.54545454545456,
+            "price": 0.49
+        }
+    },
+    "canadian bacon": {
+        "nutrients": {
+            "fat": 2.678571428571429,
+            "cholesterol": 36.07142857142857,
+            "sodium": 1160.7142857142858,
+            "fiber": 0.0,
+            "sugars": 1.7857142857142858,
+            "protein": 16.071428571428573,
+            "calcium": 0.0,
+            "iron": 0.6392857142857143,
+            "calories": 88.92857142857143,
+            "price": 1.73
+        }
+    },
+    "chicken tenders": {
+        "nutrients": {
+            "fat": 2.678571428571429,
+            "cholesterol": 70.98214285714286,
+            "sodium": 45.0,
+            "fiber": 0.0,
+            "sugars": 0.0,
+            "protein": 22.321428571428573,
+            "calcium": 5.0,
+            "iron": 0.3598214285714286,
+            "calories": 116.07142857142858,
+            "price": 0.59
+        }
+    }
+}
