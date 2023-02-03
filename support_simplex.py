@@ -123,16 +123,20 @@ def print_solutions(solution):
     print("Nutrition Analysis".upper())
     for key, val in solution.items():
 
-        if key != "price":
+        if key != "price" and key != "calories":
 
 
             if key in ["sodium", "fiber", "cholesterol", "calcium", "iron"]:
                 print(f"the optimum comprises {round(val, 2)} mg of {key}")
                 continue
-            print(f"the optimum comprises {round(val, 2)} g of {key}")
+            else:
+                print(f"the optimum comprises {round(val, 2)} g of {key}")
 
-        else:
+        if key == "calories":
+            print(f"the optimum comprises {round(val, 2)} {key}")
+        if key =="price":
             print(82 * "-")
+            print("COST ANALYSIS")
             print(f"optimum cost is {round(val, 2)}")
 
 def calculation(foods, man, cheap_mode):
