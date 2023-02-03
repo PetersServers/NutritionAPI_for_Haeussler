@@ -75,7 +75,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     ax.set_ylabel("Value")
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
+    #plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
     #optimum consumption food in 100g units
@@ -90,7 +90,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     ax.set_xlabel('Food items')
     ax.set_ylabel('Values')
     plt.xticks(rotation=0)
-    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
+    #plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
 
@@ -107,7 +107,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     plt.suptitle(f'{title}')
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
-    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
+    #plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
     #nutrients comparison layered
@@ -125,7 +125,7 @@ def plot_nutrient_price(nutrient_parts, food_vars, vegan, cheap, man):
     plt.title(f"Parameters: {classification_prices}, {classification_food}, "
               f"{classification_gender}", fontsize=10)
     plt.xticks(rotation=30, fontsize=8)
-    plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
+    #plt.savefig(f"/Users/peterpichler/Desktop/pics_simplex/{title} - {date_time}.png")
     plt.show()
 
 
