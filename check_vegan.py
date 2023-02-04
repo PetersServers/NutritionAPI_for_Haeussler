@@ -1,6 +1,7 @@
 import requests
 
 def check_vegan(food_items):
+    #Request to online tool that categorizes vegan or non vegan food
     print("ESTITMATION OF VEGAN/NON VEGAN INPUT")
 
     url = "https://doublecheckvegan.com/wp-admin/admin-ajax.php"

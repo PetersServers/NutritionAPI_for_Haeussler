@@ -6,6 +6,7 @@ import requests
 
 
 def normalize_ensure_values(food_data):
+    #ensures that all values that the simplex operaion needs is present
     for food in food_data:
         food_data[food] = {key: value for key, value in food_data[food].items() if key in desired_keys}
         for key in desired_keys:
@@ -24,6 +25,7 @@ def normalize_item_data(food_data, price_per_size):
     return food_data
 
 def normalize_format_dict(dictionary):
+    #reformats the dictioary to match the needed format for the simplex
     new_dict = {}
     for key, value in dictionary.items():
         if isinstance(value, dict):
@@ -38,9 +40,11 @@ def normalize_format_dict(dictionary):
 '''call data and check if crucial data is present'''
 
 def validate_serving(response):
+    #validates the serving
     return response["servingSize"]
 
 def validate_price(food_item):
+    #validates the price
     with open("configurable_file.txt", "r") as f:
         for line in f:
             item, price = line.strip().split(',')
@@ -50,11 +54,13 @@ def validate_price(food_item):
 
 
 def _delete_line(text, item_to_delete):
+    # deletes lines from config file that can not be used for analysis
     lines = text.split("\n")
     new_lines = [line for line in lines if not line.startswith(item_to_delete + ",")]
     return "\n".join(new_lines)
 
 def delete_line_from_file(item_to_delete):
+    #deletes lines from config file that can not be used for analysis
     with open("configurable_file.txt", "r") as file:
         text = file.read()
     new_text = _delete_line(text, item_to_delete)
@@ -63,6 +69,7 @@ def delete_line_from_file(item_to_delete):
 
 
 def call_api(food_name):
+    #calls the food data from udsa
     print(f"{food_name.upper()} data is fetched and compressed: ", end=" ")
     url = f"https://api.nal.usda.gov/fdc/v1/search?api_key={api_key}&query={food_name}"
     response = requests.get(url)

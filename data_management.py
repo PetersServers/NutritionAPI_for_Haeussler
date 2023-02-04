@@ -6,12 +6,15 @@ import warnings
 from data_support import *
 
 def _call_validate_data(food_name):
+    #validates if all necessary data for food item
+    #to be valid is present in the response
     response = call_api(food_name)
     price = validate_price(food_name)
     serving_size = validate_serving(response)
     return response, price, serving_size
 
 def _normalize_data(food_dict, price):
+    #
     food_dict = normalize_item_data(food_dict, price)
     food_dict = normalize_ensure_values(food_dict)
     food_dict = normalize_format_dict(food_dict)
@@ -19,6 +22,7 @@ def _normalize_data(food_dict, price):
 
 def manage_data(food_list):
     # main function of data management
+    #makes the api call, and manages the locally saved data
     try:
         with open("nutrition_data.json", "r") as f:
             food_dict = json.load(f)
