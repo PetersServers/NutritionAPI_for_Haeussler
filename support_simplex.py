@@ -7,9 +7,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import datetime
 
-#remove price and create price graph for all values in the optimum (already datenbasis bc calculate optimum)
-#make existant graphs more fancy
-
 
 
 def calculate_optimum(food_amounts):

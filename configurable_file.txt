@@ -97,7 +97,6 @@ lima beans,6.89
 pomegranate juice,0.27
 syrup,1.6
 prune juice,0.22
-turkey breast,1.6
 celery,0.13
 muffins,1.95
 limes,0.88
